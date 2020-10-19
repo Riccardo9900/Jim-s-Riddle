@@ -19,9 +19,8 @@ public class CubeCollapse : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            Debug.Log("Hai preso il player");
             Destroy(gameObject);
-            
+            Debug.Log("Hai preso il player");
         }
     }
    

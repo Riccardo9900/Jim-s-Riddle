@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Player;
 using UnityEngine;
+using UnityEngine.Networking.PlayerConnection;
 
 public class PlayerDamage : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject DeathPanel;
     public GameObject DeathText;
     public GameObject ButtonDescription;
+    public GameObject Button;
     public int healt = 0;
 
     // Start is called before the first frame update
@@ -16,6 +19,7 @@ public class PlayerDamage : MonoBehaviour
         DeathPanel.SetActive(false);
         DeathText.SetActive(false);
         ButtonDescription.SetActive(false);
+        Button.SetActive(false);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -23,14 +27,11 @@ public class PlayerDamage : MonoBehaviour
         if(collision.tag == "DeathCube")
         {
             Debug.Log("Hai preso il cubo sbagliato");
-            Destroy(gameObject);
             DeathPanel.SetActive(true);
             DeathText.SetActive(true);
             ButtonDescription.SetActive(true);
-        }
-        if(collision.tag== "NormalCube")
-        {
-            Debug.Log("Hai preso il cubo giusto");
+            Button.SetActive(true);
+            GetComponent<PlayerMovement>().enabled = false;
         }
     }
 
