@@ -526,6 +526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a86f70fba2ae99042a7ff640dc98884c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathPanel: {fileID: 0}
+  deathLabel: {fileID: 0}
 --- !u!1 &459134410
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +542,7 @@ GameObject:
   - component: {fileID: 459134412}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: NormalCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -771,10 +773,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369beea02c147b047b53ef3e1f981344, type: 3}
+  m_Script: {fileID: 11500000, guid: 94f76db3a10ddba4eb0b37b29e8c2ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathPanel: {fileID: 389289121}
 --- !u!1 &560419070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1054,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 750.83, y: 430.34}
+  m_AnchoredPosition: {x: 750.83, y: 740.34}
   m_SizeDelta: {x: 1501.6691, y: 860.67847}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &888490506
@@ -1237,6 +1238,84 @@ Transform:
   m_Father: {fileID: 778563732}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1319842443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319842444}
+  - component: {fileID: 1319842446}
+  - component: {fileID: 1319842445}
+  m_Layer: 5
+  m_Name: DescriptionLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1319842444
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319842443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2038381797}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 752, y: -71}
+  m_SizeDelta: {x: 1500, y: 860}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1319842445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319842443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 1
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Premi il bottone per continuare
+--- !u!222 &1319842446
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319842443}
+  m_CullTransparentMesh: 0
 --- !u!1 &1343520396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +2017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeathPanel: {fileID: 389289121}
   DeathText: {fileID: 888490504}
+  ButtonDescription: {fileID: 1319842443}
   healt: 0
 --- !u!1 &2038381793
 GameObject:
@@ -2031,6 +2111,7 @@ RectTransform:
   m_Children:
   - {fileID: 389289122}
   - {fileID: 888490505}
+  - {fileID: 1319842444}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2053,7 +2134,7 @@ GameObject:
   - component: {fileID: 2042717117}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: NormalCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
