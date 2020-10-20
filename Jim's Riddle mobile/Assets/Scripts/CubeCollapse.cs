@@ -12,14 +12,14 @@ public class CubeCollapse : MonoBehaviour
     }
     
 
-    //Dovrebbe distruggermi il cubo (quindi i colpi nemici)
-    //public void OnTriggerEnter(Collider2D collision)
-    //{
-    //    if(collision.tag == "Player")
-    //    {
-    //        Destroy(gameObject);
-    //    }
-    //}
+    //Mi distrugge il cubo (quindi i colpi nemici)
+    public void OnTriggerEnter(Collider col)
+    {
+        if(col.tag == "Player")
+        {
+           Destroy(gameObject);
+        }
+    }
    
     // Update is called once per frame
     void Update()
