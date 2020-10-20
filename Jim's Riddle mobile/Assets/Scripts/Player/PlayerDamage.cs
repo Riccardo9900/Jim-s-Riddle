@@ -11,6 +11,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject DeathText;
     public GameObject ButtonDescription;
     public GameObject Button;
+    public GameObject player;
     public int healt = 0;
 
     // Start is called before the first frame update
@@ -32,7 +33,19 @@ public class PlayerDamage : MonoBehaviour
             ButtonDescription.SetActive(true);
             Button.SetActive(true);
             GetComponent<PlayerMovement>().enabled = false;
+            Cursor.visible = true;
         }
+    }
+
+    public void respawn()
+    {
+        GetComponent<PlayerMovement>().enabled = true;
+        Button.SetActive(false);
+        ButtonDescription.SetActive(false);
+        DeathText.SetActive(false);
+        DeathPanel.SetActive(false);
+        player.transform.position = new Vector3(-9.96f, 0.09f, 0.0f);
+        Debug.Log("Hai respawnato");
     }
 
 
