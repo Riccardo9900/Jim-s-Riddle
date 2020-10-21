@@ -13,6 +13,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject buttonDescription;
     public GameObject button;
     public GameObject player;
+    public GameObject goalLabel;
     public GameObject toDestroy;
     public GameObject secretPassage;
 
@@ -29,25 +30,25 @@ public class PlayerDamage : MonoBehaviour
     //Disattiva il movimento del player bloccando ogni input da tastiera e attiva i pannelli di morte (bottone, pannello e scritta)
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "DeathCube")
+        if (collision.tag == "DeathCube")
         {
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
             Death();
         }
-    }
-
-    public void OnTriggerEnter2DSecretPassage(Collider2D col)
-    {
-        if(col.tag == "SecretPassage")
+        else
         {
-            Debug.Log("Hai attivato il passaggio segreto!");
-            Destroy(secretPassage);
+            if(collision.tag == "SecretPassage")
+            {
+                Destroy(secretPassage);
+            }
         }
     }
 
+
     public void Death()
     {
+        goalLabel.SetActive(false);
         deathPanel.SetActive(true);
         deathText.SetActive(true);
         buttonDescription.SetActive(true);
@@ -64,6 +65,7 @@ public class PlayerDamage : MonoBehaviour
         buttonDescription.SetActive(false);
         deathText.SetActive(false);
         deathPanel.SetActive(false);
+        goalLabel.SetActive(true);
         player.transform.position = new Vector3(-9.96f, 0.09f, 0.0f);
         Debug.Log("Hai respawnato");
     }
