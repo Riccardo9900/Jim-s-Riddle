@@ -16,14 +16,18 @@ public class PlayerDamage : MonoBehaviour
     public GameObject goalLabel;
     public GameObject toDestroy;
     public GameObject secretPassage;
+    public GameObject tastoImpostazioni;
+    public RedCubeFollowing cubo;
 
     // Start is called before the first frame update
     void Start()
     {
+        goalLabel.SetActive(true);
         deathPanel.SetActive(false);
         deathText.SetActive(false);
         buttonDescription.SetActive(false);
         button.SetActive(false);
+        tastoImpostazioni.SetActive(true);
     }
 
     //Vede se faccio ua collisione con un oggetto nemico (in questo caso con il cubo rosso con il tag DeathCube) e lo distrugge. 
@@ -44,8 +48,6 @@ public class PlayerDamage : MonoBehaviour
             }
         }
     }
-
-
     public void Death()
     {
         goalLabel.SetActive(false);
@@ -53,8 +55,8 @@ public class PlayerDamage : MonoBehaviour
         deathText.SetActive(true);
         buttonDescription.SetActive(true);
         button.SetActive(true);
+        tastoImpostazioni.SetActive(true);
         GetComponent<PlayerMovement>().enabled = false;
-        Cursor.visible = true;
     }
 
     //Respawna il player facendolo tornare alla posizione iniziale riattivando il movimento e disattiva i pannelli di morte
@@ -66,8 +68,16 @@ public class PlayerDamage : MonoBehaviour
         deathText.SetActive(false);
         deathPanel.SetActive(false);
         goalLabel.SetActive(true);
+        tastoImpostazioni.SetActive(true);
         player.transform.position = new Vector3(-9.96f, 0.09f, 0.0f);
         Debug.Log("Hai respawnato");
+    }
+
+    public void TastoImpostazioni()
+    {
+        Debug.Log("Hai premuto il tasto impostazioni!");
+        GetComponent<PlayerMovement>().enabled = false;
+        
     }
 
     // Update is called once per frame
