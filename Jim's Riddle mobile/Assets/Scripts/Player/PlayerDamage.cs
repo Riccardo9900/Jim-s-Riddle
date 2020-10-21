@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Build.Player;
 using UnityEngine;
 using UnityEngine.Networking.PlayerConnection;
+using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject button;
     public GameObject player;
     public GameObject toDestroy;
+    public GameObject secretPassage;
 
     // Start is called before the first frame update
     void Start()
@@ -31,15 +33,28 @@ public class PlayerDamage : MonoBehaviour
         {
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
-            deathPanel.SetActive(true);
-            deathText.SetActive(true);
-            buttonDescription.SetActive(true);
-            button.SetActive(true);
-            GetComponent<PlayerMovement>().enabled = false;
-            Cursor.visible = true;
+            Death();
         }
     }
 
+    public void OnTriggerEnter2DSecretPassage(Collider2D col)
+    {
+        if(col.tag == "SecretPassage")
+        {
+            Debug.Log("Hai attivato il passaggio segreto!");
+            Destroy(secretPassage);
+        }
+    }
+
+    public void Death()
+    {
+        deathPanel.SetActive(true);
+        deathText.SetActive(true);
+        buttonDescription.SetActive(true);
+        button.SetActive(true);
+        GetComponent<PlayerMovement>().enabled = false;
+        Cursor.visible = true;
+    }
 
     //Respawna il player facendolo tornare alla posizione iniziale riattivando il movimento e disattiva i pannelli di morte
     public void Respawn()
