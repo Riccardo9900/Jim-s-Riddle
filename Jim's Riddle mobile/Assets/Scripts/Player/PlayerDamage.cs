@@ -57,12 +57,14 @@ public class PlayerDamage : MonoBehaviour
         button.SetActive(true);
         tastoImpostazioni.SetActive(true);
         GetComponent<PlayerMovement>().enabled = false;
+        GetComponent<Animator>().enabled = false;
     }
 
     //Respawna il player facendolo tornare alla posizione iniziale riattivando il movimento e disattiva i pannelli di morte
     public void Respawn()
     {
         GetComponent<PlayerMovement>().enabled = true;
+        GetComponent<Animator>().enabled = true;
         button.SetActive(false);
         buttonDescription.SetActive(false);
         deathText.SetActive(false);
