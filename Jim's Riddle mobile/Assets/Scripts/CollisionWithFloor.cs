@@ -17,6 +17,7 @@ public class CollisionWithFloor : MonoBehaviour
         {
             this.canvas.SetActive(true);
             GetComponent<PlayerMovement>().enabled = false;
+            gameObject.GetComponent<Animator>().enabled = false;
 
         }
     }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pavimento Sbagliato
   - PavimentoCorretto
+  - PavimentoSequenzaSbagliata
   layers:
   - Default
   - TransparentFX
