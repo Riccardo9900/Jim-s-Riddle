@@ -25,10 +25,11 @@ public class PlayerMovement : MonoBehaviour
         //Horizontal Vertical e Magnitude sono stringhe preimpostate da Unity come int id
         if (vettoreMovimento != Vector3.zero)//sto dicendo che se il vettore non è (0;0) allora fai partire le animazioni
         {
+            
             playerAnimation.SetFloat("Horizontal", vettoreMovimento.x);
             playerAnimation.SetFloat("Vertical", vettoreMovimento.y);
         }
-        playerAnimation.SetFloat("Magnitude", vettoreMovimento.magnitude);//magnitude è la "potenza" con cui viene premuto il tasto, o meglio la lunghezza del vettore
+        playerAnimation.SetFloat("Magnitude", vettoreMovimento.magnitude);//magnitude è la "potenza" con cui viene premuto il tasto, o meglio la lunghezza del vettore (modulo)
 
 
         //la variabile movement increase è in caso di necessità nel caso serva aumentare momentaneamente/permanentemente la velocità del giocatore
