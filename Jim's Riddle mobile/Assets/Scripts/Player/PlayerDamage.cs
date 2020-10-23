@@ -27,6 +27,7 @@ public class PlayerDamage : MonoBehaviour
         GameOver.SetActive(false);
         button.SetActive(false);
         descriptioGameOver.SetActive(false);
+        tastoPausa.SetActive(true);
     }
 
     //Vede se faccio ua collisione con un oggetto nemico (in questo caso con il cubo rosso con il tag DeathCube) e lo distrugge. 
@@ -38,13 +39,6 @@ public class PlayerDamage : MonoBehaviour
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
             Death();
-        }
-        else
-        {
-            if(collision.tag == "SecretPassage")
-            {
-                Destroy(secretPassage);
-            }
         }
     }
     public void Death()
@@ -64,6 +58,7 @@ public class PlayerDamage : MonoBehaviour
     {
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<Animator>().enabled = true;
+        tastoPausa.SetActive(true);
         button.SetActive(false);
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
