@@ -9,13 +9,14 @@ public class PlayerDamage : MonoBehaviour
 {
     [SerializeField]
     public GameObject deathPanel;
-    public GameObject deathText;
-    public GameObject buttonDescription;
+    public GameObject GameOver;
+    public GameObject descriptioGameOver;
     public GameObject button;
     public GameObject player;
     public GameObject goalLabel;
     public GameObject toDestroy;
     public GameObject secretPassage;
+    public GameObject tastoPausa;
     
 
     // Start is called before the first frame update
@@ -23,9 +24,9 @@ public class PlayerDamage : MonoBehaviour
     {
         goalLabel.SetActive(true);
         deathPanel.SetActive(false);
-        deathText.SetActive(false);
-        buttonDescription.SetActive(false);
+        GameOver.SetActive(false);
         button.SetActive(false);
+        descriptioGameOver.SetActive(false);
     }
 
     //Vede se faccio ua collisione con un oggetto nemico (in questo caso con il cubo rosso con il tag DeathCube) e lo distrugge. 
@@ -50,9 +51,10 @@ public class PlayerDamage : MonoBehaviour
     {
         goalLabel.SetActive(false);
         deathPanel.SetActive(true);
-        deathText.SetActive(true);
-        buttonDescription.SetActive(true);
+        GameOver.SetActive(true);
+        descriptioGameOver.SetActive(true);
         button.SetActive(true);
+        tastoPausa.SetActive(false);
         GetComponent<PlayerMovement>().enabled = false;
         GetComponent<Animator>().enabled = false;
     }
@@ -63,8 +65,8 @@ public class PlayerDamage : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<Animator>().enabled = true;
         button.SetActive(false);
-        buttonDescription.SetActive(false);
-        deathText.SetActive(false);
+        GameOver.SetActive(false);
+        descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);
         goalLabel.SetActive(true);
         player.transform.position = new Vector3(-9.96f, 0.09f, 0.0f);
