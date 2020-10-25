@@ -25,6 +25,7 @@ public class CollisionWithFloor : MonoBehaviour
     public void Respawn ()
     {
         GetComponent<PlayerMovement>().enabled = true;
+        gameObject.GetComponent<Animator>().enabled = true;
         this.canvas.SetActive(false);
         gameObject.transform.position = new Vector3(0f, -9.2f, 0f);
         
