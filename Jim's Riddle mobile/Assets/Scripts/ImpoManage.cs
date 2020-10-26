@@ -12,13 +12,17 @@ public class ImpoManage : MonoBehaviour
         impoPanel.SetActive(false);
     }
 
+    //Da assegnare all'OnlClick del bottone impostazioni
     public void TastoImpoOn()
     {
+        Debug.Log("Hai aperto il pannello delle impostazioni");
         impoPanel.SetActive(true);
     }
 
+    //Da assegnare all'OnlClick del bottone con la v
     public void TastoImpoOff()
     {
+        Debug.Log("Hai chiuso il pannelo delle impostazioni");
         impoPanel.SetActive(false);
     }
 

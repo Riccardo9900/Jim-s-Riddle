@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseManage : MonoBehaviour
 {
@@ -57,5 +58,14 @@ public class PauseManage : MonoBehaviour
         }
         pausePanel.SetActive(isPaused);
         buttonReload.SetActive(true);
+    }
+
+    //Mi ricarica la scena corrente:
+    //Entra in gioco quando viene premuto il tasto con la freccia che va indietro dopo che il Player è morto
+    public void ReloadScene()
+    {
+        Debug.Log("Hai ricaricato la scena!");
+        SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1;
     }
 }

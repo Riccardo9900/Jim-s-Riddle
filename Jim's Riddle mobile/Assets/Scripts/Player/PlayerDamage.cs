@@ -43,6 +43,7 @@ public class PlayerDamage : MonoBehaviour
     }
     public void Death()
     {
+        Debug.Log("Sei morto!");
         goalLabel.SetActive(false);
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
