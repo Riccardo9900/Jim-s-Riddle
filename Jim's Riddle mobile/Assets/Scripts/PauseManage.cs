@@ -7,7 +7,6 @@ public class PauseManage : MonoBehaviour
     bool isPaused;
     public GameObject pausePanel;
     public GameObject buttonReload;
-    public GameObject tastoImpostazioni;
     public GameObject tastoPausa;
     public GameObject goalLabel;
 
