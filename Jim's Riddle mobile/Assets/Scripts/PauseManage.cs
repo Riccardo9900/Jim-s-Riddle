@@ -65,7 +65,7 @@ public class PauseManage : MonoBehaviour
     public void ReloadScene()
     {
         Debug.Log("Hai ricaricato la scena!");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Scena uguale a SampleSceneIniziale");
         Time.timeScale = 1;
     }
 }
