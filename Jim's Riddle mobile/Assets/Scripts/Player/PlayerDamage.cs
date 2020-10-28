@@ -8,21 +8,19 @@ using UnityEngine.SceneManagement;
 public class PlayerDamage : MonoBehaviour
 {
     [SerializeField]
+    public Animator playerAnimation;
     public GameObject deathPanel;
     public GameObject GameOver;
     public GameObject descriptioGameOver;
     public GameObject button;
     public GameObject player;
-    public GameObject goalLabel;
     public GameObject toDestroy;
-    public GameObject secretPassage;
     public GameObject tastoPausa;
-    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        goalLabel.SetActive(true);
         deathPanel.SetActive(false);
         GameOver.SetActive(false);
         button.SetActive(false);
@@ -44,14 +42,14 @@ public class PlayerDamage : MonoBehaviour
     public void Death()
     {
         Debug.Log("Sei morto!");
-        goalLabel.SetActive(false);
+        playerAnimation.SetBool("Death", true);
+ 
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
         descriptioGameOver.SetActive(true);
         button.SetActive(true);
         tastoPausa.SetActive(false);
         GetComponent<PlayerMovement>().enabled = false;
-        GetComponent<Animator>().enabled = false;
     }
 
     //Respawna il player facendolo tornare alla posizione iniziale riattivando il movimento e disattiva i pannelli di morte
@@ -64,11 +62,9 @@ public class PlayerDamage : MonoBehaviour
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);
-        goalLabel.SetActive(true);
-        player.transform.position = new Vector3(-9.96f, 0.09f, 0.0f);
+        GetComponent<PauseManage>().ReloadScene();
         Debug.Log("Hai respawnato");
     }
-
 
     // Update is called once per frame
     void Update()
