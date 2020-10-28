@@ -9,11 +9,13 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
-    public GameObject goalLabel;
+    private Scene scenaCorrente;
 
     // Start is called before the first frame update
     void Start()
     {
+        //sticazzi del this.
+        scenaCorrente = SceneManager.GetActiveScene();
         tastoPausa.SetActive(true);
         pausePanel.SetActive(false);
         isPaused = false;
@@ -43,7 +45,6 @@ public class PauseManage : MonoBehaviour
         if (isPaused)
         {
             Debug.Log("Hai messo in pausa!");
-            goalLabel.SetActive(false);
             //mi blocchi tutti gli oggetti di scena (fermi il tempo)
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
@@ -54,7 +55,6 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
-            goalLabel.SetActive(true);
         }
         pausePanel.SetActive(isPaused);
         buttonReload.SetActive(true);
@@ -65,7 +65,7 @@ public class PauseManage : MonoBehaviour
     public void ReloadScene()
     {
         Debug.Log("Hai ricaricato la scena!");
-        SceneManager.LoadScene("Scena uguale a SampleSceneIniziale");
+        SceneManager.LoadScene(scenaCorrente.name);
         Time.timeScale = 1;
     }
 }

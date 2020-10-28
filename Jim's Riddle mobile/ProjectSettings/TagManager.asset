@@ -7,6 +7,9 @@ TagManager:
   - Pavimento Sbagliato
   - PavimentoCorretto
   - PavimentoSequenzaSbagliata
+  - NormalCube
+  - DeathCube
+  - DeathElement
   layers:
   - Default
   - TransparentFX
