@@ -32,7 +32,7 @@ public class PlayerDamage : MonoBehaviour
     //Disattiva il movimento del player bloccando ogni input da tastiera e attiva i pannelli di morte (bottone, pannello e scritta)
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "DeathCube")
+        if (collision.tag == "DeathElement")
         {
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
