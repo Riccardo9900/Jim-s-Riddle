@@ -9,10 +9,11 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
-
+    private Scene scenaCorrente;
     // Start is called before the first frame update
     void Start()
     {
+        scenaCorrente = SceneManager.GetActiveScene();
         tastoPausa.SetActive(true);
         pausePanel.SetActive(false);
         isPaused = false;
@@ -62,7 +63,7 @@ public class PauseManage : MonoBehaviour
     public void ReloadScene()
     {
         Debug.Log("Hai ricaricato la scena!");
-        SceneManager.LoadScene("Scena uguale a SampleSceneIniziale");
+        SceneManager.LoadScene(scenaCorrente.name);
         Time.timeScale = 1;
     }
 }

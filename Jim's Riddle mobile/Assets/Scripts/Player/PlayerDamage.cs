@@ -62,10 +62,9 @@ public class PlayerDamage : MonoBehaviour
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);
-        SceneManager.LoadScene("TESTMORTE");
+        GetComponent<PauseManage>().ReloadScene();
         Debug.Log("Hai respawnato");
     }
-
 
     // Update is called once per frame
     void Update()
