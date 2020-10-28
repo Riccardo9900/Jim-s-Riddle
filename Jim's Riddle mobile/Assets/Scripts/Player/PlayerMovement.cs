@@ -5,21 +5,30 @@ using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public Joystick joystick; //Inserisco joystick
     public Animator playerAnimation;
     public float movementIncrease; //aumenta la velocità di movimento
+    private Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
     // Start is called before the first frame update
     void Start()
     {
-        
+        joystick = FindObjectOfType<Joystick>(); //Cerca il joystick negli oggetti
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        //creo il vettore movimento che verrà applicato al movimento del giocatore sulle due assi
-        Vector3 vettoreMovimento = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
+        
+        if (joystick.Horizontal != 0 || joystick.Vertical != 0) //Se le coordinate del joystick sono diverse da zero si sta usando il joystick.
+        {
+            this.vettoreMovimento = new Vector3(joystick.Horizontal, joystick.Vertical, 0.0f); //Prendo le coordinate del joystick nel vettore movimento.
+        }
+        else //Altrimenti sto usando la tastiera
+        {
+            this.vettoreMovimento = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f); //Prendo le coordinate della tastiera nel vettore movimento.
+        }
+
 
         //Parte delle animazioni del giocatore
         //Horizontal Vertical e Magnitude sono stringhe preimpostate da Unity come int id
