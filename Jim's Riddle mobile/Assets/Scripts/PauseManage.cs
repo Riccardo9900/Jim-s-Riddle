@@ -10,11 +10,9 @@ public class PauseManage : MonoBehaviour
     public GameObject buttonReload;
     public GameObject tastoPausa;
     private Scene scenaCorrente;
-
     // Start is called before the first frame update
     void Start()
     {
-        //sticazzi del this.
         scenaCorrente = SceneManager.GetActiveScene();
         tastoPausa.SetActive(true);
         pausePanel.SetActive(false);

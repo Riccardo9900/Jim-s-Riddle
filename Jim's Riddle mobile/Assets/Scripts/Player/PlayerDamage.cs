@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
+    [SerializeField]
+    public Animator playerAnimation;
     public GameObject deathPanel;
     public GameObject GameOver;
     public GameObject descriptioGameOver;
@@ -14,13 +16,11 @@ public class PlayerDamage : MonoBehaviour
     public GameObject player;
     public GameObject toDestroy;
     public GameObject tastoPausa;
-    private Scene scenaCorrente;
-    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        scenaCorrente = SceneManager.GetActiveScene();
         deathPanel.SetActive(false);
         GameOver.SetActive(false);
         button.SetActive(false);
@@ -32,9 +32,9 @@ public class PlayerDamage : MonoBehaviour
     //Disattiva il movimento del player bloccando ogni input da tastiera e attiva i pannelli di morte (bottone, pannello e scritta)
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "DeathElement");
+        if (collision.tag == "DeathCube")
         {
-            Debug.Log("Hai preso il pavimento sbagliato");
+            Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
             Death();
         }
@@ -42,13 +42,14 @@ public class PlayerDamage : MonoBehaviour
     public void Death()
     {
         Debug.Log("Sei morto!");
+        playerAnimation.SetBool("Death", true);
+ 
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
         descriptioGameOver.SetActive(true);
         button.SetActive(true);
         tastoPausa.SetActive(false);
         GetComponent<PlayerMovement>().enabled = false;
-        GetComponent<Animator>().enabled = false;
     }
 
     //Respawna il player facendolo tornare alla posizione iniziale riattivando il movimento e disattiva i pannelli di morte
@@ -61,17 +62,8 @@ public class PlayerDamage : MonoBehaviour
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);
-        ReloadScene();
+        GetComponent<PauseManage>().ReloadScene();
         Debug.Log("Hai respawnato");
-    }
-
-    //Mi ricarica la scena corrente:
-    //Entra in gioco quando viene premuto il tasto con la freccia che va indietro dopo che il Player è morto
-    public void ReloadScene()
-    {
-        Debug.Log("Hai ricaricato la scena!");
-        SceneManager.LoadScene(scenaCorrente.name);
-        Time.timeScale = 1;
     }
 
     // Update is called once per frame
