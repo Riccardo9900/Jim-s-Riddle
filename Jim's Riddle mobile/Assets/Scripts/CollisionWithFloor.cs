@@ -13,12 +13,11 @@ public class CollisionWithFloor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag == "Pavimento Sbagliato")
+        if (coll.tag == "DeathElement")
         {
             this.deathPanel.SetActive(true);
             GetComponent<PlayerMovement>().enabled = false;
             gameObject.GetComponent<Animator>().enabled = false;
-
         }
     }
 
