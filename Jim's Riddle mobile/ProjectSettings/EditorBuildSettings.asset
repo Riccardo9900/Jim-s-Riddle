@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LabirintoLettere.unity
     guid: 66260ca7bdb5fe6478426e33822be581
+  - enabled: 1
+    path: Assets/Scenes/TESTMORTE.unity
+    guid: 877d8ff15e61cc5458b0cad2fcbf4534
   m_configObjects: {}
