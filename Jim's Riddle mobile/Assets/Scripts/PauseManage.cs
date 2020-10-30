@@ -47,6 +47,7 @@ public class PauseManage : MonoBehaviour
             //mi blocchi tutti gli oggetti di scena (fermi il tempo)
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
+            canvasJoystick.enabled = false;
         }
         else
         {
@@ -54,10 +55,11 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
+            canvasJoystick.enabled = true;
+
         }
         pausePanel.SetActive(isPaused);
         buttonReload.SetActive(true);
-        canvasJoystick.enabled = false;
     }
 
     //Mi ricarica la scena corrente:
