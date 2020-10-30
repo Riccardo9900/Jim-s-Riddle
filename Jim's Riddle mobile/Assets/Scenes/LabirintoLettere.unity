@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1268692266}
         m_MethodName: TastoImpoOff
         m_Mode: 1
         m_Arguments:
@@ -5580,7 +5580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 424.2, y: 173.1}
+  m_AnchoredPosition: {x: 424.20007, y: 173.10004}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804205384
@@ -5626,7 +5626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1268692267}
         m_MethodName: ButtonRiprendi
         m_Mode: 1
         m_Arguments:
@@ -6215,7 +6215,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1268692266}
         m_MethodName: TastoImpoOn
         m_Mode: 1
         m_Arguments:
@@ -7604,7 +7604,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1268692267}
         m_MethodName: ButtonRiprendi
         m_Mode: 1
         m_Arguments:
@@ -8181,6 +8181,7 @@ GameObject:
   - component: {fileID: 1268692263}
   - component: {fileID: 1268692262}
   - component: {fileID: 1268692265}
+  - component: {fileID: 1268692268}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -8337,8 +8338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8f15b8f598826a45bc7a3fa3dc1d5a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathPanel: {fileID: 0}
-  tastoPausa: {fileID: 0}
+  deathPanel: {fileID: 1496350089}
+  tastoPausa: {fileID: 804205382}
   canvasJoystick: {fileID: 1258243719}
 --- !u!114 &1268692265
 MonoBehaviour:
@@ -8364,7 +8365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impoPanel: {fileID: 0}
+  impoPanel: {fileID: 1931614823}
 --- !u!114 &1268692267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8377,10 +8378,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45446b303a091574b85152a6a5c7eecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
-  buttonReload: {fileID: 0}
-  tastoPausa: {fileID: 0}
+  pausePanel: {fileID: 2124322705}
+  buttonReload: {fileID: 1188099031}
+  tastoPausa: {fileID: 804205382}
   canvasJoystick: {fileID: 1258243719}
+--- !u!114 &1268692268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268692257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232e67668ba00b94eb85028cc6b2e8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimation: {fileID: 1268692258}
+  deathPanel: {fileID: 1496350089}
+  GameOver: {fileID: 1278992376}
+  descriptioGameOver: {fileID: 123830942}
+  buttonRespawn: {fileID: 1343697072}
+  player: {fileID: 1268692257}
+  toDestroy: {fileID: 0}
+  tastoPausa: {fileID: 804205382}
 --- !u!1 &1278992376
 GameObject:
   m_ObjectHideFlags: 0
@@ -8833,8 +8854,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ReloadScene
+      - m_Target: {fileID: 1268692268}
+        m_MethodName: Respawn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9492,7 +9513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1496350090
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13153,8 +13174,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ReloadScene
+      - m_Target: {fileID: 1268692268}
+        m_MethodName: Respawn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
