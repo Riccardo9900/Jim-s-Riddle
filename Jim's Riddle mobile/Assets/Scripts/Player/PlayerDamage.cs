@@ -12,7 +12,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject deathPanel;
     public GameObject GameOver;
     public GameObject descriptioGameOver;
-    public GameObject button;
+    public GameObject buttonRespawn;
     public GameObject player;
     public GameObject toDestroy;
     public GameObject tastoPausa;
@@ -23,7 +23,7 @@ public class PlayerDamage : MonoBehaviour
     {
         deathPanel.SetActive(false);
         GameOver.SetActive(false);
-        button.SetActive(false);
+        buttonRespawn.SetActive(false);
         descriptioGameOver.SetActive(false);
         tastoPausa.SetActive(true);
     }
@@ -47,7 +47,7 @@ public class PlayerDamage : MonoBehaviour
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
         descriptioGameOver.SetActive(true);
-        button.SetActive(true);
+        buttonRespawn.SetActive(true);
         tastoPausa.SetActive(false);
         GetComponent<PlayerMovement>().enabled = false;
     }
@@ -58,7 +58,7 @@ public class PlayerDamage : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<Animator>().enabled = true;
         tastoPausa.SetActive(true);
-        button.SetActive(false);
+        buttonRespawn.SetActive(false);
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);

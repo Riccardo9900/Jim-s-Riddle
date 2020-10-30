@@ -5,6 +5,8 @@ using UnityEngine;
 public class CollisionWithFloor : MonoBehaviour
 {
     public GameObject deathPanel;
+    public GameObject tastoPausa;
+    public Canvas canvasJoystick;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,8 @@ public class CollisionWithFloor : MonoBehaviour
             this.deathPanel.SetActive(true);
             GetComponent<PlayerMovement>().enabled = false;
             gameObject.GetComponent<Animator>().enabled = false;
+            tastoPausa.SetActive(false);
+            canvasJoystick.enabled = false;
         }
     }
 

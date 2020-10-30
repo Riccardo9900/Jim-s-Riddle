@@ -9,6 +9,7 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
+    public Canvas canvasJoystick;
     private Scene scenaCorrente;
     // Start is called before the first frame update
     void Start()
@@ -56,6 +57,7 @@ public class PauseManage : MonoBehaviour
         }
         pausePanel.SetActive(isPaused);
         buttonReload.SetActive(true);
+        canvasJoystick.enabled = false;
     }
 
     //Mi ricarica la scena corrente:
