@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Pavimento Sbagliato
   - PavimentoCorretto
-  - PavimentoSequenzaSbagliata
   - NormalCube
   - DeathCube
   - DeathElement
+  - changeScene
   layers:
   - Default
   - TransparentFX

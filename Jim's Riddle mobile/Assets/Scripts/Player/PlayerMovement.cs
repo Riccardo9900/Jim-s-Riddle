@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
@@ -47,5 +48,13 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    }
+
+    void OnTriggerEnter2D (Collider2D coll)
+    {
+        if (coll.tag == "changeScene")
+        {
+            SceneManager.LoadScene("LabirintoLettere");
+        }
     }
 }
