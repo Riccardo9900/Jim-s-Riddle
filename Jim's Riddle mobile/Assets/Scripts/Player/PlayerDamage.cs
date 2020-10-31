@@ -15,6 +15,7 @@ public class PlayerDamage : MonoBehaviour
     public GameObject player;
     public GameObject toDestroy;
     public GameObject tastoPausa;
+    public GameObject tastoHome;
 
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class PlayerDamage : MonoBehaviour
         buttonRespawn.SetActive(false);
         descriptioGameOver.SetActive(false);
         tastoPausa.SetActive(true);
+        tastoHome.SetActive(false);
     }
 
     //Vede se faccio ua collisione con un oggetto nemico (in questo caso con il cubo rosso con il tag DeathCube) e lo distrugge. 
@@ -42,7 +44,7 @@ public class PlayerDamage : MonoBehaviour
     {
         Debug.Log("Sei morto!");
         playerAnimation.SetBool("Death", true);
- 
+        tastoHome.SetActive(true);
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
         descriptioGameOver.SetActive(true);
@@ -57,6 +59,7 @@ public class PlayerDamage : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<Animator>().enabled = true;
         tastoPausa.SetActive(true);
+        tastoHome.SetActive(false);
         buttonRespawn.SetActive(false);
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);

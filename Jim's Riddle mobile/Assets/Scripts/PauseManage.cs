@@ -11,6 +11,7 @@ public class PauseManage : MonoBehaviour
     public GameObject tastoPausa;
     public Canvas canvasJoystick;
     private Scene scenaCorrente;
+    public GameObject tastoHome;
     // Start is called before the first frame update
     void Start()
     {
