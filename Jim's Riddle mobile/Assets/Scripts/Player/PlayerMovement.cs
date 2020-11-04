@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Joystick joystick; //Inserisco joystick
     public Animator playerAnimation;
     public float movementIncrease; //aumenta la velocità di movimento
-    public Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
+    private Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
     // Start is called before the first frame update
     void Start()
     {

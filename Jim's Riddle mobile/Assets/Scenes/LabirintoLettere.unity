@@ -2115,13 +2115,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimation: {fileID: 322435835}
-  deathPanel: {fileID: 0}
-  GameOver: {fileID: 0}
-  descriptioGameOver: {fileID: 0}
-  buttonRespawn: {fileID: 0}
+  deathPanel: {fileID: 1496350089}
+  GameOver: {fileID: 1278992376}
+  descriptioGameOver: {fileID: 123830942}
+  buttonRespawn: {fileID: 1343697072}
   player: {fileID: 322435831}
   toDestroy: {fileID: 0}
-  tastoPausa: {fileID: 0}
+  tastoPausa: {fileID: 804205382}
 --- !u!114 &322435837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,10 +2134,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45446b303a091574b85152a6a5c7eecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
-  buttonReload: {fileID: 0}
-  tastoPausa: {fileID: 0}
-  canvasJoystick: {fileID: 0}
+  pausePanel: {fileID: 2124322705}
+  buttonReload: {fileID: 1343697072}
+  tastoPausa: {fileID: 804205382}
+  canvasJoystick: {fileID: 1258243719}
 --- !u!114 &322435838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,7 +2150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impoPanel: {fileID: 0}
+  impoPanel: {fileID: 1931614823}
 --- !u!114 &322435839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2163,10 +2163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50130d580e215304da392531be58e5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystick: {fileID: 0}
+  joystick: {fileID: 184426456}
   playerAnimation: {fileID: 322435835}
   movementIncrease: 3
-  vettoreMovimento: {x: 0, y: 0, z: 0}
 --- !u!212 &322435840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17529,7 +17528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36b46c0b6c3276d46862c3aaac9d63ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 322435841}
   newZ: -10
 --- !u!1 &2070838692
 GameObject:

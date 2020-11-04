@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3133906615998846749}
-    m_Position: {x: 170, y: 520, z: 0}
+    m_Position: {x: 140, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1990710405711901358}
     m_Position: {x: 450, y: 510, z: 0}
@@ -106,7 +106,7 @@ BlendTree:
   m_BlendParameterY: Horizontal
   m_MinThreshold: 0
   m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 0
+  m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 --- !u!206 &-4785536031899439504
@@ -596,7 +596,7 @@ BlendTree:
   m_BlendParameterY: Horizontal
   m_MinThreshold: 0
   m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 0
+  m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 --- !u!206 &7290999437037065773

@@ -2774,13 +2774,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimation: {fileID: 1164865972}
-  deathPanel: {fileID: 0}
-  GameOver: {fileID: 0}
-  descriptioGameOver: {fileID: 0}
-  buttonRespawn: {fileID: 0}
+  deathPanel: {fileID: 868800036}
+  GameOver: {fileID: 1367614443}
+  descriptioGameOver: {fileID: 686446607}
+  buttonRespawn: {fileID: 1090134196}
   player: {fileID: 1164865968}
   toDestroy: {fileID: 0}
-  tastoPausa: {fileID: 0}
+  tastoPausa: {fileID: 111192237}
 --- !u!114 &1164865974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,10 +2793,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45446b303a091574b85152a6a5c7eecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
-  buttonReload: {fileID: 0}
-  tastoPausa: {fileID: 0}
-  canvasJoystick: {fileID: 0}
+  pausePanel: {fileID: 1332474428}
+  buttonReload: {fileID: 1569260583}
+  tastoPausa: {fileID: 1687265248}
+  canvasJoystick: {fileID: 1095820709}
 --- !u!114 &1164865975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impoPanel: {fileID: 0}
+  impoPanel: {fileID: 1727826124}
 --- !u!114 &1164865976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,7 +2825,6 @@ MonoBehaviour:
   joystick: {fileID: 0}
   playerAnimation: {fileID: 1164865972}
   movementIncrease: 3
-  vettoreMovimento: {x: 0, y: 0, z: 0}
 --- !u!212 &1164865977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4054,7 +4053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36b46c0b6c3276d46862c3aaac9d63ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1164865978}
   newZ: -30
 --- !u!81 &1564244126
 AudioListener:
@@ -4091,7 +4090,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.8
+  orthographic size: 7.9790688
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4123,7 +4122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.362, y: -0.657}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1569260583
