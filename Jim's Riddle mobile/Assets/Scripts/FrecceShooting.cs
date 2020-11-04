@@ -32,8 +32,12 @@ public class FrecceShooting : MonoBehaviour
 
     public void LancioFrecce()
     {
-        //Spawno l'oggetto freccia presente in Asset/Resources ogni volta che premo il tasto 'space'
-        GameObject freccia = (GameObject)Instantiate(Resources.Load("Freccia"), player.transform.position, transform.rotation);
-        tempoDaUltimoLancio = 0f;
+        if(tempoDaUltimoLancio>= tempoTraColpi)
+        {
+            //Spawno l'oggetto freccia presente in Asset/Resources ogni volta che premo il tasto 'space'
+            GameObject freccia = (GameObject)Instantiate(Resources.Load("Freccia"), player.transform.position, transform.rotation);
+            tempoDaUltimoLancio = 0f;
+        }
+        
     }
 }

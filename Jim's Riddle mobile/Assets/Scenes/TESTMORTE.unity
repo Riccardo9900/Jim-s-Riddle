@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1777589102}
         m_MethodName: LancioFrecce
         m_Mode: 1
         m_Arguments:
@@ -4736,7 +4736,6 @@ MonoBehaviour:
   pausePanel: {fileID: 1332474428}
   buttonReload: {fileID: 660671398}
   tastoPausa: {fileID: 1687265248}
-  buttonSpara: {fileID: 506820515}
   canvasJoystick: {fileID: 1095820709}
 --- !u!114 &1777589096
 MonoBehaviour:
@@ -4829,7 +4828,6 @@ MonoBehaviour:
   joystick: {fileID: 0}
   playerAnimation: {fileID: 1777589099}
   movementIncrease: 3
-  vettoreMovimento: {x: 0, y: 0, z: 0}
 --- !u!212 &1777589101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4869,7 +4867,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7666742142045290983, guid: cad3b620ca0fa7143926ce14c6d0d94e,
+  m_Sprite: {fileID: -4330188895964045331, guid: badf46757d90ad24bbbeaf1ed973a67b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5423,6 +5421,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7427027952857278947}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2097193247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097193246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9af614699bc4e41a69916a27196599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1777589092}
+  tempoDaUltimoLancio: 1
+  tempoTraColpi: 2
 --- !u!114 &2097193248
 MonoBehaviour:
   m_ObjectHideFlags: 0
