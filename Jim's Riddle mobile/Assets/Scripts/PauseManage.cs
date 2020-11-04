@@ -9,11 +9,13 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
+    public GameObject buttonSpara;
     public Canvas canvasJoystick;
     private Scene scenaCorrente;
     // Start is called before the first frame update
     void Start()
     {
+        buttonSpara.SetActive(true);
         scenaCorrente = SceneManager.GetActiveScene();
         tastoPausa.SetActive(true);
         pausePanel.SetActive(false);
@@ -47,6 +49,7 @@ public class PauseManage : MonoBehaviour
             //mi blocchi tutti gli oggetti di scena (fermi il tempo)
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
+            buttonSpara.SetActive(false);
             canvasJoystick.enabled = false;
         }
         else
@@ -55,6 +58,7 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
+            buttonSpara.SetActive(true);
             canvasJoystick.enabled = true;
 
         }
