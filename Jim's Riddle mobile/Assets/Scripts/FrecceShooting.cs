@@ -7,6 +7,7 @@ public class FrecceShooting : MonoBehaviour
     public GameObject player;
     public float tempoDaUltimoLancio = 1f;
     public float tempoTraColpi = 2f;
+    public float speed = 2f;
 
 
     // Start is called before the first frame update
@@ -36,7 +37,7 @@ public class FrecceShooting : MonoBehaviour
         {
             //Spawno l'oggetto freccia presente in Asset/Resources ogni volta che premo il tasto 'space'
             GameObject freccia = (GameObject)Instantiate(Resources.Load("Freccia"), player.transform.position, transform.rotation);
-            tempoDaUltimoLancio = 0f;
+            tempoDaUltimoLancio = 0f;  
         }
         
     }
