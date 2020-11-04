@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1777589102}
+      - m_Target: {fileID: 0}
         m_MethodName: LancioFrecce
         m_Mode: 1
         m_Arguments:
@@ -5417,6 +5417,27 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2097193246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7427027953631034298, guid: e34f4b4d8025c89449b96e0fa8d2b42d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7427027952857278947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2097193248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097193246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c852fbe7abec3fa4598afb50a6fe810f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freccia: {fileID: 2097193246}
+  "velocit\xE0Freccia": 2
+  durataTempoFreccia: 2
 --- !u!1001 &7427027952857278947
 PrefabInstance:
   m_ObjectHideFlags: 0
