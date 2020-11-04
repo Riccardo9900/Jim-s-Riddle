@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class ZeusMovement : MonoBehaviour
 {
+    public float speed;
     public Rigidbody2D player;
-    public float movementIncrease;
-    private Vector3 vettoreMovimento;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, player.transform.position) < 4 ) {
-            vettoreMovimento = new Vector3(1, 1, 0.0f) ;
-            transform.position = Vector3.MoveTowards((transform.position+=vettoreMovimento), player.transform.position, movementIncrease * Time.deltaTime);
-
+        if (Vector3.Distance(transform.position, player.position) < 8 &&
+            Vector3.Distance(transform.position, player.position) > 3)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
 
         }
     }
