@@ -12,7 +12,7 @@ public class FrecceShoot : MonoBehaviour
     {
         if(target.gameObject.tag == "FirePoint")
         {
-            GetComponent<Rigidbody2D>().AddForce(transform.up * forzaFreccia);
+            GetComponent<Rigidbody2D>().AddForce(transform.right * forzaFreccia);
         }
     }
 }
