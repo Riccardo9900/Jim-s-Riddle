@@ -3663,6 +3663,15 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 11, y: 10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 12, y: 10, z: 0}
     second:
       serializedVersion: 2
@@ -4449,7 +4458,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: b096aa5ca27b7b44dbc60b7588c24595, type: 2}
   - m_RefCount: 46
     m_Data: {fileID: 11400000, guid: 569350b9102492e4290b3fd4635d122b, type: 2}
-  - m_RefCount: 23
+  - m_RefCount: 24
     m_Data: {fileID: 11400000, guid: e2979fee93edeef4d9e1423d70e4fe5b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 9b75af9af78a93f459a00d74dcc41eff, type: 2}
@@ -4515,7 +4524,7 @@ Tilemap:
   - m_RefCount: 46
     m_Data: {fileID: -4904624278389448217, guid: cb996548e09c9d740ab3bbca930765a8,
       type: 3}
-  - m_RefCount: 23
+  - m_RefCount: 24
     m_Data: {fileID: -8737479751097179162, guid: cb996548e09c9d740ab3bbca930765a8,
       type: 3}
   - m_RefCount: 1
@@ -4590,7 +4599,7 @@ Tilemap:
     m_Data: {fileID: -4114123970870434236, guid: cb996548e09c9d740ab3bbca930765a8,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 375
+  - m_RefCount: 376
     m_Data:
       e00: 1
       e01: 0
@@ -4609,7 +4618,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 375
+  - m_RefCount: 376
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -6006,7 +6015,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -12, y: 10, z: 0}
+  - first: {x: -11, y: 9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
@@ -6015,7 +6024,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 11, y: 10, z: 0}
+  - first: {x: 10, y: 9, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
