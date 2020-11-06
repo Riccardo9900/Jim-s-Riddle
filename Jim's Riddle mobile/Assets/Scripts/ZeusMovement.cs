@@ -16,8 +16,8 @@ public class ZeusMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, player.position) < 8 &&
-            Vector3.Distance(transform.position, player.position) > 3)
+        if (Vector3.Distance(transform.position, player.position) < 9 &&
+            Vector3.Distance(transform.position, player.position) > 5.5)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
 
