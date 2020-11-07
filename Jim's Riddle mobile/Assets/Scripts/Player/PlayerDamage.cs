@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    [SerializeField]
+   
     public Animator playerAnimation;
     public GameObject deathPanel;
     public GameObject GameOver;
@@ -32,7 +32,7 @@ public class PlayerDamage : MonoBehaviour
     //Disattiva il movimento del player bloccando ogni input da tastiera e attiva i pannelli di morte (bottone, pannello e scritta)
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "DeathElement")
+        if (collision.gameObject.CompareTag("DeathElement"))
         {
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
