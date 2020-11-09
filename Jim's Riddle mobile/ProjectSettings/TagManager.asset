@@ -10,7 +10,7 @@ TagManager:
   - DeathCube
   - DeathElement
   - changeScene
-  - Zeus
+  - Collider
   layers:
   - Default
   - TransparentFX
