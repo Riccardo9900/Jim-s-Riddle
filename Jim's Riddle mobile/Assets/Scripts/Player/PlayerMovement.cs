@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
             if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
             {
-                mainCamera.GetComponent<Camera>().orthographicSize -= 0.02f;
+                mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
             }
         }
         //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3

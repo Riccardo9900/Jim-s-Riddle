@@ -63,11 +63,7 @@ public class FireArrow : MonoBehaviour
              la freccia andrà girata sollo sull'asse Z*/
             Rigidbody2D arrowInstantiated = Instantiate(arrowPrefab, transform.position + vettoreMovimento.normalized, Quaternion.Euler(GetArrowRotation(vettoreMovimento)));
             
-            if (arrowInstantiated.GetComponent<Rigidbody2D>().velocity == Vector2.zero)
-            {
-                arrowInstantiated.GetComponent<Animator>().enabled = false;
-                Destroy(arrowInstantiated, 4f);
-            }
+
 
             Physics2D.IgnoreCollision(GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(arrowInstantiated.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
