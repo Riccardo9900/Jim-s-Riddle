@@ -21,7 +21,12 @@ public class FireArrow : MonoBehaviour
 
     void Update()
     {
-        ArrowPrefabCreation();
+        Vector3 vettoreMovimento = gameObject.GetComponent<PlayerMovement>().vettoreMovimento;//prendo il vettore movimento che fa muovere il player
+
+        if ((Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(1)) && vettoreMovimento != Vector3.zero ) 
+        { 
+            ArrowPrefabCreation(vettoreMovimento);
+        }
     }
 
 
@@ -37,13 +42,11 @@ public class FireArrow : MonoBehaviour
     /*Funzione che restituisce un float prendendo come riferimento la <size> della telecamera collegata al player*/
     private float StreghtFromCameraSize()
     {
-        float floatReturned = speed / 3f;
+        float floatReturned = speed / 2f;
 
-        if (mainCamera.GetComponent<Camera>().orthographicSize <= 7.09f && mainCamera.GetComponent<Camera>().orthographicSize > 6.724f)
-            floatReturned = speed / 3f;
-        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.724f && mainCamera.GetComponent<Camera>().orthographicSize > 6.358f)
+        if (mainCamera.GetComponent<Camera>().orthographicSize <= 7.09f && mainCamera.GetComponent<Camera>().orthographicSize > 6.524f)
             floatReturned = speed / 2f;
-        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.358f)
+        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.558f)
             floatReturned = speed;
 
         return floatReturned;
@@ -51,31 +54,21 @@ public class FireArrow : MonoBehaviour
     }
 
     /*Crea il prefab della freccia*/
-    private void ArrowPrefabCreation()
-    {
-        Vector3 vettoreMovimento = gameObject.GetComponent<PlayerMovement>().vettoreMovimento;//prendo il vettore movimento che fa muovere il player
-
-        if ((Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(1)) && vettoreMovimento != Vector3.zero)
-        {
+    private void ArrowPrefabCreation(Vector3 vettoreMovimento)
+    { 
             /*Creo la freccia da arrowPrefab(prefab), gli do come posizione iniziale quella del player più la normale del vettore movimento del player(vettoreMovimento con modulo = 1), 
              prendo un vettore dalla funzione GetArrowRotation(vettoreMovimento), e lo inserirsco nella rotazione della freccia, quindi la freccia ruota di tot. Z
              Quaternion.Euler alla fine dei giochi è facile da capire, è una versione semplificata di un Quaternion ed è composto da un Vector3 come transform.rotation
              la freccia andrà girata sollo sull'asse Z*/
             Rigidbody2D arrowInstantiated = Instantiate(arrowPrefab, transform.position + vettoreMovimento.normalized, Quaternion.Euler(GetArrowRotation(vettoreMovimento)));
-            
-            if (arrowInstantiated.GetComponent<Rigidbody2D>().velocity == Vector2.zero)
-            {
-                arrowInstantiated.GetComponent<Animator>().enabled = false;
-                Destroy(arrowInstantiated, 4f);
-            }
+  
+   
 
             Physics2D.IgnoreCollision(GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(arrowInstantiated.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
 
             arrowInstantiated.AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
-            gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
             
-
-        }
+ 
     }
 }

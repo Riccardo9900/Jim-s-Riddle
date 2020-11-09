@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     /*Movimento ed animazione del player*/
     public void MovementAndAnimation()
     {
@@ -64,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    /*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
+    /*Telecamera e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
     public void ArrowFireMotion()
     {
         if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
@@ -73,9 +74,9 @@ public class PlayerMovement : MonoBehaviour
             //animazione attacco da inserire
 
             //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
-            if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
+            if (mainCamera.GetComponent<Camera>().orthographicSize > 6.3f)
             {
-                mainCamera.GetComponent<Camera>().orthographicSize -= 0.02f;
+                mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
             }
         }
         //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3

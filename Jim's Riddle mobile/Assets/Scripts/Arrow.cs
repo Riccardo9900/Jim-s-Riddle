@@ -5,7 +5,6 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public GameObject player;
-    public float velocity = 25f;
     public float destroyTimer;
 
     public Animator animator;
@@ -19,8 +18,6 @@ public class Arrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
            
     }
 
