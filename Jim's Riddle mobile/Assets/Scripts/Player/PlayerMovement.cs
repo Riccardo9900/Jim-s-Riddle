@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float movementIncrease; //aumenta la velocità di movimento
     public Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
     public GameObject mainCamera;
+    public GameObject arrow;
 
     
     void Start()
@@ -23,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         MovementAndAnimation();
         ArrowFireMotion();
-
     }
 
     void OnTriggerEnter2D (Collider2D coll)

@@ -5,38 +5,39 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public GameObject player;
-    public float velocity = 25f;
-    public float destroyTimer;
 
     public Animator animator;
 
     void Start()
     {
-        
+
+
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        
 
-           
+
+    }
+
+     void Awake()
+    {
+        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>());
+        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
     }
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        if (collision.gameObject.CompareTag("Collider"))
-        {
             animator.SetBool("isColliding", true);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Destroy(gameObject, 5f);
-        }
+            Debug.Log("Collisiom");
 
-        else
-            Destroy(gameObject, 1f);
+
+
     }
 
 
