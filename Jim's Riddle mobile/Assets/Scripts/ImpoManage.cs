@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ImpoManage : MonoBehaviour
 {
     public GameObject impoPanel;
+    public GameObject tastoImpostazioni;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,7 @@ public class ImpoManage : MonoBehaviour
     public void TastoImpoOn()
     {
         Debug.Log("Hai aperto il pannello delle impostazioni");
+        tastoImpostazioni.SetActive(false);
         impoPanel.SetActive(true);
     }
 
@@ -23,6 +26,7 @@ public class ImpoManage : MonoBehaviour
     public void TastoImpoOff()
     {
         Debug.Log("Hai chiuso il pannelo delle impostazioni");
+        tastoImpostazioni.SetActive(true);
         impoPanel.SetActive(false);
     }
 
