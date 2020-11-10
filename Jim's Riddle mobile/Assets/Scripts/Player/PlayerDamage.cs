@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Player;
 using UnityEngine;
 using UnityEngine.Networking.PlayerConnection;
 using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
-    [SerializeField]
+   
     public Animator playerAnimation;
     public GameObject deathPanel;
     public GameObject GameOver;
@@ -15,7 +16,8 @@ public class PlayerDamage : MonoBehaviour
     public GameObject player;
     public GameObject toDestroy;
     public GameObject tastoPausa;
-    public GameObject tastoHome;
+    public GameObject fireButton;
+    public GameObject canvasJoystick;
 
 
     // Start is called before the first frame update
@@ -26,14 +28,15 @@ public class PlayerDamage : MonoBehaviour
         buttonRespawn.SetActive(false);
         descriptioGameOver.SetActive(false);
         tastoPausa.SetActive(true);
-        tastoHome.SetActive(false);
+        canvasJoystick.SetActive(true);
+        fireButton.SetActive(true);
     }
 
     //Vede se faccio ua collisione con un oggetto nemico (in questo caso con il cubo rosso con il tag DeathCube) e lo distrugge. 
     //Disattiva il movimento del player bloccando ogni input da tastiera e attiva i pannelli di morte (bottone, pannello e scritta)
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "DeathElement")
+        if (collision.gameObject.CompareTag("DeathElement"))
         {
             Debug.Log("Hai preso il cubo sbagliato");
             Destroy(toDestroy);
@@ -44,12 +47,15 @@ public class PlayerDamage : MonoBehaviour
     {
         Debug.Log("Sei morto!");
         playerAnimation.SetBool("Death", true);
-        tastoHome.SetActive(true);
+ 
         deathPanel.SetActive(true);
         GameOver.SetActive(true);
         descriptioGameOver.SetActive(true);
         buttonRespawn.SetActive(true);
         tastoPausa.SetActive(false);
+        canvasJoystick.SetActive(false);
+        fireButton.SetActive(false);
+        gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<PlayerMovement>().enabled = false;
     }
 
@@ -59,11 +65,12 @@ public class PlayerDamage : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
         GetComponent<Animator>().enabled = true;
         tastoPausa.SetActive(true);
-        tastoHome.SetActive(false);
         buttonRespawn.SetActive(false);
         GameOver.SetActive(false);
         descriptioGameOver.SetActive(false);
         deathPanel.SetActive(false);
+        canvasJoystick.SetActive(true);
+        fireButton.SetActive(true);
         GetComponent<PauseManage>().ReloadScene();
         Debug.Log("Hai respawnato");
     }

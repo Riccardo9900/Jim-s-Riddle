@@ -9,6 +9,7 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
+    public GameObject fireButton;
     public Canvas canvasJoystick;
     private Scene scenaCorrente;
     public GameObject tastoHome;
@@ -48,6 +49,7 @@ public class PauseManage : MonoBehaviour
             //mi blocchi tutti gli oggetti di scena (fermi il tempo)
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
+            fireButton.SetActive(false);
             canvasJoystick.enabled = false;
         }
         else
@@ -56,6 +58,7 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
+            fireButton.SetActive(true);
             canvasJoystick.enabled = true;
 
         }
