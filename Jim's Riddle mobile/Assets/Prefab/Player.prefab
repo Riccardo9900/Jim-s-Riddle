@@ -108,6 +108,7 @@ MonoBehaviour:
   movementIncrease: 175
   vettoreMovimento: {x: 0, y: 0, z: 0}
   mainCamera: {fileID: 0}
+  arrow: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad, type: 3}
 --- !u!114 &5184774094914156520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,8 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7edcc4ce0ee594590033d9237bd877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 6002434305361157511, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
+  arrowPrefab: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
     type: 3}
-  speed: 0
+  speed: 3500
   velocity: {x: 0, y: 0, z: 0}
   mainCamera: {fileID: 0}

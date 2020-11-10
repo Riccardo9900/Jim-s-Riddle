@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class FireArrow : MonoBehaviour
 {
 
-    public Rigidbody2D arrowPrefab;
+    public GameObject arrowPrefab;
     public float speed;
     public Vector3 velocity;
     public Camera mainCamera;
@@ -61,18 +61,9 @@ public class FireArrow : MonoBehaviour
              prendo un vettore dalla funzione GetArrowRotation(vettoreMovimento), e lo inserirsco nella rotazione della freccia, quindi la freccia ruota di tot. Z
              Quaternion.Euler alla fine dei giochi è facile da capire, è una versione semplificata di un Quaternion ed è composto da un Vector3 come transform.rotation
              la freccia andrà girata sollo sull'asse Z*/
-            Rigidbody2D arrowInstantiated = Instantiate(arrowPrefab, transform.position + vettoreMovimento.normalized, Quaternion.Euler(GetArrowRotation(vettoreMovimento)));
-            
-            if (arrowInstantiated.GetComponent<Rigidbody2D>().velocity == Vector2.zero)
-            {
-                arrowInstantiated.GetComponent<Animator>().enabled = false;
-                Destroy(arrowInstantiated, 4f);
-            }
-
-            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
-            Physics2D.IgnoreCollision(arrowInstantiated.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
-
-            arrowInstantiated.AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
+            GameObject arrowInstantiated = Instantiate(arrowPrefab, transform.position + vettoreMovimento.normalized, Quaternion.Euler(GetArrowRotation(vettoreMovimento))) as GameObject;
+            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
+            arrowInstantiated.GetComponent<Rigidbody2D>().AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
             gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
             
 

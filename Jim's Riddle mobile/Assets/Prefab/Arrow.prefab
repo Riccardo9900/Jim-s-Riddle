@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4346244404228752641, guid: 68f5efb0a92784a46b4b5b26d1e8f182,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,7 +105,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!60 &4489272424964427871
 PolygonCollider2D:
@@ -148,7 +148,7 @@ Animator:
   m_GameObject: {fileID: 974615455453876657}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1139a957e82a89d4082d1583ba2da4f1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4b7b8189a5b5d634289acd8cf94bd20d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -170,6 +170,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5184774094914156528, guid: e7aea3cf27a62ed41b8ec4555440279b, type: 3}
-  velocity: 1000
-  destroyTimer: 10
   animator: {fileID: 8654046545993370489}
