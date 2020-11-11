@@ -26,6 +26,7 @@ public class FireArrow : MonoBehaviour
         if (tempoFreccia <= tempoDaInizioSparo)
         {
             ArrowPrefabCreation();
+            player.GetComponent<PlayerMovement>().arrowMotionZoom = true;
         }
         else
         {
