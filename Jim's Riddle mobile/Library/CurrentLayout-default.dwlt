@@ -99,7 +99,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -247,7 +247,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6a410000
+      m_SelectedIDs: e23f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 58fbffff7e3a0000
+      m_ExpandedIDs: 04f6ffff10f6ffff6c430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,16 +595,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: ac7dba3b73b1e8441b37153da70f99d8
   m_Gizmos: 1
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -20}
+    m_Target: {x: 125, y: 40, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -20}
+    m_Value: {x: 125, y: 40, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -654,9 +654,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 101.98039
     speed: 2
-    m_Value: 10
+    m_Value: 101.98039
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -720,21 +720,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/SimpleHealthBar
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/SimpleHealthBar
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rikys\Desktop\Jim's Riddle\Jim-s-Riddle\Jim-s-Riddle\Jim's
     Riddle mobile
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: e63e0000
-    m_LastClickedID: 16102
-    m_ExpandedIDs: 00000000c63e0000c83e0000ca3e0000cc3e0000ea3e000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: 3a3f0000
+    m_LastClickedID: 16186
+    m_ExpandedIDs: 00000000ea3e0000ec3e0000ee3e0000f03e00003a3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,7 +762,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c63e0000c83e0000ca3e0000cc3e0000
+    m_ExpandedIDs: 00000000ea3e0000ec3e0000ee3e0000f03e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -881,7 +881,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 411.06522
+  m_LastVerticalScrollValue: 0
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
