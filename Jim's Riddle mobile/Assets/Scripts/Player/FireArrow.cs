@@ -11,17 +11,27 @@ public class FireArrow : MonoBehaviour
     public float speed;
     public Vector3 velocity;
     public Camera mainCamera;
-
+    public GameObject player;
+    public float tempoFreccia = 2f;
+    public float tempoDaInizioSparo = 0f;
 
 
     void Start()
     {
-        
+        tempoDaInizioSparo = tempoFreccia;
     }
 
     void Update()
     {
-        ArrowPrefabCreation();
+        if (tempoFreccia <= tempoDaInizioSparo)
+        {
+            ArrowPrefabCreation();
+        }
+        else
+        {
+            player.GetComponent<PlayerMovement>().arrowMotionZoom = false;
+            tempoDaInizioSparo += Time.deltaTime;
+        }
     }
 
 
@@ -65,7 +75,7 @@ public class FireArrow : MonoBehaviour
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             arrowInstantiated.GetComponent<Rigidbody2D>().AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
             gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
-            
+            tempoDaInizioSparo = 0f;
 
         }
     }
