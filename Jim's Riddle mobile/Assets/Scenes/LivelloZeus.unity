@@ -4860,7 +4860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca9d0e3b48d18e43909bd95bdb96dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.83
+  speed: 2
   player: {fileID: 1384652822}
 --- !u!212 &1091944035
 SpriteRenderer:
@@ -4900,7 +4900,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095803727545094535, guid: 8344f447db8a9c7408625c0932ebfc63,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5065,7 +5065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PuntoDiSparo: {fileID: 1050325947}
-  Fulmine: {fileID: 1520301319666563481, guid: 7280c9bd6b2cecd409e9eb5af67d6c07, type: 3}
+  Fulmine: {fileID: 3011898898414249119, guid: 582ac5c05f7527c4cae4ffce4efb13aa, type: 3}
 --- !u!50 &1091944039
 Rigidbody2D:
   serializedVersion: 4
