@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator playerAnimation;
     public float movementIncrease; //aumenta la velocità di movimento
     public Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
+    public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject mainCamera;
     public GameObject arrow;
 
@@ -67,21 +68,25 @@ public class PlayerMovement : MonoBehaviour
     /*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
     public void ArrowFireMotion()
     {
-        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
+        if (arrowFireZoom)
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
-            //animazione attacco da inserire
-
-            //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
-            if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
+            if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
             {
-                mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
+                GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
+                                                                    //animazione attacco da inserire
+
+                //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
+                if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
+                {
+                    mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
+                }
             }
-        }
-        //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
-        else
-            if(mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
+            //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
+            else
+                        if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
                 mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
+        }
+        return;
     }
 
 
