@@ -9,30 +9,35 @@ public class FireArrow : MonoBehaviour
 
     public GameObject arrowPrefab;
     public float speed;
+    public GameObject player;
     public Vector3 velocity;
     public Camera mainCamera;
-    public GameObject player;
-    public float tempoFreccia = 2f;
-    public float tempoDaInizioSparo = 0f;
+    public float tempoInizioFreccia = 0f;   //tempo effettivo da quando viene sparata la freccia (verrà poi incrementato con Time.deltaTime)
+    public float tempoDurataFreccia = 2f;   //tempo max della durata della freccia
 
 
     void Start()
     {
-        tempoDaInizioSparo = tempoFreccia;
+        tempoInizioFreccia = tempoDurataFreccia;    
     }
 
     void Update()
     {
-        if (tempoFreccia <= tempoDaInizioSparo)
+        if(tempoDurataFreccia<= tempoInizioFreccia) //controllo se sono passati i secondi necessari per sparare
         {
+            //creo il prefab della freccia
             ArrowPrefabCreation();
-            player.GetComponent<PlayerMovement>().arrowMotionZoom = true;
+            //attivo l'animazione dello zoom dello sparo della freccia
+            player.GetComponent<PlayerMovement>().arrowFireZoom = true;
         }
         else
         {
-            player.GetComponent<PlayerMovement>().arrowMotionZoom = false;
-            tempoDaInizioSparo += Time.deltaTime;
+            //incremento il tempo 
+            tempoInizioFreccia += Time.deltaTime;
+            //disattivo l'animazione dello zoom dello sparo della freccia
+            player.GetComponent<PlayerMovement>().arrowFireZoom = false;
         }
+    
     }
 
 
@@ -76,7 +81,7 @@ public class FireArrow : MonoBehaviour
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             arrowInstantiated.GetComponent<Rigidbody2D>().AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
             gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
-            tempoDaInizioSparo = 0f;
+            tempoInizioFreccia = 0f; //una volta sparata la freccia resetto il tempo dello sparo
 
         }
     }

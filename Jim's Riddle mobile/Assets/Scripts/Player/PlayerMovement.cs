@@ -8,9 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public Joystick joystick; //Inserisco joystick
     public Animator playerAnimation;
-    public bool arrowMotionZoom = true;
     public float movementIncrease; //aumenta la velocità di movimento
     public Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
+    public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject mainCamera;
     public GameObject arrow;
 
@@ -64,10 +64,11 @@ public class PlayerMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = vettoreMovimento * movementIncrease * Time.deltaTime;
     }
 
+
     /*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
     public void ArrowFireMotion()
     {
-        if (arrowMotionZoom)
+        if (arrowFireZoom)
         {
             if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
             {
@@ -82,12 +83,11 @@ public class PlayerMovement : MonoBehaviour
             }
             //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
             else
-            if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
+                        if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
                 mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
         }
         return;
     }
-
 
 
 }
