@@ -13,6 +13,7 @@ public class Fulmine : MonoBehaviour
         vettoreMovimentoFulmine = GameObject.FindGameObjectWithTag("Player").transform.position; /* Ho messo questo vettore nella start in modo che prenda le coordinate attuali.
                                                                                                   * Se lo avessi messo nella update si sarebbero aggiornate in continuazione le coordinate
                                                                                                   * e il player non poteva scappare dal colpo */
+        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Zeus").GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
@@ -34,7 +35,6 @@ public class Fulmine : MonoBehaviour
         }
         else
         {
-            if(coll.tag != "Zeus")
             distruggiFulmine();
         }
     }
