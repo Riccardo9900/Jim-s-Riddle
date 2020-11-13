@@ -9,19 +9,35 @@ public class FireArrow : MonoBehaviour
 
     public GameObject arrowPrefab;
     public float speed;
+    public GameObject player;
     public Vector3 velocity;
     public Camera mainCamera;
-
+    public float tempoInizioFreccia = 0f;   //tempo effettivo da quando viene sparata la freccia (verrà poi incrementato con Time.deltaTime)
+    public float tempoDurataFreccia = 2f;   //tempo max della durata della freccia
 
 
     void Start()
     {
-        
+        tempoInizioFreccia = tempoDurataFreccia;    
     }
 
     void Update()
     {
-        ArrowPrefabCreation();
+        if(tempoDurataFreccia<= tempoInizioFreccia) //controllo se sono passati i secondi necessari per sparare
+        {
+            //creo il prefab della freccia
+            ArrowPrefabCreation();
+            //attivo l'animazione dello zoom dello sparo della freccia
+            player.GetComponent<PlayerMovement>().arrowFireZoom = true;
+        }
+        else
+        {
+            //incremento il tempo 
+            tempoInizioFreccia += Time.deltaTime;
+            //disattivo l'animazione dello zoom dello sparo della freccia
+            player.GetComponent<PlayerMovement>().arrowFireZoom = false;
+        }
+    
     }
 
 
@@ -65,7 +81,7 @@ public class FireArrow : MonoBehaviour
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             arrowInstantiated.GetComponent<Rigidbody2D>().AddForce(vettoreMovimento.normalized * StreghtFromCameraSize() * Time.deltaTime);
             gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
-            
+            tempoInizioFreccia = 0f; //una volta sparata la freccia resetto il tempo dello sparo
 
         }
     }
