@@ -11,6 +11,8 @@ TagManager:
   - DeathElement
   - changeScene
   - Collider
+  - Zeus
+  - Arrow
   layers:
   - Default
   - TransparentFX
