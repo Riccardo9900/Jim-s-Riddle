@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Healthbar : MonoBehaviour {
 
     // Visible health bar ui:
-    private Slider healthbarDisplay;
+    public Slider healthbarDisplay;
 
     [Header("Main Variables:")]
     // Health variable: (default range: 0-100)
@@ -39,18 +39,12 @@ public class Healthbar : MonoBehaviour {
     [Space]
 
     [Header("Healthbar Colors:")]
-    public Color highHealthColor = new Color(0.35f, 1f, 0.35f);
+    public Color highHealthColor = new Color(0, 1, 0);
     public Color mediumHealthColor = new Color(0.9450285f, 1f, 0.4481132f);
-    public Color lowHealthColor = new Color(1f, 0.259434f, 0.259434f);
+    public Color lowHealthColor = new Color(1f, 0,0);
 
     private void Start()
     {
-        // If the healthbar hasn't already been assigned, then automatically assign it.
-        if (healthbarDisplay == null)
-        {
-            healthbarDisplay = GetComponent<Slider>();
-        }
-
         // Set the minimum and maximum health on the healthbar to be equal to the 'minimumHealth' and 'maximumHealth' variables:
         healthbarDisplay.minValue = minimumHealth;
         healthbarDisplay.maxValue = maximumHealth;
@@ -62,6 +56,8 @@ public class Healthbar : MonoBehaviour {
     // Every frame:
     private void Update()
     {
+        healthbarDisplay.value = health;
+
         healthPercentage = int.Parse((Mathf.Round(maximumHealth * (health / 100f))).ToString());
 
         // If the player's health is below the minimum health, then set it to the minimum health:
@@ -90,22 +86,18 @@ public class Healthbar : MonoBehaviour {
     public void UpdateHealth()
     {
         // Change the health bar color acording to how much health the player has:
-        if (healthPercentage <= lowHealth && health >= minimumHealth && transform.Find("Bar").GetComponent<Image>().color != lowHealthColor)
+        if (healthbarDisplay.value <= 33)
         {
             ChangeHealthbarColor(lowHealthColor);
         }
-        else if (healthPercentage <= highHealth && health > lowHealth)
+        else if (healthbarDisplay.value > 33 && healthbarDisplay.value <= 66)
         {
-            float lerpedColorValue = (float.Parse(healthPercentage.ToString()) - 25) / 41;
-            ChangeHealthbarColor(Color.Lerp(lowHealthColor, mediumHealthColor, lerpedColorValue));
+            ChangeHealthbarColor(mediumHealthColor);
         }
-        else if (healthPercentage > highHealth && health <= maximumHealth)
+        else if (healthbarDisplay.value > 66)
         {
-            float lerpedColorValue = (float.Parse(healthPercentage.ToString()) - 67) / 33;
-            ChangeHealthbarColor(Color.Lerp(mediumHealthColor, highHealthColor, lerpedColorValue));
+            ChangeHealthbarColor(highHealthColor);
         }
-
-        healthbarDisplay.value = health;
     }
 
     public void GainHealth(float amount)
