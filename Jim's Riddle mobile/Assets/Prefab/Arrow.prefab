@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4489272424964427871}
   - component: {fileID: 8654046545993370489}
   - component: {fileID: 3824061663482842634}
-  - component: {fileID: 5739508797347573569}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -172,17 +171,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5184774094914156528, guid: e7aea3cf27a62ed41b8ec4555440279b, type: 3}
   animator: {fileID: 8654046545993370489}
---- !u!114 &5739508797347573569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974615455453876657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5b06f34620c74b4d8082042b19ca20c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tempoInizioFreccia: 0
-  tempoDurataFreccia: 1
