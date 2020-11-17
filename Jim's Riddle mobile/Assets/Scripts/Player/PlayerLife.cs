@@ -8,41 +8,53 @@ public class PlayerLife : MonoBehaviour
     public GameObject healtBarPlayer;
     public float dannoScheletro;
     public float tempoDaQuandoSeiPreso = 0f;
+    public float currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        healtBarPlayer.SetActive(true);
-        dannoScheletro = 10;
+        GestioneBarra();
+        currentHealth = healthBarScript.health;
+        dannoScheletro = 20;
     }
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.tag == "Scheletro")
         {
-            tempoDaQuandoSeiPreso = 0f;
-            healtBarPlayer.SetActive(true);
+            GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoScheletro;
-            Debug.Log(healthBarScript.health);
+            Debug.Log("Hai " + (healthBarScript.health)/10f + " vite");
+            currentHealth = healthBarScript.health;
+            if(currentHealth < 1)
+            {
+                Morte();
+            }
         }
     }
 
-    public void UpdateTime()
+    public void GestioneBarra()
     {
-        tempoDaQuandoSeiPreso += Time.deltaTime;
-        if (tempoDaQuandoSeiPreso >= 2.5f)
+        healtBarPlayer.SetActive(true);
+        Invoke("DisattivaBarra", 2.5f);  //Disattiva la healtBarPlayer dopo 2,5 secondi
+    }
+
+   public void DisattivaBarra()
+    {
+        healtBarPlayer.SetActive(false);
+    }
+
+    public void Morte()
+    {
+        if(currentHealth <= 0)
         {
-            healtBarPlayer.SetActive(false);
+            GetComponent<PlayerDamage>().Death();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateTime();
-        if(healthBarScript.health <= 0)
-        {
-            GetComponent<PlayerDamage>().Death();
-        }
+        
     }
 }

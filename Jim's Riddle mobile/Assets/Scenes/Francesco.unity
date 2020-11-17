@@ -11825,8 +11825,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBarScript: {fileID: 1935914416141565358}
   healtBarPlayer: {fileID: 1935914416141565356}
-  dannoScheletro: 50
+  dannoScheletro: 20
   tempoDaQuandoSeiPreso: 0
+  currentHealth: 0
 --- !u!1 &1935914416141565356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4175659422497410945, guid: ba9063fa4df6a484ab04be14fe275b42,
