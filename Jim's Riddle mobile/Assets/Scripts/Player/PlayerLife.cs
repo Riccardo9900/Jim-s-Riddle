@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class PlayerLife : MonoBehaviour
 {
-    public Healthbar healthBarScript;
-    private float dannoFreccia;
+    public HealthbarPlayer healthBarScript;
+    public float dannoScheletro;
+    public GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {
-        dannoFreccia = 10;
+        dannoScheletro = 10;
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.collider.tag == "Scheletro")
+        if (coll.tag == "Scheletro")
         {
-            healthBarScript.health = healthBarScript.health - dannoFreccia;
+            healthBarScript.health = healthBarScript.health - dannoScheletro;
             Debug.Log(healthBarScript.health);
         }
     }
@@ -24,6 +26,9 @@ public class PlayerLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(healthBarScript.health <= 0)
+        {
+            player.GetComponent<PlayerDamage>().Death();
+        }
     }
 }

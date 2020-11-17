@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class HealthbarPlayer : MonoBehaviour
 {
     public Slider healthbarDisplay; //Display
-    public GameObject healtbarPlayer;
     public GameObject player;
     public Color highHealthColor;
     public Color mediumHealthColor;
@@ -17,7 +16,6 @@ public class HealthbarPlayer : MonoBehaviour
     private void Start()
     {
         transform.position = player.transform.position.normalized;
-        healtbarPlayer.SetActive(true);
         highHealthColor = new Color(0, 1f, 0); //vita verde
         mediumHealthColor = new Color(0.9450285f, 1f, 0.4481132f); //vita gialla
         lowHealthColor = new Color(1f, 0, 0); //vita rossa
@@ -26,13 +24,6 @@ public class HealthbarPlayer : MonoBehaviour
     // Every frame:
     private void Update()
     {
-       //controllo tempo per disattivare la barra del player
-       // tempoDaCaricamentoScena += Time.deltaTime;
-       // if (tempoDaCaricamentoScena >= 2.5f)
-       // {
-       //     healtbarPlayer.SetActive(false);
-       // }
-
         healthbarDisplay.value = health;
 
         //Se ha un range di vita cambia colore alla barra

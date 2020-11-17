@@ -1779,6 +1779,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scheletro
       objectReference: {fileID: 0}
+    - target: {fileID: 8654236922517519449, guid: 0c56f2414022ff24eabd1de54befdb1a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c56f2414022ff24eabd1de54befdb1a, type: 3}
 --- !u!1 &1462422240
@@ -11480,19 +11485,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1410208830}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1871091852
-MonoBehaviour:
+--- !u!50 &1871091846
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871091845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a909caa8a0958824b8341d0c5f0517b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBarScript: {fileID: 0}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1932533013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11799,6 +11812,21 @@ Rigidbody2D:
     type: 3}
   m_PrefabInstance: {fileID: 1738352733}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2059046112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059046100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a909caa8a0958824b8341d0c5f0517b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarScript: {fileID: 1935914416141565358}
+  dannoScheletro: 20
+  player: {fileID: 2059046100}
 --- !u!224 &1857187854828817846 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4245026907531886491, guid: ba9063fa4df6a484ab04be14fe275b42,
@@ -11824,7 +11852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbarDisplay: {fileID: 1935914416141565359}
-  healtbarPlayer: {fileID: 1935914416141565356}
   player: {fileID: 2059046100}
   highHealthColor: {r: 0, g: 0, b: 0, a: 0}
   mediumHealthColor: {r: 0, g: 0, b: 0, a: 0}
@@ -11872,7 +11899,12 @@ PrefabInstance:
     - target: {fileID: 4063030952743114321, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.5686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066578790571361753, guid: ba9063fa4df6a484ab04be14fe275b42,
+        type: 3}
+      propertyPath: m_Value
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4175217872908599629, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
@@ -11883,6 +11915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthbarPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175659422497410945, guid: ba9063fa4df6a484ab04be14fe275b42,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4245026907531886491, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
@@ -11942,12 +11979,12 @@ PrefabInstance:
     - target: {fileID: 4245026907531886491, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.04
+      value: 0.040039062
       objectReference: {fileID: 0}
     - target: {fileID: 4245026907531886491, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13.09
+      value: -13.089966
       objectReference: {fileID: 0}
     - target: {fileID: 4245026907531886491, guid: ba9063fa4df6a484ab04be14fe275b42,
         type: 3}
