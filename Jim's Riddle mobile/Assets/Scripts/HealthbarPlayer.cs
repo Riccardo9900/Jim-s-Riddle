@@ -11,11 +11,9 @@ public class HealthbarPlayer : MonoBehaviour
     public Color mediumHealthColor;
     public Color lowHealthColor;
     public float health = 100;
-    // private float tempoDaCaricamentoScena = 0f;
 
     private void Start()
     {
-        transform.position = player.transform.position.normalized;
         highHealthColor = new Color(0, 1f, 0); //vita verde
         mediumHealthColor = new Color(0.9450285f, 1f, 0.4481132f); //vita gialla
         lowHealthColor = new Color(1f, 0, 0); //vita rossa
