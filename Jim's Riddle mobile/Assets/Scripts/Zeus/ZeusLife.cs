@@ -17,7 +17,10 @@ public class ZeusLife : MonoBehaviour
         if(coll.collider.tag == "Arrow")
         {
             healthBarScript.health = healthBarScript.health - dannoFreccia;
-            Debug.Log(healthBarScript.health);
+        }
+        if(healthBarScript.health == 0.0f)
+        {
+            Destroy(gameObject);
         }
     }
 
