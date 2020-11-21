@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScheletroFollowing : MonoBehaviour
 {
     Transform target;
-    public float CubeSpeed;
+    public float enemySpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class ScheletroFollowing : MonoBehaviour
         //per fare in modo che il cubo ruoti in base alla posizione del personaggio
         var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * CubeSpeed);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * enemySpeed);
     }
 
     // Update is called once per frame

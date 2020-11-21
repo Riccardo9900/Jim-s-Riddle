@@ -49,6 +49,10 @@ public class PlayerLife : MonoBehaviour
         if(currentHealth <= 0)
         {
             GetComponent<PlayerDamage>().Death();
+
+            //Da disattivare il metodo 'sparaFumine' di ZeusAttack (perché il piccolo programmatore Riccardo non l'ha fatto)
+            //GetComponent<ZeusAttack>().sparaFulmine().enabled = false;
+            
         }
     }
 

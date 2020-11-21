@@ -18,7 +18,7 @@ public class AttivazionePorta : MonoBehaviour
         if(col.tag == "Player")
         {
             Debug.Log("Hai chiuso la porta!");
-            //fai partire l'animazione della porta (da aggiungere)
+            //fai partire l'animazione della porta (da aggiungere) e quelle di Riccardo (potremo semplicemente unire questo script nei suoi)
             
           
             porta.SetActive(true);
