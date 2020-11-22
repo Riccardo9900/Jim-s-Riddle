@@ -7,6 +7,7 @@ public class PlayerLife : MonoBehaviour
     public HealthbarPlayer healthBarScript;
     public GameObject healtBarPlayer;
     public float dannoScheletro;
+    public float dannoFulmine;
     public float tempoDaQuandoSeiPreso = 0f;
     public float currentHealth;
 
@@ -15,7 +16,6 @@ public class PlayerLife : MonoBehaviour
     {
         GestioneBarra();
         currentHealth = healthBarScript.health;
-        dannoScheletro = 20;
     }
 
     public void OnTriggerEnter2D(Collider2D coll)
@@ -24,13 +24,15 @@ public class PlayerLife : MonoBehaviour
         {
             GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoScheletro;
-            Debug.Log("Hai " + (healthBarScript.health)/10f + " vite");
-            currentHealth = healthBarScript.health;
-            if(currentHealth < 1)
-            {
-                Morte();
-            }
         }
+        if(coll.tag == "Fulmine")
+        {
+            GestioneBarra();
+            healthBarScript.health = healthBarScript.health - dannoFulmine;
+        }
+
+        Debug.Log("Hai " + (healthBarScript.health) / 10f + " vite");
+        currentHealth = healthBarScript.health;
     }
 
     public void GestioneBarra()
@@ -59,6 +61,9 @@ public class PlayerLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentHealth < 1)
+        {
+            Morte();
+        }
     }
 }
