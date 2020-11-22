@@ -14,8 +14,8 @@ TagManager:
   - Zeus
   - Arrow
   - Bar
-  - BarPlayer
-  - Scheletro
+  - healthBar
+  - portaInizio
   layers:
   - Default
   - TransparentFX
