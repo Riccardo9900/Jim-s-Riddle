@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Fulmine : MonoBehaviour
 {
     public float speed;
+    public GameObject Arrow1;
     private Vector3 vettoreMovimentoFulmine;
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,10 @@ public class Fulmine : MonoBehaviour
 
     public void OnTriggerEnter2D (Collider2D coll)
     {
+        if(coll.tag == "Arrow" || coll.tag == "Fulmine")
+        {
+            return;
+        }
         if(coll.tag == "Player")
         {
             Debug.Log("Il player è stato colpito");

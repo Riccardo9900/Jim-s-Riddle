@@ -2,7 +2,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Healthbar : MonoBehaviour {
+public class Healthbar : MonoBehaviour
+{
 
     public Slider healthbarDisplay; //Display
     public float health = 100;
@@ -16,7 +17,7 @@ public class Healthbar : MonoBehaviour {
         highHealthColor = new Color(0, 1f, 0); //vita verde
         mediumHealthColor = new Color(0.9450285f, 1f, 0.4481132f); //vita gialla
         lowHealthColor = new Color(1f, 0, 0); //vita rossa
-}
+    }
 
     // Every frame:
     private void Update()
@@ -24,13 +25,13 @@ public class Healthbar : MonoBehaviour {
         healthbarDisplay.value = health;
 
         //Se ha un range di vita cambia colore alla barra
-       if (healthbarDisplay.value <= 33)
+        if (healthbarDisplay.value <= 33)
         {
             ChangeHealthbarColor(lowHealthColor);
         }
-       else if (healthbarDisplay.value > 33 && healthbarDisplay.value <= 66)
+        else if (healthbarDisplay.value > 33 && healthbarDisplay.value <= 66)
         {
-            ChangeHealthbarColor(mediumHealthColor);   
+            ChangeHealthbarColor(mediumHealthColor);
         }
     }
 

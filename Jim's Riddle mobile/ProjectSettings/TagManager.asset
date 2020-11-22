@@ -16,6 +16,9 @@ TagManager:
   - Bar
   - BarPlayer
   - Scheletro
+  - portaInizio
+  - healthBar
+  - Fulmine
   layers:
   - Default
   - TransparentFX

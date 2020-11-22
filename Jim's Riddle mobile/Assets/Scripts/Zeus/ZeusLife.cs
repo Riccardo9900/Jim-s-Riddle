@@ -12,21 +12,20 @@ public class ZeusLife : MonoBehaviour
         dannoFreccia = 5;
     }
 
-    void OnCollisionEnter2D (Collision2D coll)
+    void OnTriggerEnter2D (Collider2D coll)
     {
-        if(coll.collider.tag == "Arrow")
+        if(coll.tag == "Arrow")
         {
             healthBarScript.health = healthBarScript.health - dannoFreccia;
-        }
-        if(healthBarScript.health == 0.0f)
-        {
-            Destroy(gameObject);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (healthBarScript.health == 0.0f)
+        {
+            Destroy(gameObject);
+        }
     }
 }

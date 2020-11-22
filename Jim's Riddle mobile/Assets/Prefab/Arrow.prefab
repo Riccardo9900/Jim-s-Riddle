@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -4346244404228752641, guid: 68f5efb0a92784a46b4b5b26d1e8f182,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -117,7 +117,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -170,4 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5184774094914156528, guid: e7aea3cf27a62ed41b8ec4555440279b, type: 3}
+  Arrow1: {fileID: 974615455453876657}
+  fulmine: {fileID: 3011898898414249119, guid: 582ac5c05f7527c4cae4ffce4efb13aa, type: 3}
   animator: {fileID: 8654046545993370489}
