@@ -240,6 +240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrowPrefab: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
     type: 3}
-  speed: 3500
+  speed: 100000
   velocity: {x: 0, y: 0, z: 0}
   mainCamera: {fileID: 0}
+  player: {fileID: 5184774094914156528}

@@ -32,11 +32,8 @@ public class Arrow : MonoBehaviour
         }
             animator.SetBool("isColliding", true);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            Destroy(gameObject, 5f);
+            Destroy(gameObject, 1f);
             Debug.Log("Collisiom");
-
-
-
     }
 
 
