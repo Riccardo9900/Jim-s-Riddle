@@ -26,14 +26,13 @@ public class Arrow : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.tag == "Fulmine" || collider.tag == "Arrow")
+        if(collider.tag == "Arrow")
         {
             return;
         }
             animator.SetBool("isColliding", true);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Destroy(gameObject, 1f);
-            Debug.Log("Collisiom");
     }
 
 
