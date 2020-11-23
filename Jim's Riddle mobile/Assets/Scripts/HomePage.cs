@@ -21,7 +21,7 @@ public class HomePage : MonoBehaviour
     public void ReloadHomePage()
     {
         Debug.Log("Sei tornato in home page!");
-        SceneManager.LoadScene("Scena iniziale");
+        SceneManager.LoadScene("Mappa Generale");
         Time.timeScale = 1;
     }
 }

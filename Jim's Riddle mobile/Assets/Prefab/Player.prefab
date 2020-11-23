@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 5184774094914156523}
   - component: {fileID: 5184774094914156526}
   - component: {fileID: 8330375255507825921}
+  - component: {fileID: 4196005815601746127}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -107,6 +108,7 @@ MonoBehaviour:
   playerAnimation: {fileID: 5184774094914156532}
   movementIncrease: 175
   vettoreMovimento: {x: 0, y: 0, z: 0}
+  arrowFireZoom: 1
   mainCamera: {fileID: 0}
   arrow: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad, type: 3}
 --- !u!114 &5184774094914156520
@@ -122,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impoPanel: {fileID: 0}
+  tastoImpostazioni: {fileID: 0}
 --- !u!114 &5184774094914156521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,7 +140,9 @@ MonoBehaviour:
   pausePanel: {fileID: 0}
   buttonReload: {fileID: 0}
   tastoPausa: {fileID: 0}
+  fireButton: {fileID: 0}
   canvasJoystick: {fileID: 0}
+  tastoHome: {fileID: 0}
 --- !u!114 &5184774094914156527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +163,8 @@ MonoBehaviour:
   player: {fileID: 5184774094914156528}
   toDestroy: {fileID: 0}
   tastoPausa: {fileID: 0}
+  fireButton: {fileID: 0}
+  canvasJoystick: {fileID: 0}
 --- !u!95 &5184774094914156532
 Animator:
   serializedVersion: 3
@@ -241,6 +248,20 @@ MonoBehaviour:
   arrowPrefab: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
     type: 3}
   speed: 100000
+  player: {fileID: 5184774094914156528}
   velocity: {x: 0, y: 0, z: 0}
   mainCamera: {fileID: 0}
-  player: {fileID: 5184774094914156528}
+  tempoInizioFreccia: 0
+  tempoDurataFreccia: 2
+--- !u!114 &4196005815601746127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184774094914156528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99df8dc1b95c36e4e9152d207833e89a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

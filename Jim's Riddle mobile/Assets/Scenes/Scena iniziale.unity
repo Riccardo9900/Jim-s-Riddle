@@ -642,8 +642,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1655490188}
-        m_MethodName: LoadSceneZeus
+      - m_Target: {fileID: 1655490186}
+        m_MethodName: VaiAMapaIniziale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1769,7 +1769,7 @@ GameObject:
   - component: {fileID: 1655490187}
   - component: {fileID: 1655490185}
   - component: {fileID: 1655490184}
-  - component: {fileID: 1655490188}
+  - component: {fileID: 1655490186}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1814,21 +1814,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
---- !u!114 &1655490187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655490183}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impoPanel: {fileID: 1839877595}
-  tastoImpostazioni: {fileID: 0}
---- !u!114 &1655490188
+--- !u!114 &1655490186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1837,9 +1823,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1655490183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e54142424365f14d910c6af318969b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2201d82fa96c3d24285f1632e8f47474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1655490187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655490183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impoPanel: {fileID: 1839877595}
+  tastoImpostazioni: {fileID: 1176967098}
 --- !u!212 &1655490191
 SpriteRenderer:
   m_ObjectHideFlags: 0

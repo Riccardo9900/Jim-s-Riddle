@@ -792,7 +792,7 @@ PrefabInstance:
     - target: {fileID: 8330375255507825921, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
       propertyPath: speed
-      value: 2500
+      value: 27000
       objectReference: {fileID: 0}
     - target: {fileID: 8330375255507825921, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
@@ -1239,6 +1239,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: TastoImpoOff
       objectReference: {fileID: 0}
+    - target: {fileID: 7584635772167478960, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 320966193}
+    - target: {fileID: 7584635772167478960, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ArrowFireMotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7803228964990832217, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 645142900419587762, guid: b3ae3e20e97bf434089978b5965600a1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48249a19e189c8542a03e8e3fc9105f6, type: 3}
 --- !u!1 &503579123 stripped
