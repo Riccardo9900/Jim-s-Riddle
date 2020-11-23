@@ -11,6 +11,14 @@ TagManager:
   - DeathElement
   - changeScene
   - Collider
+  - Zeus
+  - Arrow
+  - Bar
+  - BarPlayer
+  - Scheletro
+  - portaInizio
+  - healthBar
+  - Fulmine
   layers:
   - Default
   - TransparentFX

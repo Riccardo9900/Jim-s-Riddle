@@ -16,8 +16,8 @@ public class ZeusMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, player.position) < 10 &&
-            Vector3.Distance(transform.position, player.position) > 5.5 &&
+        if (Vector3.Distance(transform.position, player.position) < 13 &&
+            Vector3.Distance(transform.position, player.position) > 8.5 &&
             transform.position.y >= -3.7)  //se la distanza tra zeus e il player è minore di 9 e maggiore di 5.5 zeus rincorre il player
                                                                           //cosi non si avvicina troppo e si dirige solo quando "rileva" il player.
                                                                           //Non continua ad andare se il player si rifugia nel sentiero
