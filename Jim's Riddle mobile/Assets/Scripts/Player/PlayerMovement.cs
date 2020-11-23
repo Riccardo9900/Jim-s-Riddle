@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
         {
+            playerAnimation.SetTrigger("Attack");
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
             //animazione attacco da inserire
 
@@ -80,9 +81,8 @@ public class PlayerMovement : MonoBehaviour
         }
         //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
         else
-            if(mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
-                mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
+            if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
+            mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
     }
-
-
+    
 }
