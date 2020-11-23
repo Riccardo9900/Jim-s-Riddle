@@ -53,14 +53,14 @@ public class FireArrow : MonoBehaviour
     /*Funzione che restituisce un float prendendo come riferimento la <size> della telecamera collegata al player*/
     private float StreghtFromCameraSize()
     {
-        float floatReturned = speed / 3f;
+        float floatReturned = speed;
 
         if (mainCamera.GetComponent<Camera>().orthographicSize <= 7.09f && mainCamera.GetComponent<Camera>().orthographicSize > 6.724f)
-            floatReturned = speed / 3f;
-        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.724f && mainCamera.GetComponent<Camera>().orthographicSize > 6.358f)
-            floatReturned = speed / 2f;
-        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.358f)
             floatReturned = speed;
+        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.724f && mainCamera.GetComponent<Camera>().orthographicSize > 6.358f)
+            floatReturned = speed * 2;
+        else if (mainCamera.GetComponent<Camera>().orthographicSize <= 6.358f)
+            floatReturned = speed * 2.5f;
 
         return floatReturned;
             
