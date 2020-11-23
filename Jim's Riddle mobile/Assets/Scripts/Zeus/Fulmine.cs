@@ -22,6 +22,10 @@ public class Fulmine : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, vettoreMovimentoFulmine  , speed * Time.deltaTime); //Funzione che da un vettore di partenza insegue un altro vettore
+        if(transform.position == vettoreMovimentoFulmine)
+        {
+            distruggiFulmine(0f);
+        }
     }
 
     public void OnTriggerEnter2D (Collider2D coll)
