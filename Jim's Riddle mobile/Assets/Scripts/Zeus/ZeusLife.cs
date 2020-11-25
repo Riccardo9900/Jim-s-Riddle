@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class ZeusLife : MonoBehaviour
 {
+    public GameObject healtBarZeus;
     public Healthbar healthBarScript;
     private float dannoFreccia;
     // Start is called before the first frame update
     void Start()
     {
+        healtBarZeus.SetActive(false);
         dannoFreccia = 5;
     }
 
@@ -16,6 +18,7 @@ public class ZeusLife : MonoBehaviour
     {
         if(coll.tag == "Arrow")
         {
+            healtBarZeus.SetActive(true);
             healthBarScript.health = healthBarScript.health - dannoFreccia;
         }
     }
