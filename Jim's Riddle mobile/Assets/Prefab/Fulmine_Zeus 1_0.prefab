@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bbc8ea803bf72041867c9181438425a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 10.5
   Arrow1: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad, type: 3}
 --- !u!60 &-4831154918358092799
 PolygonCollider2D:
