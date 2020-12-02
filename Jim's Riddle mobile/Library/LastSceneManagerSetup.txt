@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Riccardo.unity
+- path: Assets/Scenes/FraTestSparoJoystick.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
