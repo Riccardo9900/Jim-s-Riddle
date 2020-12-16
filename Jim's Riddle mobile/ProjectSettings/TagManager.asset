@@ -19,6 +19,7 @@ TagManager:
   - portaInizio
   - healthBar
   - Fulmine
+  - Anubi
   layers:
   - Default
   - TransparentFX
