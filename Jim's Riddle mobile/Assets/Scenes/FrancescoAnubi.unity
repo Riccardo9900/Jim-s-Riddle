@@ -1766,6 +1766,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 905871499}
+    - target: {fileID: 8330375255507825921, guid: e7aea3cf27a62ed41b8ec4555440279b,
+        type: 3}
+      propertyPath: joystickSparo
+      value: 
+      objectReference: {fileID: 1113125711}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7aea3cf27a62ed41b8ec4555440279b, type: 3}
 --- !u!1 &893182915 stripped
@@ -2147,6 +2152,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113125711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7931602100763990721, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7931602099602843574}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9fca4100a7477741b3973b4ff2c405f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1161715153
 PrefabInstance:
   m_ObjectHideFlags: 0

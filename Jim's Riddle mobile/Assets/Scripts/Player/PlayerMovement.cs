@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator playerAnimation;
     public float movementIncrease; //aumenta la velocità di movimento
     public Vector3 vettoreMovimento; // è il vettore movimento che verrà applicato al movimento del giocatore sui due assi
-    public bool arrowFireZoom = true; //servirà in ArrowFireMotion
+    //public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject mainCamera;
     public GameObject arrow;
 
@@ -71,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
     //{
     //    if (arrowFireZoom)
     //    {
-    //        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
+    //        if ((joystick.Horizontal != 0 && joystick.Vertical !=0) || Input.GetMouseButton(1))
     //        {
     //            GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
     //                                                                //animazione attacco da inserire
