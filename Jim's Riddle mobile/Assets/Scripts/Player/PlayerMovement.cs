@@ -17,14 +17,15 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        joystick = FindObjectOfType<Joystick>(); //Cerca il joystick negli oggetti
+        GameObject.FindGameObjectsWithTag("JoystickMovimento"); //Cerca il joystickMovimento negli oggetti
+        GameObject.FindGameObjectsWithTag("JoystickSparo"); //Cerca il joystickSparo negli oggetti (potrebbe non servire)
     }
 
 
     void FixedUpdate()
     {
         MovementAndAnimation();
-        ArrowFireMotion();
+        //ArrowFireMotion();
     }
 
     void OnTriggerEnter2D (Collider2D coll)
@@ -65,29 +66,29 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    /*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
-    public void ArrowFireMotion()
-    {
-        if (arrowFireZoom)
-        {
-            if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
-            {
-                GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
-                                                                    //animazione attacco da inserire
+    ///*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
+    //public void ArrowFireMotion()
+    //{
+    //    if (arrowFireZoom)
+    //    {
+    //        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(1))
+    //        {
+    //            GetComponent<Rigidbody2D>().velocity = Vector2.zero;//Imposto la velocità del player uguale a zero
+    //                                                                //animazione attacco da inserire
 
-                //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
-                if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
-                {
-                    mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
-                }
-            }
-            //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
-            else
-                        if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
-                mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
-        }
-        return;
-    }
+    //            //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
+    //            if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
+    //            {
+    //                mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
+    //            }
+    //        }
+    //        //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
+    //        else
+    //                    if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
+    //            mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
+    //    }
+    //    return;
+    //}
 
 
 }
