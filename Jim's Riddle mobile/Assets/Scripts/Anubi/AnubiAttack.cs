@@ -30,34 +30,34 @@ public class AnubiAttack : MonoBehaviour
         {
             if (healtBarAnubi.health >= 90 && healtBarAnubi.health < 100)
             {
-                GameObject scheletroInstantiated1 = Instantiate(scheletroPrefab, spawnPoint1.transform);
+                Instantiate(scheletroPrefab, spawnPoint1.transform);
             }
             if (healtBarAnubi.health >= 80 && healtBarAnubi.health < 90)
             {
 
-                GameObject scheletroInstantiated2 = Instantiate(scheletroPrefab, spawnPoint2.transform);
+                Instantiate(scheletroPrefab, spawnPoint2.transform);
 
             }
             if (healtBarAnubi.health >= 70 && healtBarAnubi.health < 80)
             {
 
-                GameObject scheletroInstantiated3 = Instantiate(scheletroPrefab, spawnPoint3.transform);
+                Instantiate(scheletroPrefab, spawnPoint3.transform);
 
-                GameObject scheletroInstantiated2 = Instantiate(scheletroPrefab, spawnPoint2.transform);
+                Instantiate(scheletroPrefab, spawnPoint2.transform);
 
-                GameObject scheletroInstantiated1 = Instantiate(scheletroPrefab, spawnPoint1.transform);
+                Instantiate(scheletroPrefab, spawnPoint1.transform);
 
             }
             if (healtBarAnubi.health <= 60)
             {
 
-                GameObject scheletroInstantiated4 = Instantiate(scheletroPrefab, spawnPoint4.transform);
+                Instantiate(scheletroPrefab, spawnPoint4.transform);
 
-                GameObject scheletroInstantiated3 = Instantiate(scheletroPrefab, spawnPoint3.transform);
+                Instantiate(scheletroPrefab, spawnPoint3.transform);
 
-                GameObject scheletroInstantiated2 = Instantiate(scheletroPrefab, spawnPoint2.transform);
+                Instantiate(scheletroPrefab, spawnPoint2.transform);
 
-                GameObject scheletroInstantiated1 = Instantiate(scheletroPrefab, spawnPoint1.transform);
+                Instantiate(scheletroPrefab, spawnPoint1.transform);
 
             }
         }
