@@ -12,9 +12,9 @@ public class cambioCameraManage : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D (Collider2D coll)
+    void OnCollisionEnter2D (Collision2D coll)
     {
-        if(coll.tag == "portaInizio")
+        if(coll.collider.tag == "portaInizio")
         {
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             gameObject.GetComponent<PlayerMovement>().enabled = false;

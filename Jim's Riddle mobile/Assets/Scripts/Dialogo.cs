@@ -11,6 +11,7 @@ public class Dialogo : MonoBehaviour
     private int index;
     public GameObject tastoContinua;
     private Vector3 posizioneIniziale;
+    public GameObject sfondoJoystick;
 
     void Start()
     {
@@ -47,6 +48,7 @@ public class Dialogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (textDisplay.text == frasi[index])
 
             tastoContinua.SetActive(settaggioContinua());
@@ -58,12 +60,44 @@ public class Dialogo : MonoBehaviour
         {
             return movimentoVerificato();
         }
+        if(index == 3)
+        {
+            return contattoConPorta();
+        }
+
+        if(index == 5)
+        {
+            return fineMovimentoCamera();
+        }
+            
         else
             return true;
     }
 
+    bool fineMovimentoCamera()
+    {
+        if(GameObject.FindGameObjectWithTag("portaInizio") != null)
+        {
+            return false;
+        }
+        return true;
+    }
+
+
+
+    bool contattoConPorta()
+    {
+        if(GameObject.FindGameObjectWithTag("Porta").GetComponent<Animator>().enabled == true)
+        {
+            return true;
+        }
+        return false;
+    }
+
     bool movimentoVerificato()
     {
+        sfondoJoystick.SetActive(true);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
         if (posizioneIniziale == GameObject.FindGameObjectWithTag("Player").transform.position)
 
             return false;
