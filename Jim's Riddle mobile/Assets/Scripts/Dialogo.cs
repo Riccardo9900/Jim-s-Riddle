@@ -5,13 +5,24 @@ using TMPro;
 
 public class Dialogo : MonoBehaviour
 {
+    //display testo
     public TextMeshProUGUI textDisplay;
+    
+    //Lettere tutorial
     public string[] frasi;
     public float velocitascorrimento;
     private int index;
-    public GameObject tastoContinua;
-    private Vector3 posizioneIniziale;
+
+    //Oggetti che compaiono durante il tutorial
+    public GameObject CanvasHealthBarBoss;
+    public GameObject canvasPausa;
+    public GameObject tastoContinua;    
     public GameObject sfondoJoystick;
+
+    //oggetti per l'avanzamento del tutorial
+    private Vector3 posizioneIniziale;
+    public Healthbar Healthbarboss;
+    public GameObject boss;
 
     void Start()
     {
@@ -67,11 +78,29 @@ public class Dialogo : MonoBehaviour
 
         if(index == 5)
         {
+            CanvasHealthBarBoss.SetActive(true);
             return fineMovimentoCamera();
+        }
+
+        if(index == 8)
+        {
+            return bossColpito();
         }
             
         else
             return true;
+    }
+
+    bool bossColpito()
+    {
+        canvasPausa.SetActive(true);
+        boss.GetComponent<ZeusLife>().enabled = true;
+        boss.GetComponent<ZeusDeath>().enabled = true;
+        if(Healthbarboss.health != 100)
+        {
+            return true;
+        }
+        return false;
     }
 
     bool fineMovimentoCamera()

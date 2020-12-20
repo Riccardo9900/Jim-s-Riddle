@@ -67,7 +67,7 @@ public class FireArrow : MonoBehaviour
     }
 
     /*Crea il prefab della freccia*/
-    private void ArrowPrefabCreation()
+    public void ArrowPrefabCreation()
     {
         Vector3 vettoreMovimento = gameObject.GetComponent<PlayerMovement>().vettoreMovimento;//prendo il vettore movimento che fa muovere il player
 
