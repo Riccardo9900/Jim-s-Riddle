@@ -18,6 +18,10 @@ public class Dialogo : MonoBehaviour
     public GameObject canvasPausa;
     public GameObject tastoContinua;    
     public GameObject sfondoJoystick;
+    public GameObject frecciaTutorial1;
+
+    //Camera
+    public Camera mainCamera;
 
     //oggetti per l'avanzamento del tutorial
     private Vector3 posizioneIniziale;
@@ -78,7 +82,6 @@ public class Dialogo : MonoBehaviour
 
         if(index == 5)
         {
-            CanvasHealthBarBoss.SetActive(true);
             return fineMovimentoCamera();
         }
 
@@ -86,11 +89,24 @@ public class Dialogo : MonoBehaviour
         {
             return bossColpito();
         }
+
+        if(index == 9)
+        {
+            return bossMorto();
+        }
             
         else
             return true;
     }
 
+    bool bossMorto()
+    {
+        if(boss == null)
+        {
+            return true;
+        }
+        return false;
+    }
     bool bossColpito()
     {
         canvasPausa.SetActive(true);
@@ -105,7 +121,11 @@ public class Dialogo : MonoBehaviour
 
     bool fineMovimentoCamera()
     {
-        if(GameObject.FindGameObjectWithTag("portaInizio") != null)
+        if (mainCamera.GetComponent<indietro>().enabled == true)
+        {
+            CanvasHealthBarBoss.SetActive(true);
+        }
+        if (GameObject.FindGameObjectWithTag("portaInizio") != null)
         {
             return false;
         }
@@ -126,12 +146,16 @@ public class Dialogo : MonoBehaviour
     bool movimentoVerificato()
     {
         sfondoJoystick.SetActive(true);
+        frecciaTutorial1.SetActive(true);
         GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
         if (posizioneIniziale == GameObject.FindGameObjectWithTag("Player").transform.position)
 
             return false;
         else
-       
+        {
+
+            frecciaTutorial1.SetActive(false);
             return true;
+        }
     }
 }

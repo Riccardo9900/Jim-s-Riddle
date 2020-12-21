@@ -778,7 +778,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1446459398380425890, guid: 5f126c3b39c3dcd419435b564c3e4c87,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -884,6 +884,12 @@ CanvasRenderer:
 --- !u!1 &514775064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2133288018272349080, guid: 7bf64cd243926c94f921497b017e1f13,
+    type: 3}
+  m_PrefabInstance: {fileID: 1482481379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &514775065 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2133288018272349084, guid: 7bf64cd243926c94f921497b017e1f13,
     type: 3}
   m_PrefabInstance: {fileID: 1482481379}
   m_PrefabAsset: {fileID: 0}
@@ -5472,12 +5478,20 @@ MonoBehaviour:
   - Per lanciare la sfera di energia muovi il joystick in basso a destra nella direzione
     in cui vuoi lanciare la sfera e poi rilascia il colpo. Mi raccomando, mira al
     boss!
+  - Ora sconfiggi la creatura che hai davanti!
+  - "Bene! Una volta sconfitta la creatura, essa ti dar\xE0 un indizio per superare
+    la prossima stanza. "
+  - 
+  - 
+  - 
   - 
   velocitascorrimento: 0.04
   CanvasHealthBarBoss: {fileID: 677049961}
   canvasPausa: {fileID: 1506432132}
   tastoContinua: {fileID: 580656401}
   sfondoJoystick: {fileID: 528400226}
+  frecciaTutorial1: {fileID: 1586007731}
+  mainCamera: {fileID: 2097760135}
   Healthbarboss: {fileID: 859856754}
   boss: {fileID: 1327908934}
 --- !u!4 &871987718
@@ -6232,6 +6246,108 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1913532507}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1586007731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586007732}
+  - component: {fileID: 1586007734}
+  - component: {fileID: 1586007733}
+  m_Layer: 0
+  m_Name: FrecciaTutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1586007732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586007731}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -710, y: -209, z: -6987.249}
+  m_LocalScale: {x: 500, y: 773.7988, z: 0}
+  m_Children: []
+  m_Father: {fileID: 514775065}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1586007733
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586007731}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39929e2eab145c34bbc3597259ff18cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &1586007734
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586007731}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -696632887195754460, guid: 6491ac98c15f0f04bb9791a809dacced,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1817545583
 GameObject:
   m_ObjectHideFlags: 0
