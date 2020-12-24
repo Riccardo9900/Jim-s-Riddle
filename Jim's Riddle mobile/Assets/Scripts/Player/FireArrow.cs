@@ -102,9 +102,9 @@ public class FireArrow : MonoBehaviour
     }
 
     /*Crea il prefab della freccia*/
-    private void ArrowPrefabCreation()
+    public void ArrowPrefabCreation()
     {
-        if ( Input.GetMouseButtonUp(1))
+        if (vettoreDirezione!= Vector3.zero && Input.GetMouseButtonUp(1))
         {
             /*Creo la freccia da arrowPrefab(prefab), gli do come posizione iniziale quella del player più la normale del vettore movimento del player(vettoreMovimento con modulo = 1), 
              prendo un vettore dalla funzione GetArrowRotation(vettoreMovimento), e lo inserirsco nella rotazione della freccia, quindi la freccia ruota di tot. Z
