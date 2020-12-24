@@ -19,6 +19,8 @@ public class Dialogo : MonoBehaviour
     public GameObject tastoContinua;    
     public GameObject sfondoJoystick;
     public GameObject frecciaTutorial1;
+    public GameObject personaggioGuida;
+    public GameObject personaggioBoss;
 
     //Camera
     public Camera mainCamera;
@@ -46,10 +48,9 @@ public class Dialogo : MonoBehaviour
     public void FraseSuccessiva()
     {
         tastoContinua.SetActive(false);
-
+        index++;
         if(index < frasi.Length - 1)
         {
-            index++;
             textDisplay.text = "";
             StartCoroutine(Scorrimento());
         }
@@ -94,15 +95,36 @@ public class Dialogo : MonoBehaviour
         {
             return bossMorto();
         }
+
+        if(index == 10)
+        {
+            personaggioGuida.SetActive(false);
+            return true;
+        }
+        if(index == 11)
+        {
+            personaggioBoss.SetActive(false);
+            return true;
+        }
+        if(index == 12)
+        {
+            personaggioGuida.SetActive(true);
+            GameObject.FindGameObjectWithTag("PortaFine").GetComponent<Animator>().enabled = true;
+            return true;
+        }
+
+
             
         else
             return true;
     }
 
+
     bool bossMorto()
     {
         if(boss == null)
         {
+            CanvasHealthBarBoss.SetActive(false);
             return true;
         }
         return false;

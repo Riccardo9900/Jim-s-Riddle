@@ -21,6 +21,8 @@ TagManager:
   - Fulmine
   - portaInizio1
   - Porta
+  - PortaFine
+  - pavimentoRossoTutorial
   layers:
   - Default
   - TransparentFX
