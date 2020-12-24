@@ -22,6 +22,7 @@ TagManager:
   - Anubi
   - JoystickMovimento
   - JoystickSparo
+  - Mira
   layers:
   - Default
   - TransparentFX

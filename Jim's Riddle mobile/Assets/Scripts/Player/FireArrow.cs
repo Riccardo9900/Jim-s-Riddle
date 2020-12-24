@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class FireArrow : MonoBehaviour
 {
     public Joystick joystickSparo;
+    public GameObject mira; //la mira dello sparo
     public Vector3 vettoreDirezione;
     public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject arrowPrefab;
@@ -21,8 +22,10 @@ public class FireArrow : MonoBehaviour
     void Start()
     {
         GameObject.FindGameObjectsWithTag("JoystickSparo"); //Cerca il joystickSparo negli oggetti (potrebbe non servire)
-        tempoInizioFreccia = tempoDurataFreccia;    
+        tempoInizioFreccia = tempoDurataFreccia;
+        mira.SetActive(false);
     }
+
 
     void Update()
     {
@@ -40,15 +43,34 @@ public class FireArrow : MonoBehaviour
             //disattivo l'animazione dello zoom dello sparo della freccia
             arrowFireZoom = false;
         }
+
+        JoystickSparoAttivo();
         ArrowFireMotion();
         MiraEDirezione();
     }
 
+
+    /* Metodo che ritorna true se il joystickSparo è attivo, false altrimenti */
+    public bool JoystickSparoAttivo()
+    {
+        if(joystickSparo.Horizontal != 0 && joystickSparo.Vertical != 0)
+        {
+            mira.SetActive(true);
+            return true;
+        }
+        else
+        {
+            mira.SetActive(false);
+            return false;
+        }
+    }
+
+    /* La sprite dello sparo ora va nella stessa direzione del "vettore generato" dal joystickSparo */
     public void MiraEDirezione()
     {
-        if (joystickSparo.Horizontal != 0 || joystickSparo.Vertical != 0) 
+        if (JoystickSparoAttivo()) 
         {
-            //Prendo le coordinate del joystick nel vettore direzione.
+            //Prendo le coordinate del joystick nel vettore direzione
             this.vettoreDirezione = new Vector3(joystickSparo.Horizontal, joystickSparo.Vertical, 0.0f); 
         }
     }
@@ -82,7 +104,7 @@ public class FireArrow : MonoBehaviour
     /*Crea il prefab della freccia*/
     private void ArrowPrefabCreation()
     {
-        if (Input.GetMouseButtonUp(1))
+        if ( Input.GetMouseButtonUp(1))
         {
             /*Creo la freccia da arrowPrefab(prefab), gli do come posizione iniziale quella del player più la normale del vettore movimento del player(vettoreMovimento con modulo = 1), 
              prendo un vettore dalla funzione GetArrowRotation(vettoreMovimento), e lo inserirsco nella rotazione della freccia, quindi la freccia ruota di tot. Z
@@ -102,7 +124,7 @@ public class FireArrow : MonoBehaviour
     {
         if (arrowFireZoom)
         {
-            if ((joystickSparo.Horizontal != 0 && joystickSparo.Vertical != 0) || Input.GetMouseButton(1))
+            if (JoystickSparoAttivo() || Input.GetMouseButton(1))
             {
 
                 //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
