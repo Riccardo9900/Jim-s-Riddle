@@ -16,11 +16,13 @@ public class Dialogo : MonoBehaviour
     //Oggetti che compaiono durante il tutorial
     public GameObject CanvasHealthBarBoss;
     public GameObject canvasPausa;
+    public GameObject canvasDialoghi;
     public GameObject tastoContinua;    
     public GameObject sfondoJoystick;
     public GameObject frecciaTutorial1;
     public GameObject personaggioGuida;
     public GameObject personaggioBoss;
+    public GameObject sfondoJoystickSparo;
 
     //Camera
     public Camera mainCamera;
@@ -85,7 +87,12 @@ public class Dialogo : MonoBehaviour
         {
             return fineMovimentoCamera();
         }
-
+        
+        if(index == 7)
+        {
+            sfondoJoystickSparo.SetActive(true);
+            return true;
+        }
         if(index == 8)
         {
             return bossColpito();
@@ -111,6 +118,13 @@ public class Dialogo : MonoBehaviour
             personaggioGuida.SetActive(true);
             GameObject.FindGameObjectWithTag("PortaFine").GetComponent<Animator>().enabled = true;
             return true;
+        }
+
+        if(index == 13)
+        {
+            gameObject.SetActive(false);
+            canvasDialoghi.SetActive(false);
+            return false;
         }
 
 
