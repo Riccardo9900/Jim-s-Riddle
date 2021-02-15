@@ -1,0 +1,2489 @@
+fileFormatVersion: 2
+guid: 371df1d288b2d0743af8155ac83a9e6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 869936311834109182
+    second: Anubi_0
+  - first:
+      213: -4123179708065412902
+    second: Anubi_1
+  - first:
+      213: -1369950330108994445
+    second: Anubi_2
+  - first:
+      213: -9083241018072678686
+    second: Anubi_3
+  - first:
+      213: -8532560735962192244
+    second: Anubi_4
+  - first:
+      213: -5563723573152032928
+    second: Anubi_5
+  - first:
+      213: 7135064285377341336
+    second: Anubi_6
+  - first:
+      213: -5557170318688916040
+    second: Anubi_7
+  - first:
+      213: -2331075180965263902
+    second: Anubi_8
+  - first:
+      213: 1153977260537153091
+    second: Anubi_9
+  - first:
+      213: -2226761905834820147
+    second: Anubi_10
+  - first:
+      213: 212757792582057195
+    second: Anubi_11
+  - first:
+      213: -40904090702823741
+    second: Anubi_12
+  - first:
+      213: 7159966095908972283
+    second: Anubi_13
+  - first:
+      213: 5826256658635251809
+    second: Anubi_14
+  - first:
+      213: 3040850381798121474
+    second: Anubi_15
+  - first:
+      213: -2899989268372610648
+    second: Anubi_16
+  - first:
+      213: -1081159183116532600
+    second: Anubi_17
+  - first:
+      213: -2729594036550051974
+    second: Anubi_18
+  - first:
+      213: -7657974120492170653
+    second: Anubi_19
+  - first:
+      213: 3143455645464344865
+    second: Anubi_20
+  - first:
+      213: -7788798504096170707
+    second: Anubi_21
+  - first:
+      213: -1909188630758480055
+    second: Anubi_22
+  - first:
+      213: -7309692742094105393
+    second: Anubi_23
+  - first:
+      213: -5425914081430848401
+    second: Anubi_24
+  - first:
+      213: -7605654746306199465
+    second: Anubi_25
+  - first:
+      213: -4735348500918335351
+    second: Anubi_26
+  - first:
+      213: -6903983963696351910
+    second: Anubi_27
+  - first:
+      213: 6295562272339929124
+    second: Anubi_28
+  - first:
+      213: 8709876297463837563
+    second: Anubi_29
+  - first:
+      213: 4899344758950486584
+    second: Anubi_30
+  - first:
+      213: -5462049254359138984
+    second: Anubi_31
+  - first:
+      213: -4966984791601080046
+    second: Anubi_32
+  - first:
+      213: -3374753837334959324
+    second: Anubi_33
+  - first:
+      213: -5145908496294926039
+    second: Anubi_34
+  - first:
+      213: -2616294947033240496
+    second: Anubi_35
+  - first:
+      213: -6441960523686035699
+    second: Anubi_36
+  - first:
+      213: -8240542259584813699
+    second: Anubi_37
+  - first:
+      213: 8558426540709042514
+    second: Anubi_38
+  - first:
+      213: 4677903229933822557
+    second: Anubi_39
+  - first:
+      213: 5922130938049405517
+    second: Anubi_40
+  - first:
+      213: 3544571494164156285
+    second: Anubi_41
+  - first:
+      213: -2331419305544994311
+    second: Anubi_42
+  - first:
+      213: -5505163293222219018
+    second: Anubi_43
+  - first:
+      213: -5169417142036779059
+    second: Anubi_44
+  - first:
+      213: 8393961502268649082
+    second: Anubi_45
+  - first:
+      213: -2041802320320064425
+    second: Anubi_46
+  - first:
+      213: 871348684149658256
+    second: Anubi_47
+  - first:
+      213: -4457532906272065055
+    second: Anubi_48
+  - first:
+      213: 6790409369419886680
+    second: Anubi_49
+  - first:
+      213: 8631918596325437342
+    second: Anubi_50
+  - first:
+      213: -6614035377968223606
+    second: Anubi_51
+  - first:
+      213: 6897858604404454437
+    second: Anubi_52
+  - first:
+      213: -8307823507795654449
+    second: Anubi_53
+  - first:
+      213: -44440063300047593
+    second: Anubi_54
+  - first:
+      213: -8032648455304052049
+    second: Anubi_55
+  - first:
+      213: 2159048362153878514
+    second: Anubi_56
+  - first:
+      213: 4089909813772942517
+    second: Anubi_57
+  - first:
+      213: 1182806890686009289
+    second: Anubi_58
+  - first:
+      213: 5818350251894047362
+    second: Anubi_59
+  - first:
+      213: -3405435896946036706
+    second: Anubi_60
+  - first:
+      213: 8335809840147578492
+    second: Anubi_61
+  - first:
+      213: 2874667558995137788
+    second: Anubi_62
+  - first:
+      213: -1210585195252855669
+    second: Anubi_63
+  - first:
+      213: 697771644406444826
+    second: Anubi_64
+  - first:
+      213: 8453973525857550602
+    second: Anubi_65
+  - first:
+      213: -5339811721932646100
+    second: Anubi_66
+  - first:
+      213: 7360659705787912713
+    second: Anubi_67
+  - first:
+      213: -752067482911402611
+    second: Anubi_68
+  - first:
+      213: -3526094032011866877
+    second: Anubi_69
+  - first:
+      213: -1381153559601377973
+    second: Anubi_70
+  - first:
+      213: 5639911217918819342
+    second: Anubi_71
+  - first:
+      213: -5414149581340278474
+    second: Anubi_72
+  - first:
+      213: -7079806693576513927
+    second: Anubi_73
+  - first:
+      213: -1219308330393098931
+    second: Anubi_74
+  - first:
+      213: 3097640465289085533
+    second: Anubi_75
+  - first:
+      213: -1111036066463558067
+    second: Anubi_76
+  - first:
+      213: 3826886145484462414
+    second: Anubi_77
+  - first:
+      213: 3770653283543808871
+    second: Anubi_78
+  - first:
+      213: 5294839602123968917
+    second: Anubi_79
+  - first:
+      213: -8889615474129380489
+    second: Anubi_80
+  - first:
+      213: 2820042077387035568
+    second: Anubi_81
+  - first:
+      213: -1365095159508815047
+    second: Anubi_82
+  - first:
+      213: -5454706602436449225
+    second: Anubi_83
+  - first:
+      213: -81317810555928981
+    second: Anubi_84
+  - first:
+      213: 8837090334680168034
+    second: Anubi_85
+  - first:
+      213: -1381510489747035876
+    second: Anubi_86
+  - first:
+      213: 4446586619970075237
+    second: Anubi_87
+  - first:
+      213: -1100496091664422020
+    second: Anubi_88
+  - first:
+      213: -7530202393641145126
+    second: Anubi_89
+  - first:
+      213: -6102699706466988742
+    second: Anubi_90
+  - first:
+      213: -4240693631449092205
+    second: Anubi_91
+  - first:
+      213: -5952039353070080496
+    second: Anubi_92
+  - first:
+      213: 3863447262892378739
+    second: Anubi_93
+  - first:
+      213: -4533814865926159833
+    second: Anubi_94
+  - first:
+      213: -4585641640903268326
+    second: Anubi_95
+  - first:
+      213: 2723922520918348450
+    second: Anubi_96
+  - first:
+      213: 2279191543393716845
+    second: Anubi_97
+  - first:
+      213: 7313465974519527952
+    second: Anubi_98
+  - first:
+      213: -1426658813697924160
+    second: Anubi_99
+  - first:
+      213: 1019226789033900323
+    second: Anubi_100
+  - first:
+      213: -4682790755562292876
+    second: Anubi_101
+  - first:
+      213: -6835253335645227648
+    second: Anubi_102
+  - first:
+      213: -84023510391797076
+    second: Anubi_103
+  - first:
+      213: 3888088816021489072
+    second: Anubi_104
+  - first:
+      213: 8026267609348665358
+    second: Anubi_105
+  - first:
+      213: -2372638595229856789
+    second: Anubi_106
+  - first:
+      213: 5229815241222958841
+    second: Anubi_107
+  - first:
+      213: 7790825623718190582
+    second: Anubi_108
+  - first:
+      213: -8212628094572650402
+    second: Anubi_109
+  - first:
+      213: -4949072785911726881
+    second: Anubi_110
+  - first:
+      213: -4331142076496952221
+    second: Anubi_111
+  - first:
+      213: -1536205274397911543
+    second: Anubi_112
+  - first:
+      213: 2581228402945367802
+    second: Anubi_113
+  - first:
+      213: 6648269224549418562
+    second: Anubi_114
+  - first:
+      213: -2359504601466187538
+    second: Anubi_115
+  - first:
+      213: 6153451187366388493
+    second: Anubi_116
+  - first:
+      213: 6996364923441593236
+    second: Anubi_117
+  - first:
+      213: 8019255842034459767
+    second: Anubi_118
+  - first:
+      213: -6807064009993481006
+    second: Anubi_119
+  - first:
+      213: 6542618148548773010
+    second: Anubi_120
+  - first:
+      213: 6307923875690629024
+    second: Anubi_121
+  - first:
+      213: 3663933849647115090
+    second: Anubi_122
+  - first:
+      213: -3973138914905805242
+    second: Anubi_123
+  - first:
+      213: -7768685529067427146
+    second: Anubi_124
+  - first:
+      213: -4858238125647781057
+    second: Anubi_125
+  - first:
+      213: -4612863022850599020
+    second: Anubi_126
+  - first:
+      213: -7253379593781949030
+    second: Anubi_127
+  - first:
+      213: 8993485271092911930
+    second: Anubi_128
+  - first:
+      213: -1917834932527199519
+    second: Anubi_129
+  - first:
+      213: 5532653818474973225
+    second: Anubi_130
+  - first:
+      213: -4199160529050030648
+    second: Anubi_131
+  - first:
+      213: -2692620433806680810
+    second: Anubi_132
+  - first:
+      213: -7109819222400954617
+    second: Anubi_133
+  - first:
+      213: -4909605215662491538
+    second: Anubi_134
+  - first:
+      213: -3533686401752389808
+    second: Anubi_135
+  - first:
+      213: 2697922560672836394
+    second: Anubi_136
+  - first:
+      213: 4586685012708305851
+    second: Anubi_137
+  - first:
+      213: 7126119656081442651
+    second: Anubi_138
+  - first:
+      213: -6588197541032769926
+    second: Anubi_139
+  - first:
+      213: 7341400291737307677
+    second: Anubi_140
+  - first:
+      213: -5229487158207843005
+    second: Anubi_141
+  - first:
+      213: -2172193209805957078
+    second: Anubi_142
+  - first:
+      213: 165821494751704157
+    second: Anubi_143
+  - first:
+      213: 6392957904845354211
+    second: Anubi_144
+  - first:
+      213: 3508213956412169501
+    second: Anubi_145
+  - first:
+      213: 5608717529010076804
+    second: Anubi_146
+  - first:
+      213: -6068735247687720788
+    second: Anubi_147
+  - first:
+      213: 3047526931745616342
+    second: Anubi_148
+  - first:
+      213: 6921052583394183715
+    second: Anubi_149
+  - first:
+      213: -7330023164222978221
+    second: Anubi_150
+  - first:
+      213: 1442497049433667302
+    second: Anubi_151
+  - first:
+      213: -6296059795598306135
+    second: Anubi_152
+  - first:
+      213: -4223137959769804770
+    second: Anubi_153
+  - first:
+      213: 3040410649609405507
+    second: Anubi_154
+  - first:
+      213: 1233451614424402844
+    second: Anubi_155
+  - first:
+      213: 8568242313795702681
+    second: Anubi_156
+  - first:
+      213: -1386283956143234804
+    second: Anubi_157
+  - first:
+      213: -7683650361114559524
+    second: Anubi_158
+  - first:
+      213: -4136817998826544579
+    second: Anubi_159
+  - first:
+      213: -899153707309767166
+    second: Anubi_160
+  - first:
+      213: 8440172459346403574
+    second: Anubi_161
+  - first:
+      213: -7945313394345533256
+    second: Anubi_162
+  - first:
+      213: 6568852103945454580
+    second: Anubi_163
+  - first:
+      213: -2393907828332436900
+    second: Anubi_164
+  - first:
+      213: 7621091731594661192
+    second: Anubi_165
+  - first:
+      213: 2857417603522894349
+    second: Anubi_166
+  - first:
+      213: -6584780217086748806
+    second: Anubi_167
+  - first:
+      213: -1718808486254380769
+    second: Anubi_168
+  - first:
+      213: -7252061912251686394
+    second: Anubi_169
+  - first:
+      213: -4103983236907244601
+    second: Anubi_170
+  - first:
+      213: 2699198632812731128
+    second: Anubi_0
+  - first:
+      213: -8545827826729282669
+    second: Anubi_1
+  - first:
+      213: 3293418813278578650
+    second: Anubi_2
+  - first:
+      213: 9015818478434076553
+    second: Anubi_3
+  - first:
+      213: 9045928300067290707
+    second: Anubi_4
+  - first:
+      213: -5217794934547289176
+    second: Anubi_5
+  - first:
+      213: 8454019077502236882
+    second: Anubi_6
+  - first:
+      213: 4024354987173533726
+    second: Anubi_7
+  - first:
+      213: -177722718999060604
+    second: Anubi_8
+  - first:
+      213: 8365660982287408078
+    second: Anubi_9
+  - first:
+      213: -6875509766991995378
+    second: Anubi_10
+  - first:
+      213: 206641367138873683
+    second: Anubi_11
+  - first:
+      213: 6485002453986501255
+    second: Anubi_12
+  - first:
+      213: 5281037487547676292
+    second: Anubi_13
+  - first:
+      213: 6434868034147852980
+    second: Anubi_14
+  - first:
+      213: 3784113088713639594
+    second: Anubi_15
+  - first:
+      213: 8350341882050241025
+    second: Anubi_16
+  - first:
+      213: 4031559722350400075
+    second: Anubi_17
+  - first:
+      213: 7803548091985010027
+    second: Anubi_18
+  - first:
+      213: 7465073762687080399
+    second: Anubi_19
+  - first:
+      213: -376686189528262031
+    second: Anubi_20
+  - first:
+      213: 7327435780115522062
+    second: Anubi_21
+  - first:
+      213: -7939081432367133987
+    second: Anubi_22
+  - first:
+      213: 3053361977708003562
+    second: Anubi_23
+  - first:
+      213: 290293468097084217
+    second: Anubi_24
+  - first:
+      213: 4133664983263685492
+    second: Anubi_25
+  - first:
+      213: -888959749644551450
+    second: Anubi_26
+  - first:
+      213: -8653046988213430109
+    second: Anubi_27
+  - first:
+      213: 286726101263857352
+    second: Anubi_28
+  - first:
+      213: -6659498819578284346
+    second: Anubi_29
+  - first:
+      213: 8866756673754744942
+    second: Anubi_30
+  - first:
+      213: -886886987195526775
+    second: Anubi_31
+  - first:
+      213: -2903196922080269691
+    second: Anubi_32
+  - first:
+      213: -3491698709318508859
+    second: Anubi_33
+  - first:
+      213: 1147331776025070167
+    second: Anubi_34
+  - first:
+      213: 6830311792646552845
+    second: Anubi_35
+  - first:
+      213: 5917003847286994498
+    second: Anubi_36
+  - first:
+      213: -7877293689296886486
+    second: Anubi_37
+  - first:
+      213: -1296535897849049459
+    second: Anubi_38
+  - first:
+      213: -3966423648519918247
+    second: Anubi_39
+  - first:
+      213: 6305044629483084239
+    second: Anubi_40
+  - first:
+      213: 2807614934578624398
+    second: Anubi_41
+  - first:
+      213: -5984971883236566436
+    second: Anubi_42
+  - first:
+      213: 4552583586877171272
+    second: Anubi_43
+  - first:
+      213: 1112146845365043953
+    second: Anubi_44
+  - first:
+      213: 3152530136451265282
+    second: Anubi_45
+  - first:
+      213: -5000636154225149148
+    second: Anubi_46
+  - first:
+      213: -8141979015735470080
+    second: Anubi_47
+  - first:
+      213: 1996969279794660090
+    second: Anubi_48
+  - first:
+      213: 1542827225009802427
+    second: Anubi_49
+  - first:
+      213: -6924398411818590134
+    second: Anubi_50
+  - first:
+      213: -4602287738985862922
+    second: Anubi_51
+  - first:
+      213: 7516215717563443533
+    second: Anubi_52
+  - first:
+      213: -464683227059745585
+    second: Anubi_53
+  - first:
+      213: 135406538891766404
+    second: Anubi_54
+  - first:
+      213: 1628159919014626046
+    second: Anubi_55
+  - first:
+      213: -4809303944508879334
+    second: Anubi_56
+  - first:
+      213: 2531742524916673898
+    second: Anubi_57
+  - first:
+      213: -7863817932105729566
+    second: Anubi_58
+  - first:
+      213: 1006586167264979563
+    second: Anubi_59
+  - first:
+      213: 3751233162469442699
+    second: Anubi_60
+  - first:
+      213: 4409487194693229368
+    second: Anubi_61
+  - first:
+      213: -1889055306128538662
+    second: Anubi_62
+  - first:
+      213: 5386414498057151084
+    second: Anubi_63
+  - first:
+      213: -8979665027231472379
+    second: Anubi_64
+  - first:
+      213: 3007555098800239756
+    second: Anubi_65
+  - first:
+      213: 5792996465047153645
+    second: Anubi_66
+  - first:
+      213: -3750968648817585418
+    second: Anubi_67
+  - first:
+      213: 1063369763600668560
+    second: Anubi_68
+  - first:
+      213: -4247782745872233089
+    second: Anubi_69
+  - first:
+      213: 8704995588515745903
+    second: Anubi_70
+  - first:
+      213: 120456055497266935
+    second: Anubi_71
+  - first:
+      213: 6530944224644861672
+    second: Anubi_72
+  - first:
+      213: 8567740902473720418
+    second: Anubi_73
+  - first:
+      213: -7486371864963174768
+    second: Anubi_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anubi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad5070bda757520800000000000000
+      internalID: 2699198632812731128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393172c8ede176980800000000000000
+      internalID: -8545827826729282669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7ee0e16f294bd20800000000000000
+      internalID: 3293418813278578650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874776632f9e1d70800000000000000
+      internalID: 9015818478434076553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ef92d8cd7998d70800000000000000
+      internalID: 9045928300067290707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abe97fe62ba697b0800000000000000
+      internalID: -5217794934547289176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d875e64f85b25570800000000000000
+      internalID: 8454019077502236882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18dc84f98169d730800000000000000
+      internalID: 4024354987173533726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f5b81f02a988df0800000000000000
+      internalID: -177722718999060604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1698175cc81470800000000000000
+      internalID: 8365660982287408078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e96b08b484590a0800000000000000
+      internalID: -6875509766991995378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351b6348a332ed200800000000000000
+      internalID: 206641367138873683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782e6657f5b5ff950800000000000000
+      internalID: 6485002453986501255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486fcc26d930a4940800000000000000
+      internalID: 5281037487547676292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b226e7326e3d4950800000000000000
+      internalID: 6434868034147852980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ceaa1eced38430800000000000000
+      internalID: 3784113088713639594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_16
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102eba023bf52e370800000000000000
+      internalID: 8350341882050241025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d775153af2f730800000000000000
+      internalID: 4031559722350400075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d917a05a5cb4c60800000000000000
+      internalID: 7803548091985010027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc75d071905499760800000000000000
+      internalID: 7465073762687080399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a5f5908edb5caf0800000000000000
+      internalID: -376686189528262031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02e544050840b560800000000000000
+      internalID: 7327435780115522062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda8bd41087b2d190800000000000000
+      internalID: -7939081432367133987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae048f39a88bf5a20800000000000000
+      internalID: 3053361977708003562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bfa860f54570400800000000000000
+      internalID: 290293468097084217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b27e3b66abd5930800000000000000
+      internalID: 4133664983263685492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaf0de41d7c9a3f0800000000000000
+      internalID: -888959749644551450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a856ca2c933ae780800000000000000
+      internalID: -8653046988213430109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c63aa5bed7aaf300800000000000000
+      internalID: 286726101263857352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c637ec6b15b493a0800000000000000
+      internalID: -6659498819578284346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68c9f8773c0d0b70800000000000000
+      internalID: 8866756673754744942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9815b4cebf421b3f0800000000000000
+      internalID: -886886987195526775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_32
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae56af7c5c5b7d0800000000000000
+      internalID: -2903196922080269691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5160168efa8fc0800000000000000
+      internalID: -3491698709318508859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a0e75eb242cef00800000000000000
+      internalID: 1147331776025070167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_35
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfbd903642ace50800000000000000
+      internalID: 6830311792646552845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246392446ab6d1250800000000000000
+      internalID: 5917003847286994498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_37
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256802102b3ea290800000000000000
+      internalID: -7877293689296886486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e4a226877c10ee0800000000000000
+      internalID: -1296535897849049459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_39
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de249e4be64f8c0800000000000000
+      internalID: -3966423648519918247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_40
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d2595fa4008750800000000000000
+      internalID: 6305044629483084239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_41
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87f3a958e6a6f620800000000000000
+      internalID: 2807614934578624398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5adbfc28cb11fca0800000000000000
+      internalID: -5984971883236566436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_43
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8466612d6a60e2f30800000000000000
+      internalID: 4552583586877171272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_44
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f20e08d9a32f6f00800000000000000
+      internalID: 1112146845365043953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_45
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20334eec47900cb20800000000000000
+      internalID: 3152530136451265282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b3f6889eb2a9ab0800000000000000
+      internalID: -5000636154225149148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_47
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00817662931e10f80800000000000000
+      internalID: -8141979015735470080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af24785caf8a6bb10800000000000000
+      internalID: 1996969279794660090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_49
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc288df29396510800000000000000
+      internalID: 1542827225009802427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40264cd45897ef90800000000000000
+      internalID: -6924398411818590134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_51
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ac937fa36120c0800000000000000
+      internalID: -4602287738985862922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_52
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49a39c5f56fe4860800000000000000
+      internalID: 7516215717563443533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_53
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc8506211d1d89f0800000000000000
+      internalID: -464683227059745585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_54
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48aa8ea978f01e100800000000000000
+      internalID: 135406538891766404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_55
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2456ae1d2689610800000000000000
+      internalID: 1628159919014626046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_56
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ec9a21b8be14db0800000000000000
+      internalID: -4809303944508879334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_57
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6da864a96e822320800000000000000
+      internalID: 2531742524916673898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_58
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bd7a414b1ed290800000000000000
+      internalID: -7863817932105729566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_59
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa6a739cc18fd00800000000000000
+      internalID: 1006586167264979563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_60
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8408a6bfae0f0430800000000000000
+      internalID: 3751233162469442699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_61
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bd259bd35a13d30800000000000000
+      internalID: 4409487194693229368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_62
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3442d253ab8c5e0800000000000000
+      internalID: -1889055306128538662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_63
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62e5b1927360ca40800000000000000
+      internalID: 5386414498057151084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_64
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505aed9eb32d16380800000000000000
+      internalID: -8979665027231472379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_65
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84376a7d6bfcb920800000000000000
+      internalID: 3007555098800239756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_66
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debaa34a79bd46050800000000000000
+      internalID: 5792996465047153645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_67
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d99b23e1e1fbc0800000000000000
+      internalID: -3750968648817585418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0971f408a29d1ce00800000000000000
+      internalID: 1063369763600668560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_69
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d804d2918dc05c0800000000000000
+      internalID: -4247782745872233089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_70
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60d2d0ed5b5ec870800000000000000
+      internalID: 8704995588515745903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_71
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f695fee422fba100800000000000000
+      internalID: 120456055497266935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_72
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee88dd7b2392aa50800000000000000
+      internalID: 6530944224644861672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_73
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262e78bf4fab6e670800000000000000
+      internalID: 8567740902473720418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anubi_74
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e246c04701b1890800000000000000
+      internalID: -7486371864963174768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
