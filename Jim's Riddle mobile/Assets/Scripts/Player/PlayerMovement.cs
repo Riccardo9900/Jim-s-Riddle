@@ -17,8 +17,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        GameObject.FindGameObjectsWithTag("JoystickMovimento"); //Cerca il joystickMovimento negli oggetti
-        GameObject.FindGameObjectsWithTag("JoystickSparo"); //Cerca il joystickSparo negli oggetti (potrebbe non servire)
+
     }
 
 

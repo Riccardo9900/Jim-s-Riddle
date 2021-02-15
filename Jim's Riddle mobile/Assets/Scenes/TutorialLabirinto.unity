@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcec5100d6e9cf24a911b34f8ef80132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystickSparo: {fileID: 0}
+  joystickSparo: {fileID: 1692144196}
 --- !u!212 &340383535
 SpriteRenderer:
   m_ObjectHideFlags: 0
