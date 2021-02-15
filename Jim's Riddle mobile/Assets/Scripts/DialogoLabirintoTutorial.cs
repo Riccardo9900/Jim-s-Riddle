@@ -14,6 +14,7 @@ public class DialogoLabirintoTutorial : MonoBehaviour
     private int index;
 
     public GameObject tastoContinua;
+    public GameObject canvasDialoghi;
 
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,12 @@ public class DialogoLabirintoTutorial : MonoBehaviour
        if(index == 0)
         {
             return primaFrase();
+        }
+       if(index == 2)
+        {
+            gameObject.SetActive(false);
+            canvasDialoghi.SetActive(false);
+            return true;
         }
 
         return true;
