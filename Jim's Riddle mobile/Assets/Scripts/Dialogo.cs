@@ -18,7 +18,6 @@ public class Dialogo : MonoBehaviour
     public GameObject canvasPausa;
     public GameObject tastoContinua;    
     public GameObject sfondoJoystick;
-    public GameObject sfondoJoystickSparo;
     public GameObject frecciaTutorial1;
     public GameObject personaggioGuida;
     public GameObject personaggioBoss;
@@ -85,12 +84,6 @@ public class Dialogo : MonoBehaviour
         if(index == 5)
         {
             return fineMovimentoCamera();
-        }
-
-        if(index == 7)
-        {
-            sfondoJoystickSparo.SetActive(true);
-            return true;
         }
 
         if(index == 8)

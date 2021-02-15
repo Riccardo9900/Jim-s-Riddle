@@ -14615,11 +14615,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow
       objectReference: {fileID: 0}
-    - target: {fileID: 974615455453876657, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2786382057216158112, guid: 1bd0d5b8e99d09340b08f449eb51c1ad,
         type: 3}
       propertyPath: m_LocalPosition.x
