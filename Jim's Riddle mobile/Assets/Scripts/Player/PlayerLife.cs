@@ -10,10 +10,12 @@ public class PlayerLife : MonoBehaviour
     public float dannoFulmine;
     public float tempoDaQuandoSeiPreso = 0f;
     public float currentHealth;
+    public AudioSource sottofondoMusicale;
 
     // Start is called before the first frame update
     void Start()
     {
+        sottofondoMusicale.Play();
         GestioneBarra();
         currentHealth = healthBarScript.health;
     }
@@ -50,6 +52,7 @@ public class PlayerLife : MonoBehaviour
     {
         if(currentHealth <= 0)
         {
+            sottofondoMusicale.Stop();
             GetComponent<PlayerDamage>().Death();
 
             //Da disattivare il metodo 'sparaFumine' di ZeusAttack (perché il piccolo programmatore Riccardo non l'ha fatto)

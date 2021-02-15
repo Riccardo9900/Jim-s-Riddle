@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -42,9 +42,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 233
-    height: 393
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 460
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -66,9 +66,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 393
+    y: 460
     width: 1190
-    height: 338
+    height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 17}
@@ -165,10 +165,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 677, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 142
+  controlID: 17
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,10 +190,10 @@ MonoBehaviour:
     y: 0
     width: 1190
     height: 731
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 73
+  controlID: 18
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,11 +214,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1190
-    height: 393
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+    height: 460
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 74
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,7 +237,7 @@ MonoBehaviour:
     x: 233
     y: 0
     width: 957
-    height: 393
+    height: 460
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -298,7 +298,7 @@ MonoBehaviour:
     x: 232.8
     y: 73.6
     width: 955
-    height: 372
+    height: 439
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -345,22 +345,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 955
-      height: 351
-    m_Scale: {x: 0.40625, y: 0.40625}
-    m_Translation: {x: 477.5, y: 175.5}
+      height: 418
+    m_Scale: {x: 0.4837963, y: 0.4837963}
+    m_Translation: {x: 477.5, y: 209}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1175.3846
+      x: -986.98566
       y: -432
-      width: 2350.7693
+      width: 1973.9713
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.40625
-  m_LastWindowPixelSize: {x: 1193.75, y: 465}
+  m_defaultScale: 0.4837963
+  m_LastWindowPixelSize: {x: 1193.75, y: 548.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -390,25 +390,25 @@ MonoBehaviour:
     x: 0
     y: 73.6
     width: 232
-    height: 372
+    height: 439
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 56beffff58befffffebfffff38c0ffff9ec0ffffe8c1ffff52c4ffff54c4ffff08c5ffffc8c5ffff4ec7ffff06c9ffff9ccaffff2cccffffc0cdffff28cffffff4d0ffffa6d3ffffa8d3ffff96d5ffff9ad5ffff14d7ffff16d7ffff3cd7ffffa2d8ffff18daffff6cdbffffdcdcffffdeddffffe0ddffffa2deffffe0dfffffe2dfffff2ae0ffffbce1ffff8ce4ffff8ee4ffff12e6ffff6ce6ffff62e9ffffcae9ffffcce9ffff8eeaffff20ecffff38efffff6cf0ffffbcf2ffff8af8ffffe2faffffaa3c0000804a0000524d0000445100008a5100009c510000445400006e59000098590000fa590000c65b0000e4600000ee6100004262000018680000066e00000a6e0000ec7a0000
+      m_ExpandedIDs: e4eeffffeceeffffd2efffff36f0ffffccf2ffffdcf5ffff3cf7ffffb8f8ffffbefaffff764d0000ba4d0000e04d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Arrow
-        m_OriginalName: Arrow
+        m_Name: Mira
+        m_OriginalName: Mira
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -8824
+        m_UserData: 19758
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 18104
+  m_LastSelectedObjectID: 19830
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -657,7 +657,7 @@ MonoBehaviour:
     x: 232.8
     y: 73.6
     width: 955
-    height: 372
+    height: 439
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ac7dba3b73b1e8441b37153da70f99d8
@@ -669,9 +669,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0279189, y: -7.7818794, z: -7.546875}
+    m_Target: {x: 1.2465211, y: -1.5857389, z: -2.03125}
     speed: 2
-    m_Value: {x: 1.0279189, y: -7.7818794, z: -7.546875}
+    m_Value: {x: 1.2465211, y: -1.5857389, z: -2.03125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -721,9 +721,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 6.855951
     speed: 2
-    m_Value: 10
+    m_Value: 6.855951
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -741,7 +741,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -770,9 +770,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 466.4
+    y: 533.60004
     width: 1189
-    height: 317
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -787,21 +787,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/MiraPlayer
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/MiraPlayer
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\rikys\Desktop\Jim's Riddle\Jim-s-Riddle\Jim-s-Riddle\Jim's
-    Riddle mobile
+  m_LastProjectPath: C:\Users\Francesco\Desktop\Jim's riddle\Jim-s-Riddle\Jim's Riddle
+    mobile
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc410000
-    m_LastClickedID: 16844
-    m_ExpandedIDs: 00000000b0410000b2410000b4410000b641000000ca9a3b
+    scrollPos: {x: 0, y: 186}
+    m_SelectedIDs: 5a450000
+    m_LastClickedID: 17754
+    m_ExpandedIDs: 00000000d8400000da400000dc400000de400000ee400000f640000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -829,7 +829,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0410000b2410000b4410000b6410000
+    m_ExpandedIDs: 00000000d8400000da400000dc400000de400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e0400000903e00002c3e0000883e000000000000243c0000063a000094400000c03d0000963d0000424200001c41000066410000483d0000ba3c0000884300006a400000e2440000e6440000244200002e4200003a430000d4410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -907,9 +907,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 466.4
+    y: 533.60004
     width: 1189
-    height: 317
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
