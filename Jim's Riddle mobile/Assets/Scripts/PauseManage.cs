@@ -57,7 +57,7 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
-            fireButton.SetActive(true);
+            fireButton.SetActive(false);
             canvasJoystick.enabled = true;
 
         }

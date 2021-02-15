@@ -9680,6 +9680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarAnubi: {fileID: 1437427625}
+  healtbarAnubi: {fileID: 1437427627}
 --- !u!114 &708147229
 MonoBehaviour:
   m_ObjectHideFlags: 0

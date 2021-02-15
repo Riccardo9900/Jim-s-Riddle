@@ -61,6 +61,11 @@ public class AnubiAttack : MonoBehaviour
 
             }
         }
+        else
+            if (healtBarAnubi.health <= 0)
+        {
+            Destroy(healtBarAnubi);
+        }
       
     }
 

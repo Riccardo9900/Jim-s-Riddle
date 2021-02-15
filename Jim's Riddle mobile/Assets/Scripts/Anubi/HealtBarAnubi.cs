@@ -6,6 +6,7 @@ public class HealtBarAnubi : MonoBehaviour
 {
 
     public GameObject healthBarAnubi;
+    public Healthbar healtbarAnubi;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,16 @@ public class HealtBarAnubi : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Disattiva();
+    }
+
+    public void Disattiva()
+    {
+        if (healtbarAnubi.health <= 0)
+        {
+            healthBarAnubi.SetActive(false);
+        }
     }
 }
