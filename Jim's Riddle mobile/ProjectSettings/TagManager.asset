@@ -13,6 +13,16 @@ TagManager:
   - Collider
   - Zeus
   - Arrow
+  - Bar
+  - BarPlayer
+  - Scheletro
+  - portaInizio
+  - healthBar
+  - Fulmine
+  - portaInizio1
+  - Porta
+  - PortaFine
+  - pavimentoRossoTutorial
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseManage : MonoBehaviour
 {
@@ -9,10 +10,9 @@ public class PauseManage : MonoBehaviour
     public GameObject pausePanel;
     public GameObject buttonReload;
     public GameObject tastoPausa;
-    public GameObject fireButton;
     public Canvas canvasJoystick;
     private Scene scenaCorrente;
-    public GameObject tastoHome;
+    public AudioSource sottofondoMusicale;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,8 +49,8 @@ public class PauseManage : MonoBehaviour
             //mi blocchi tutti gli oggetti di scena (fermi il tempo)
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
-            fireButton.SetActive(false);
             canvasJoystick.enabled = false;
+            sottofondoMusicale.Pause();
         }
         else
         {
@@ -58,8 +58,8 @@ public class PauseManage : MonoBehaviour
             //li attivi (attivi il tempo)
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
-            fireButton.SetActive(true);
             canvasJoystick.enabled = true;
+            sottofondoMusicale.Play();
 
         }
         pausePanel.SetActive(isPaused);

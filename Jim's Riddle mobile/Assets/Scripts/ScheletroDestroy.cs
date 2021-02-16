@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScheletroDestroy : MonoBehaviour
 {
+    public GameObject player;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -12,4 +13,6 @@ public class ScheletroDestroy : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }
