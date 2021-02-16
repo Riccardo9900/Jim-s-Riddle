@@ -1,0 +1,1238 @@
+fileFormatVersion: 2
+guid: ac8535e60b56c63448efcd30883c2c4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4370796368672071192
+    second: Son_Wukong_0
+  - first:
+      213: -4413159899319093674
+    second: Son_Wukong_1
+  - first:
+      213: 6571740857200870614
+    second: Son_Wukong_2
+  - first:
+      213: -3801331339405863481
+    second: Son_Wukong_3
+  - first:
+      213: -6187338503259151923
+    second: Son_Wukong_4
+  - first:
+      213: -7027837641956895349
+    second: Son_Wukong_5
+  - first:
+      213: -4726474744720306706
+    second: Son_Wukong_6
+  - first:
+      213: 422441870931781762
+    second: Son_Wukong_7
+  - first:
+      213: -5670282434081148065
+    second: Son_Wukong_8
+  - first:
+      213: -2911440229628616767
+    second: Son_Wukong_9
+  - first:
+      213: -6639572189350388897
+    second: Son_Wukong_10
+  - first:
+      213: -536879310126059185
+    second: Son_Wukong_11
+  - first:
+      213: 6371487617103022655
+    second: Son_Wukong_12
+  - first:
+      213: -7416073286360882121
+    second: Son_Wukong_13
+  - first:
+      213: -5914972326409215100
+    second: Son_Wukong_14
+  - first:
+      213: -7818543835176744089
+    second: Son_Wukong_15
+  - first:
+      213: -6405980449654684126
+    second: Son_Wukong_16
+  - first:
+      213: -505560208213084174
+    second: Son_Wukong_17
+  - first:
+      213: 7731484741754629927
+    second: Son_Wukong_18
+  - first:
+      213: -60917351787861160
+    second: Son_Wukong_19
+  - first:
+      213: 8725680175574318978
+    second: Son_Wukong_20
+  - first:
+      213: 7684256029851285268
+    second: Son_Wukong_21
+  - first:
+      213: 6368728560494599462
+    second: Son_Wukong_22
+  - first:
+      213: 1079496259438776861
+    second: Son_Wukong_23
+  - first:
+      213: -288272705097024928
+    second: Son_Wukong_24
+  - first:
+      213: -4042450839954267258
+    second: Son_Wukong_25
+  - first:
+      213: 4637860574254220175
+    second: Son_Wukong_26
+  - first:
+      213: -7313893042373955561
+    second: Son_Wukong_27
+  - first:
+      213: 6834455452880871902
+    second: Son_Wukong_28
+  - first:
+      213: -7122428914088510870
+    second: Son_Wukong_29
+  - first:
+      213: -6908578760332047174
+    second: Son_Wukong_30
+  - first:
+      213: 8931657327188881945
+    second: Son_Wukong_31
+  - first:
+      213: 1337502240658112242
+    second: Son_Wukong_32
+  - first:
+      213: -4913398025527998363
+    second: Son_Wukong_33
+  - first:
+      213: -7661856406432422732
+    second: Son_Wukong_34
+  - first:
+      213: 7482850221741040177
+    second: Son_Wukong_35
+  - first:
+      213: 5851226511191417955
+    second: Son_Wukong_36
+  - first:
+      213: -260496380113938355
+    second: Son_Wukong_37
+  - first:
+      213: -818069245726333497
+    second: Son_Wukong_38
+  - first:
+      213: 54330835760347962
+    second: Son_Wukong_39
+  - first:
+      213: -5405077439390649362
+    second: Son_Wukong_40
+  - first:
+      213: -7481574654346174936
+    second: Son_Wukong_41
+  - first:
+      213: -1060640913278926009
+    second: Son_Wukong_42
+  - first:
+      213: -5885105700780026024
+    second: Son_Wukong_43
+  - first:
+      213: -6622903566793136533
+    second: Son_Wukong_44
+  - first:
+      213: -4497163648877087188
+    second: Son_Wukong_45
+  - first:
+      213: 5595002619124698051
+    second: Son_Wukong_46
+  - first:
+      213: -6248071013845196009
+    second: Son_Wukong_47
+  - first:
+      213: -8509066617672095483
+    second: Son_Wukong_48
+  - first:
+      213: -8656413777012159534
+    second: Son_Wukong_49
+  - first:
+      213: -1235570809806826266
+    second: Son_Wukong_50
+  - first:
+      213: 6692070534192973665
+    second: Son_Wukong_51
+  - first:
+      213: 1445889779036462996
+    second: Son_Wukong_52
+  - first:
+      213: 2865789132309032684
+    second: Son_Wukong_53
+  - first:
+      213: -3821849484490937497
+    second: Son_Wukong_54
+  - first:
+      213: -8323766063603268544
+    second: Son_Wukong_55
+  - first:
+      213: 7105029025473332179
+    second: Son_Wukong_56
+  - first:
+      213: -8051605117832515131
+    second: Son_Wukong_57
+  - first:
+      213: -4280320136654877871
+    second: Son_Wukong_0
+  - first:
+      213: 6076064211990493106
+    second: Son_Wukong_1
+  - first:
+      213: -7761725359043239389
+    second: Son_Wukong_2
+  - first:
+      213: 2781311406228141688
+    second: Son_Wukong_3
+  - first:
+      213: -7293578331173423134
+    second: Son_Wukong_4
+  - first:
+      213: 2404913304399620893
+    second: Son_Wukong_5
+  - first:
+      213: -235667407258397275
+    second: Son_Wukong_6
+  - first:
+      213: 145896958484251425
+    second: Son_Wukong_7
+  - first:
+      213: 6696494026119985979
+    second: Son_Wukong_8
+  - first:
+      213: -915273546124322590
+    second: Son_Wukong_9
+  - first:
+      213: 6693473325269115280
+    second: Son_Wukong_10
+  - first:
+      213: -559626141817342970
+    second: Son_Wukong_11
+  - first:
+      213: 8441084122063831699
+    second: Son_Wukong_12
+  - first:
+      213: -6533114563064252881
+    second: Son_Wukong_13
+  - first:
+      213: 3045038676919104012
+    second: Son_Wukong_14
+  - first:
+      213: -7121747252423275288
+    second: Son_Wukong_15
+  - first:
+      213: 9159347413001933701
+    second: Son_Wukong_16
+  - first:
+      213: 5519974001567204542
+    second: Son_Wukong_17
+  - first:
+      213: 2448427537123676092
+    second: Son_Wukong_18
+  - first:
+      213: 7280294004893440523
+    second: Son_Wukong_19
+  - first:
+      213: -3470750169241259003
+    second: Son_Wukong_20
+  - first:
+      213: 6988509691975743713
+    second: Son_Wukong_21
+  - first:
+      213: -4910062419042600846
+    second: Son_Wukong_22
+  - first:
+      213: -8276117146154318160
+    second: Son_Wukong_23
+  - first:
+      213: -1358704439435587693
+    second: Son_Wukong_24
+  - first:
+      213: -7494929931100974349
+    second: Son_Wukong_25
+  - first:
+      213: 4442073860257436705
+    second: Son_Wukong_26
+  - first:
+      213: -212634040009301052
+    second: Son_Wukong_27
+  - first:
+      213: -7829073153615451
+    second: Son_Wukong_28
+  - first:
+      213: -186416426260091358
+    second: Son_Wukong_29
+  - first:
+      213: 7878528563454217211
+    second: Son_Wukong_30
+  - first:
+      213: -665633262143340435
+    second: Son_Wukong_31
+  - first:
+      213: 1626840720631036506
+    second: Son_Wukong_32
+  - first:
+      213: 9045636208499237933
+    second: Son_Wukong_33
+  - first:
+      213: 1931489528866316594
+    second: Son_Wukong_34
+  - first:
+      213: -3408164619601100209
+    second: Son_Wukong_35
+  - first:
+      213: -1442924855105389481
+    second: Son_Wukong_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Son_Wukong_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0cb9838f3994c0800000000000000
+      internalID: -4280320136654877871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7382c5534825450800000000000000
+      internalID: 6076064211990493106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322261ac8efc84490800000000000000
+      internalID: -7761725359043239389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87678f9ecf3399620800000000000000
+      internalID: 2781311406228141688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7fbec962108ca90800000000000000
+      internalID: -7293578331173423134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ba95898e7ff5120800000000000000
+      internalID: 2404913304399620893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d931edbdbabcf0800000000000000
+      internalID: -235667407258397275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1238340c284560200800000000000000
+      internalID: 145896958484251425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b386356d9beec50800000000000000
+      internalID: 6696494026119985979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e892f22f8b4c43f0800000000000000
+      internalID: -915273546124322590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091e73a968ef3ec50800000000000000
+      internalID: 6693473325269115280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60474f13dfecb38f0800000000000000
+      internalID: -559626141817342970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3920ec64941c42570800000000000000
+      internalID: 8441084122063831699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26bf973be6b555a0800000000000000
+      internalID: -6533114563064252881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02b6191b86224a20800000000000000
+      internalID: 3045038676919104012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec42374b987a2d90800000000000000
+      internalID: -7121747252423275288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5839f5e91f98c1f70800000000000000
+      internalID: 9159347413001933701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40eccbb13ea9c40800000000000000
+      internalID: 5519974001567204542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf8a886fdf8af120800000000000000
+      internalID: 2448427537123676092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_19
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a541623dcc80560800000000000000
+      internalID: 7280294004893440523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5047f322c1b65dfc0800000000000000
+      internalID: -3470750169241259003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8b693c98c2cf060800000000000000
+      internalID: 6988509691975743713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27878f79e34fbdbb0800000000000000
+      internalID: -4910062419042600846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_23
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c3f7ed43552d80800000000000000
+      internalID: -8276117146154318160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f02b4d289e42de0800000000000000
+      internalID: -1358704439435587693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_25
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2984000f8acf790800000000000000
+      internalID: -7494929931100974349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_26
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12451ba04aa65ad30800000000000000
+      internalID: 4442073860257436705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e61a97729c0df0800000000000000
+      internalID: -212634040009301052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_28
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a912cbdf7f24eff0800000000000000
+      internalID: -7829073153615451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_29
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e287c7f37b96df0800000000000000
+      internalID: -186416426260091358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb05797cf7265d60800000000000000
+      internalID: 7878528563454217211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d600343231233c6f0800000000000000
+      internalID: -665633262143340435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7a5b1403b39610800000000000000
+      internalID: 1626840720631036506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24220fa43e888d70800000000000000
+      internalID: 9045636208499237933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231a6773e770eca10800000000000000
+      internalID: 1931489528866316594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f424f90f554c3b0d0800000000000000
+      internalID: -3408164619601100209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Son_Wukong_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c7cdd3d73b9fbe0800000000000000
+      internalID: -1442924855105389481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
