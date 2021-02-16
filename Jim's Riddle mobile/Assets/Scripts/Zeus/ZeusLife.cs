@@ -6,6 +6,9 @@ public class ZeusLife : MonoBehaviour
 {
     public Healthbar healthBarScript;
     private float dannoFreccia;
+
+    public GameObject dialogueManager;
+    public GameObject canvasDialoghi;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,8 @@ public class ZeusLife : MonoBehaviour
     {
         if (healthBarScript.health == 0.0f)
         {
+            canvasDialoghi.SetActive(true);
+            dialogueManager.SetActive(true);
             Destroy(gameObject);
         }
     }
