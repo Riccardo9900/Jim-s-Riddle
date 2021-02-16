@@ -35,10 +35,9 @@ public class AnubiAttack : MonoBehaviour
             }
             if (healtBarAnubi.health >= 80 && healtBarAnubi.health < 90)
             {
-                Instantiate(miniBossPrefab, spawnPoint5.transform);
                 Instantiate(scheletroPrefab, spawnPoint1.transform);
                 Instantiate(scheletroPrefab, spawnPoint2.transform);
-
+                Instantiate(miniBossPrefab, spawnPoint5.transform);
             }
             if (healtBarAnubi.health >= 70 && healtBarAnubi.health < 80)
             {

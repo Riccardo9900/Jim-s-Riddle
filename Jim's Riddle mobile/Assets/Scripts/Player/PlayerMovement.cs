@@ -13,11 +13,10 @@ public class PlayerMovement : MonoBehaviour
     //public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject mainCamera;
     public GameObject arrow;
-
     
     void Start()
     {
-
+        
     }
 
 
