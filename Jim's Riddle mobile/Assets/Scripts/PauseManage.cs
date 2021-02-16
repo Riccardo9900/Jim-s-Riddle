@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseManage : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PauseManage : MonoBehaviour
     public GameObject tastoPausa;
     public Canvas canvasJoystick;
     private Scene scenaCorrente;
+    public AudioSource sottofondoMusicale;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +50,7 @@ public class PauseManage : MonoBehaviour
             Time.timeScale = 0;
             tastoPausa.SetActive(false);
             canvasJoystick.enabled = false;
+            sottofondoMusicale.Pause();
         }
         else
         {
@@ -56,6 +59,7 @@ public class PauseManage : MonoBehaviour
             Time.timeScale = 1;
             tastoPausa.SetActive(true);
             canvasJoystick.enabled = true;
+            sottofondoMusicale.Play();
 
         }
         pausePanel.SetActive(isPaused);

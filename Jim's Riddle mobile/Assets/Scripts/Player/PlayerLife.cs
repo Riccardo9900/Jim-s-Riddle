@@ -10,10 +10,13 @@ public class PlayerLife : MonoBehaviour
     public float dannoFulmine;
     public float tempoDaQuandoSeiPreso = 0f;
     public float currentHealth;
+    public AudioSource sottofondoMusicale;
+    public AudioSource audioDamage;
 
     // Start is called before the first frame update
     void Start()
     {
+        sottofondoMusicale.Play();
         GestioneBarra();
         currentHealth = healthBarScript.health;
     }
@@ -22,11 +25,13 @@ public class PlayerLife : MonoBehaviour
     {
         if (coll.tag == "Scheletro")
         {
+            audioDamage.Play();
             GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoScheletro;
         }
         if(coll.tag == "Fulmine")
         {
+            audioDamage.Play();
             GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoFulmine;
         }
@@ -50,6 +55,8 @@ public class PlayerLife : MonoBehaviour
     {
         if(currentHealth <= 0)
         {
+            audioDamage.Stop();
+            sottofondoMusicale.Stop();
             GetComponent<PlayerDamage>().Death();
 
             //Da disattivare il metodo 'sparaFumine' di ZeusAttack (perché il piccolo programmatore Riccardo non l'ha fatto)
