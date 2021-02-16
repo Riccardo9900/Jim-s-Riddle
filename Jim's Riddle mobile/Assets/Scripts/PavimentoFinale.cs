@@ -18,12 +18,13 @@ public class PavimentoFinale : MonoBehaviour
             if (coll.tag == "portaInizio")
             {
             Zeus.SetActive(true);
-                gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-                gameObject.GetComponent<PlayerMovement>().enabled = false;
-                gameObject.GetComponent<Animator>().enabled = false;
-                mainCamera.GetComponent<FollowPlayer>().enabled = false;
-                mainCamera.GetComponent<avanti>().enabled = true;
-            }
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            gameObject.GetComponent<PlayerMovement>().enabled = false;
+            gameObject.GetComponent<Animator>().enabled = false;
+            mainCamera.GetComponent<FollowPlayer>().enabled = false;
+            mainCamera.GetComponent<AvantiWookong>().enabled = true;
+
+        }
         }
         // Update is called once per frame
         void Update()
