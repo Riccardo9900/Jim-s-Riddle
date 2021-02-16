@@ -5,8 +5,8 @@ using UnityEngine;
 public class AnubiAttack : MonoBehaviour
 {
     public Healthbar healtBarAnubi;
-    public GameObject scheletroPrefab;
-    public GameObject spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4;
+    public GameObject scheletroPrefab, miniBossPrefab;
+    public GameObject spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
     public HealthbarPlayer healthBarPlayer;
 
 
@@ -20,21 +20,23 @@ public class AnubiAttack : MonoBehaviour
     {
         if(col.tag == "Arrow")
         {
-            CreaScheletro();
+            CreaNemico();
         }
     }
 
-    public void CreaScheletro()
+    public void CreaNemico()
     {
         if (healthBarPlayer.health > 0)
         {
             if (healtBarAnubi.health >= 90 && healtBarAnubi.health < 100)
             {
                 Instantiate(scheletroPrefab, spawnPoint1.transform);
+                Instantiate(scheletroPrefab, spawnPoint2.transform);
             }
             if (healtBarAnubi.health >= 80 && healtBarAnubi.health < 90)
             {
-
+                Instantiate(miniBossPrefab, spawnPoint5.transform);
+                Instantiate(scheletroPrefab, spawnPoint1.transform);
                 Instantiate(scheletroPrefab, spawnPoint2.transform);
 
             }
@@ -50,7 +52,7 @@ public class AnubiAttack : MonoBehaviour
             }
             if (healtBarAnubi.health <= 60)
             {
-
+                Instantiate(miniBossPrefab, spawnPoint5.transform);
                 Instantiate(scheletroPrefab, spawnPoint4.transform);
 
                 Instantiate(scheletroPrefab, spawnPoint3.transform);

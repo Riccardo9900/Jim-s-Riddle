@@ -23,6 +23,11 @@ TagManager:
   - Porta
   - PortaFine
   - pavimentoRossoTutorial
+  - Mira
+  - JoystickSparo
+  - Anubi
+  - JoystickMovimento
+  - MiniBoss
   layers:
   - Default
   - TransparentFX
