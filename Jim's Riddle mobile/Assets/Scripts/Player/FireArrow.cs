@@ -22,7 +22,6 @@ public class FireArrow : MonoBehaviour
 
     void Start()
     {
-        GameObject.FindGameObjectsWithTag("JoystickSparo"); //Cerca il joystickSparo negli oggetti (potrebbe non servire)
         tempoInizioFreccia = tempoDurataFreccia;
         mira.SetActive(false);
     }
