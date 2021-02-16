@@ -17,6 +17,7 @@ public class FireArrow : MonoBehaviour
     public Camera mainCamera;
     public float tempoInizioFreccia = 0f;   //tempo effettivo da quando viene sparata la freccia (verrà poi incrementato con Time.deltaTime)
     public float tempoDurataFreccia = 2f;   //tempo max della durata della freccia
+    public AudioSource audioShot;
 
 
     void Start()
@@ -113,6 +114,7 @@ public class FireArrow : MonoBehaviour
             GameObject arrowInstantiated = Instantiate(arrowPrefab, transform.position + vettoreDirezione.normalized, Quaternion.Euler(GetRotation(vettoreDirezione))) as GameObject;
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), arrowInstantiated.GetComponent<Collider2D>());
             arrowInstantiated.GetComponent<Rigidbody2D>().AddForce(vettoreDirezione.normalized * StreghtFromCameraSize() * Time.deltaTime);
+            audioShot.Play();
             gameObject.GetComponent<Rigidbody2D>().drag = 1f; //rallentalo
             tempoInizioFreccia = 0f; //una volta sparata la freccia resetto il tempo dello sparo
 
