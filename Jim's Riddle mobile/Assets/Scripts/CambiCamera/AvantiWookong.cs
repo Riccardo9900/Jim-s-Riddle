@@ -10,6 +10,8 @@ public class AvantiWookong : MonoBehaviour
     public float speed;
     public GameObject DialogueManager;
     public GameObject CanvasDialoghi;
+
+
     // Start is called before the first frame update
     void Start()
     {

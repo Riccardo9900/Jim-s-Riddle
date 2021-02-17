@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcec5100d6e9cf24a911b34f8ef80132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystickSparo: {fileID: 0}
+  joystickSparo: {fileID: 2007539241}
 --- !u!212 &202574581
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -700,6 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1117635753}
   portaInizio: {fileID: 1342572921}
+  wookong: {fileID: 1076282753}
 --- !u!114 &286584698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -730,7 +731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1117635753}
-  zeus: {fileID: 1076282753}
+  wookong: {fileID: 1076282753}
   speed: 1
 --- !u!1 &405632046
 GameObject:
@@ -9774,9 +9775,10 @@ GameObject:
   - component: {fileID: 1076282756}
   - component: {fileID: 1076282755}
   - component: {fileID: 1076282754}
+  - component: {fileID: 1076282757}
   m_Layer: 0
   m_Name: Wookong
-  m_TagString: Zeus
+  m_TagString: Wookong1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9977,6 +9979,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1076282757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076282753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efd5bb6b9b7d95499114446d06fc2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wookong: {fileID: 1076282753}
+  mainCamera: {fileID: 286584692}
+  velocitaWookong: 2
+  tempoDaInizio: 0
+  tempoInseguimento: 5
 --- !u!4 &1076282758
 Transform:
   m_ObjectHideFlags: 0
@@ -10081,12 +10100,12 @@ PrefabInstance:
     - target: {fileID: 5184774094914156533, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 5184774094914156533, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.5
+      value: 8.03
       objectReference: {fileID: 0}
     - target: {fileID: 5184774094914156533, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
@@ -10235,7 +10254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65abd79ab4fd6f5419e1f2e19ccbbe85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Zeus: {fileID: 1076282753}
+  Wookong: {fileID: 1076282753}
   mainCamera: {fileID: 286584692}
 --- !u!4 &1117635755 stripped
 Transform:
@@ -10368,6 +10387,7 @@ MonoBehaviour:
   healtBarPlayer: {fileID: 1256993105}
   dannoScheletro: 0
   dannoFulmine: 0
+  dannoMiniBoss: 0
   tempoDaQuandoSeiPreso: 0
   currentHealth: 0
   sottofondoMusicale: {fileID: 1117635764}
