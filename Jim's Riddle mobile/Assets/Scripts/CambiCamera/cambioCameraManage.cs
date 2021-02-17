@@ -5,6 +5,7 @@ using UnityEngine;
 public class cambioCameraManage : MonoBehaviour
 {
     public GameObject mainCamera;
+    public GameObject healtBarWookong;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class cambioCameraManage : MonoBehaviour
             gameObject.GetComponent<Animator>().enabled = false;
             mainCamera.GetComponent<FollowPlayer>().enabled = false;
             mainCamera.GetComponent<avanti>().enabled = true;
+            healtBarWookong.SetActive(true);
         }
     }
     // Update is called once per frame

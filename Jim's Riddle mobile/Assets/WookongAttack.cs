@@ -5,6 +5,7 @@ using UnityEngine;
 public class WookongAttack : MonoBehaviour
 {
     Transform target;
+    public Healthbar healthBarScript;
     private Vector3 posizioneIniziale;
     public GameObject wookong;
     public GameObject mainCamera;
@@ -15,6 +16,7 @@ public class WookongAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        healthBarScript.enabled = true;
         posizioneIniziale = new Vector3(wookong.transform.position.x, wookong.transform.position.y, 0.0f);
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class PavimentoFinale : MonoBehaviour
 {
     public GameObject Wookong;
+    public GameObject Chiusura;
+    public Healthbar healthBarScript;
     public GameObject mainCamera;
 
     // Start is called before the first frame update
@@ -23,7 +25,8 @@ public class PavimentoFinale : MonoBehaviour
             gameObject.GetComponent<Animator>().enabled = false;
             mainCamera.GetComponent<FollowPlayer>().enabled = false;
             mainCamera.GetComponent<AvantiWookong>().enabled = true;
-
+            healthBarScript.enabled = true;
+            Chiusura.SetActive(true);
         }
         }
         // Update is called once per frame

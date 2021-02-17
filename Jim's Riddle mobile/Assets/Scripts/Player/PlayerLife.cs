@@ -9,6 +9,7 @@ public class PlayerLife : MonoBehaviour
     public float dannoScheletro;
     public float dannoFulmine;
     public float dannoMiniBoss;
+    public float dannoWookong;
     public float tempoDaQuandoSeiPreso = 0f;
     public float currentHealth;
     public AudioSource sottofondoMusicale;
@@ -41,6 +42,12 @@ public class PlayerLife : MonoBehaviour
             audioDamage.Play();
             GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoMiniBoss;
+        }
+        if (coll.tag == "Wookong")
+        {
+            audioDamage.Play();
+            GestioneBarra();
+            healthBarScript.health = healthBarScript.health - dannoWookong;
         }
 
         Debug.Log("Hai " + (healthBarScript.health) / 10f + " vite");
