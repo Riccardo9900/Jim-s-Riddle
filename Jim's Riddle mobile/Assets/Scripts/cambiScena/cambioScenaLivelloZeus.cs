@@ -17,6 +17,10 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         {
             SceneManager.LoadScene("LabirintoLettere");
         }
+        if(coll.tag == "changeSceneAnubi")
+        {
+            SceneManager.LoadScene("RiccardoAnubiLabirinto");
+        }
     }
 
     // Update is called once per frame

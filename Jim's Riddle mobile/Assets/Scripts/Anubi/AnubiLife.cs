@@ -7,6 +7,8 @@ public class AnubiLife : MonoBehaviour
     public Healthbar healthBarScript;
     public float dannoFreccia;
     public GameObject PassaggioLivello;
+    public GameObject dialogueManager;
+    public GameObject canvasDialoghi;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,8 @@ public class AnubiLife : MonoBehaviour
         if (healthBarScript.health <= 0.0f)
         {
             Destroy(gameObject);
+            canvasDialoghi.SetActive(true);
+            dialogueManager.SetActive(true);
             PassaggioLivello.SetActive(true);
             Debug.Log("Hai sconfitto Anubi e hai attivato il passaggio per il prossimo livello!!");
         }

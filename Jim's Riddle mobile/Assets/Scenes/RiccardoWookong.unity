@@ -6410,6 +6410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1117635753}
   portaInizio: {fileID: 1342572921}
+  wookong: {fileID: 0}
 --- !u!114 &286584698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6440,7 +6441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1117635753}
-  zeus: {fileID: 1076282753}
+  wookong: {fileID: 0}
   speed: 1
 --- !u!1 &405632046
 GameObject:
@@ -7624,6 +7625,16 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 640091188}
+    - target: {fileID: 7830830100168191337, guid: e7aea3cf27a62ed41b8ec4555440279b,
+        type: 3}
+      propertyPath: canvasDialoghi
+      value: 
+      objectReference: {fileID: 740405801}
+    - target: {fileID: 7830830100168191337, guid: e7aea3cf27a62ed41b8ec4555440279b,
+        type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 2046454077}
     - target: {fileID: 8330375255507825921, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
       propertyPath: arrowPrefab
@@ -7711,7 +7722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65abd79ab4fd6f5419e1f2e19ccbbe85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Zeus: {fileID: 1076282753}
+  Wookong: {fileID: 0}
   mainCamera: {fileID: 286584692}
 --- !u!4 &1117635755 stripped
 Transform:
