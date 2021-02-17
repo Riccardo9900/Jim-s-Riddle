@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FrancescoAnubi.unity
+- path: Assets/Scenes/RiccardoWookong.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
