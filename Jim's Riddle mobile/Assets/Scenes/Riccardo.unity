@@ -261,6 +261,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68053873}
   m_CullTransparentMesh: 0
+--- !u!1 &78276658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2157727360629891415, guid: 48249a19e189c8542a03e8e3fc9105f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2075498235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &78276661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78276658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73af099d4b069d48b6a8146fb11d6ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: a724c0ed76b51104aa9b5f3acdf19596, type: 2}
 --- !u!1001 &101755480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1630,6 +1649,7 @@ MonoBehaviour:
   healtBarPlayer: {fileID: 101755481}
   dannoScheletro: 20
   dannoFulmine: 80
+  dannoMiniBoss: 0
   tempoDaQuandoSeiPreso: 0
   currentHealth: 0
   sottofondoMusicale: {fileID: 656764926}
@@ -1645,7 +1665,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: a724c0ed76b51104aa9b5f3acdf19596,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0f51c1535351f45bf978fa10a5e8c325, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4546303cc47ba4c33976745dc249e36c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.593
   m_Pitch: 1
@@ -1852,11 +1872,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa6db1947cac5054e8c409182cd1ead9,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4546303cc47ba4c33976745dc249e36c, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 66b315e37ecf3f942bc1cb0e59c775b7, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -13563,8 +13583,48 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
         type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
       propertyPath: m_MinValue
-      value: 0.0001
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 78276661}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_WholeNumbers
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580642018660013897, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3734744116494004459, guid: 48249a19e189c8542a03e8e3fc9105f6,
         type: 3}
