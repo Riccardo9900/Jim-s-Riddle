@@ -8,6 +8,7 @@ public class PlayerLife : MonoBehaviour
     public GameObject healtBarPlayer;
     public float dannoScheletro;
     public float dannoFulmine;
+    public float dannoMiniBoss;
     public float tempoDaQuandoSeiPreso = 0f;
     public float currentHealth;
     public AudioSource sottofondoMusicale;
@@ -34,6 +35,12 @@ public class PlayerLife : MonoBehaviour
             audioDamage.Play();
             GestioneBarra();
             healthBarScript.health = healthBarScript.health - dannoFulmine;
+        }
+        if(coll.tag == "MiniBoss")
+        {
+            audioDamage.Play();
+            GestioneBarra();
+            healthBarScript.health = healthBarScript.health - dannoMiniBoss;
         }
 
         Debug.Log("Hai " + (healthBarScript.health) / 10f + " vite");

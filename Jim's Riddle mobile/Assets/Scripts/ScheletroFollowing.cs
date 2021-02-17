@@ -19,8 +19,8 @@ public class ScheletroFollowing : MonoBehaviour
         //uso var per avere lo stesso tipo di ciò che ho alla destra dell'uguale
         var dir = target.position - transform.position;
         //per fare in modo che il cubo ruoti in base alla posizione del personaggio
-        var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * enemySpeed);
     }
 
