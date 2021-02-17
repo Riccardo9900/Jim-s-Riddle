@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PavimentoFinale : MonoBehaviour
 {
-    public GameObject Zeus;
+    public GameObject Wookong;
     public GameObject mainCamera;
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class PavimentoFinale : MonoBehaviour
         {
             if (coll.tag == "portaInizio")
             {
-            Zeus.SetActive(true);
+            Wookong.SetActive(true);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             gameObject.GetComponent<PlayerMovement>().enabled = false;
             gameObject.GetComponent<Animator>().enabled = false;

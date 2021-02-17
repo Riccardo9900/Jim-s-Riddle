@@ -6,7 +6,7 @@ public class ristoroFunzioniWookong : MonoBehaviour
 {
     public GameObject player;
     public GameObject portaInizio;
-
+    public GameObject wookong;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,7 @@ public class ristoroFunzioniWookong : MonoBehaviour
         player.GetComponent<Animator>().enabled = true;
         gameObject.GetComponent<FollowPlayer>().enabled = true;
         Destroy(portaInizio);
+        wookong.GetComponent<WookongAttack>().enabled = true;
     }
 
     // Update is called once per frame

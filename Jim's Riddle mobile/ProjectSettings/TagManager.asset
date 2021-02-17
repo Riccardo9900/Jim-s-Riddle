@@ -28,6 +28,7 @@ TagManager:
   - Anubi
   - JoystickMovimento
   - MiniBoss
+  - Wookong
   layers:
   - Default
   - TransparentFX

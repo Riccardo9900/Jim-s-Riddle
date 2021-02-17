@@ -5,12 +5,14 @@ using UnityEngine;
 public class IndietroWookong : MonoBehaviour
 {
     public GameObject player;
-    public GameObject zeus;
+    public GameObject wookong;
     private Vector3 playerPosition;
     public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
+        
         gameObject.GetComponent<AvantiWookong>().enabled = false;
         playerPosition = new Vector3(player.transform.position.x, player.transform.position.y, gameObject.transform.position.z);
     }
