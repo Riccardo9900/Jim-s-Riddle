@@ -110,13 +110,12 @@ public class Dialogo : MonoBehaviour
         }
         if(index == 11)
         {
-            personaggioBoss.SetActive(false);
+            personaggioBoss.SetActive(true);
             return true;
         }
         if(index == 12)
         {
-            personaggioGuida.SetActive(true);
-            GameObject.FindGameObjectWithTag("PortaFine").GetComponent<Animator>().enabled = true;
+            personaggioBoss.SetActive(false);
             return true;
         }
 

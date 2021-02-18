@@ -15,6 +15,7 @@ public class DialogoLabirintoTutorial : MonoBehaviour
 
     public GameObject tastoContinua;
     public GameObject canvasDialoghi;
+    public GameObject passaporta;
 
     // Start is called before the first frame update
     void Start()
@@ -76,7 +77,7 @@ public class DialogoLabirintoTutorial : MonoBehaviour
     bool primaFrase()
     {
         GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
-        if(GameObject.FindGameObjectWithTag("PortaFine").GetComponent<Animator>().enabled == true)
+        if(passaporta.activeInHierarchy == true)
         {
             return true;
         }

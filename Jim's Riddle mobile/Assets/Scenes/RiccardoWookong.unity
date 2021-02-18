@@ -7300,7 +7300,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 0.995}
     newSize: {x: 0.77388537, y: 0.67834395}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8264,8 +8264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4370796368672071192, guid: ac8535e60b56c63448efcd30883c2c4a,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6211549867c7364c98ab37ab80f0b1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

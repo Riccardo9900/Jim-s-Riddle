@@ -33,6 +33,8 @@ TagManager:
   - changeScene1
   - changeSceneAnubi2
   - changeSceneWukong
+  - changeSceneTutorial
+  - changeSceneTutorial2
   layers:
   - Default
   - TransparentFX

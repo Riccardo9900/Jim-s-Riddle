@@ -13,13 +13,29 @@ public class cambioScenaLivelloZeus : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D coll)
     {
-        if(coll.tag == "changeScene")
+        if(coll.tag == "changeSceneTutorial")
+        {
+            SceneManager.LoadScene("TutorialLabirinto");
+        }
+        if (coll.tag == "changeSceneTutorial2")
+        {
+            SceneManager.LoadScene("Riccardo");
+        }
+        if (coll.tag == "changeScene")
         {
             SceneManager.LoadScene("LabirintoLettere");
         }
-        if(coll.tag == "changeSceneAnubi")
+        if (coll.tag == "changeScene1")
+        {
+            SceneManager.LoadScene("FrancescoAnubi");
+        }
+        if (coll.tag == "changeSceneAnubi")
         {
             SceneManager.LoadScene("RiccardoAnubiLabirinto");
+        }
+        if (coll.tag == "changeSceneAnubi2")
+        {
+            SceneManager.LoadScene("RiccardoWookong");
         }
     }
 

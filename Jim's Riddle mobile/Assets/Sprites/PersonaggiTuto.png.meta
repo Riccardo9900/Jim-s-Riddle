@@ -1,0 +1,5978 @@
+fileFormatVersion: 2
+guid: 8a9424d9c27551b4ca13a0108a62c4f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5508459650457842830
+    second: PersonaggiTuto_0
+  - first:
+      213: 7161425629299366305
+    second: PersonaggiTuto_1
+  - first:
+      213: 6391032996222349799
+    second: PersonaggiTuto_2
+  - first:
+      213: -1456214606249656679
+    second: PersonaggiTuto_3
+  - first:
+      213: -310303659718392672
+    second: PersonaggiTuto_4
+  - first:
+      213: 2832499287205138928
+    second: PersonaggiTuto_5
+  - first:
+      213: -6382586997338442372
+    second: PersonaggiTuto_6
+  - first:
+      213: 8944773669489125552
+    second: PersonaggiTuto_7
+  - first:
+      213: 1127229370656708681
+    second: PersonaggiTuto_8
+  - first:
+      213: 2789673345724610500
+    second: PersonaggiTuto_9
+  - first:
+      213: -9000412150338386542
+    second: PersonaggiTuto_10
+  - first:
+      213: -2061734035223310430
+    second: PersonaggiTuto_11
+  - first:
+      213: 8395084174735695882
+    second: PersonaggiTuto_12
+  - first:
+      213: 7571127922723025117
+    second: PersonaggiTuto_13
+  - first:
+      213: -6196743345087723460
+    second: PersonaggiTuto_14
+  - first:
+      213: 3540711468730270774
+    second: PersonaggiTuto_15
+  - first:
+      213: -171114260059308955
+    second: PersonaggiTuto_16
+  - first:
+      213: 6264108186711309433
+    second: PersonaggiTuto_17
+  - first:
+      213: -982739585882128807
+    second: PersonaggiTuto_18
+  - first:
+      213: 2797762521597683564
+    second: PersonaggiTuto_19
+  - first:
+      213: 8244001877985381603
+    second: PersonaggiTuto_20
+  - first:
+      213: -4063033785333938118
+    second: PersonaggiTuto_21
+  - first:
+      213: 8503739401549476355
+    second: PersonaggiTuto_22
+  - first:
+      213: -7150101914587907552
+    second: PersonaggiTuto_23
+  - first:
+      213: 5068755061657080733
+    second: PersonaggiTuto_24
+  - first:
+      213: -1935450392503210423
+    second: PersonaggiTuto_25
+  - first:
+      213: -8286666189462949914
+    second: PersonaggiTuto_26
+  - first:
+      213: 5056574596203317839
+    second: PersonaggiTuto_27
+  - first:
+      213: -701511894168585204
+    second: PersonaggiTuto_28
+  - first:
+      213: -311214897524695939
+    second: PersonaggiTuto_29
+  - first:
+      213: -8171817983934729834
+    second: PersonaggiTuto_30
+  - first:
+      213: 2826014769722429664
+    second: PersonaggiTuto_31
+  - first:
+      213: -910261973916534345
+    second: PersonaggiTuto_32
+  - first:
+      213: 6498277591638828290
+    second: PersonaggiTuto_33
+  - first:
+      213: -7168270408275046884
+    second: PersonaggiTuto_34
+  - first:
+      213: 1236451439808544853
+    second: PersonaggiTuto_35
+  - first:
+      213: -7142732966849573893
+    second: PersonaggiTuto_36
+  - first:
+      213: 8180069958595235900
+    second: PersonaggiTuto_37
+  - first:
+      213: 1785130631661411832
+    second: PersonaggiTuto_38
+  - first:
+      213: 676878442033521102
+    second: PersonaggiTuto_39
+  - first:
+      213: -3931082483655143628
+    second: PersonaggiTuto_40
+  - first:
+      213: -3981718600345836828
+    second: PersonaggiTuto_41
+  - first:
+      213: 5282474008682208907
+    second: PersonaggiTuto_42
+  - first:
+      213: -6344847585963117576
+    second: PersonaggiTuto_43
+  - first:
+      213: -6402794931140973920
+    second: PersonaggiTuto_44
+  - first:
+      213: -4049826252873995031
+    second: PersonaggiTuto_45
+  - first:
+      213: -636986825372118264
+    second: PersonaggiTuto_46
+  - first:
+      213: -8166144859052102448
+    second: PersonaggiTuto_47
+  - first:
+      213: 5126578181831910153
+    second: PersonaggiTuto_48
+  - first:
+      213: 3857980238186489269
+    second: PersonaggiTuto_49
+  - first:
+      213: 6808846757762019717
+    second: PersonaggiTuto_50
+  - first:
+      213: -8089397711268275515
+    second: PersonaggiTuto_51
+  - first:
+      213: 1950539009705638233
+    second: PersonaggiTuto_52
+  - first:
+      213: -5533793356863926627
+    second: PersonaggiTuto_53
+  - first:
+      213: 55687274186459779
+    second: PersonaggiTuto_54
+  - first:
+      213: 7332299131425002363
+    second: PersonaggiTuto_55
+  - first:
+      213: -841423800674497802
+    second: PersonaggiTuto_56
+  - first:
+      213: -6793777504949089404
+    second: PersonaggiTuto_57
+  - first:
+      213: -5132480935042472429
+    second: PersonaggiTuto_58
+  - first:
+      213: -4008498872062318222
+    second: PersonaggiTuto_59
+  - first:
+      213: -2136748544937770770
+    second: PersonaggiTuto_60
+  - first:
+      213: 1589965047883949535
+    second: PersonaggiTuto_61
+  - first:
+      213: -8913948246035318468
+    second: PersonaggiTuto_62
+  - first:
+      213: 7238319802713637250
+    second: PersonaggiTuto_63
+  - first:
+      213: 5199982045205272331
+    second: PersonaggiTuto_64
+  - first:
+      213: -6412285708205006939
+    second: PersonaggiTuto_65
+  - first:
+      213: 6879719586675685737
+    second: PersonaggiTuto_66
+  - first:
+      213: -5302225402319038447
+    second: PersonaggiTuto_67
+  - first:
+      213: 8727209022494925032
+    second: PersonaggiTuto_68
+  - first:
+      213: 493866962171253817
+    second: PersonaggiTuto_69
+  - first:
+      213: -8471665079087199966
+    second: PersonaggiTuto_70
+  - first:
+      213: -8077151683102987176
+    second: PersonaggiTuto_71
+  - first:
+      213: 6225481324807411803
+    second: PersonaggiTuto_72
+  - first:
+      213: 4370588016160954132
+    second: PersonaggiTuto_73
+  - first:
+      213: -7805403525046273527
+    second: PersonaggiTuto_74
+  - first:
+      213: 7622612569810628731
+    second: PersonaggiTuto_75
+  - first:
+      213: 9058956277430319625
+    second: PersonaggiTuto_76
+  - first:
+      213: 6670301075631516784
+    second: PersonaggiTuto_77
+  - first:
+      213: 3882834289310010003
+    second: PersonaggiTuto_78
+  - first:
+      213: -6059122357691165773
+    second: PersonaggiTuto_79
+  - first:
+      213: 3394810992474571647
+    second: PersonaggiTuto_80
+  - first:
+      213: -4027456442030058545
+    second: PersonaggiTuto_81
+  - first:
+      213: -3650358755329052903
+    second: PersonaggiTuto_82
+  - first:
+      213: 581698244318671133
+    second: PersonaggiTuto_83
+  - first:
+      213: -441272934322824230
+    second: PersonaggiTuto_84
+  - first:
+      213: 7586133126600496312
+    second: PersonaggiTuto_85
+  - first:
+      213: 5921618689868428419
+    second: PersonaggiTuto_86
+  - first:
+      213: -1358345347630677822
+    second: PersonaggiTuto_87
+  - first:
+      213: 5144533585508863545
+    second: PersonaggiTuto_88
+  - first:
+      213: -3373576570137576648
+    second: PersonaggiTuto_89
+  - first:
+      213: 5164133734083136819
+    second: PersonaggiTuto_90
+  - first:
+      213: 8058843432343589163
+    second: PersonaggiTuto_91
+  - first:
+      213: -1275635108777197354
+    second: PersonaggiTuto_92
+  - first:
+      213: -4180513943288279877
+    second: PersonaggiTuto_93
+  - first:
+      213: 1370150545038145987
+    second: PersonaggiTuto_94
+  - first:
+      213: -8494919808579126744
+    second: PersonaggiTuto_95
+  - first:
+      213: -7487407852930736650
+    second: PersonaggiTuto_96
+  - first:
+      213: 4876052741890011905
+    second: PersonaggiTuto_97
+  - first:
+      213: -8220892351571001678
+    second: PersonaggiTuto_98
+  - first:
+      213: 2999773881021839208
+    second: PersonaggiTuto_99
+  - first:
+      213: 5573011822988954762
+    second: PersonaggiTuto_100
+  - first:
+      213: 4539752019492808245
+    second: PersonaggiTuto_101
+  - first:
+      213: 6819475534224261792
+    second: PersonaggiTuto_102
+  - first:
+      213: -6426928752263047619
+    second: PersonaggiTuto_103
+  - first:
+      213: 133939119223967201
+    second: PersonaggiTuto_104
+  - first:
+      213: -1254468202033390931
+    second: PersonaggiTuto_105
+  - first:
+      213: 2463389133028285186
+    second: PersonaggiTuto_106
+  - first:
+      213: 1278547698022529667
+    second: PersonaggiTuto_107
+  - first:
+      213: 1280228804298649035
+    second: PersonaggiTuto_108
+  - first:
+      213: 3064449014254169446
+    second: PersonaggiTuto_109
+  - first:
+      213: -5919700039651403808
+    second: PersonaggiTuto_110
+  - first:
+      213: -2083859590501416533
+    second: PersonaggiTuto_111
+  - first:
+      213: 966322760369268961
+    second: PersonaggiTuto_112
+  - first:
+      213: 732130533463268188
+    second: PersonaggiTuto_113
+  - first:
+      213: 6098843233157026066
+    second: PersonaggiTuto_114
+  - first:
+      213: 6508147990358654313
+    second: PersonaggiTuto_115
+  - first:
+      213: 9156510280372200470
+    second: PersonaggiTuto_116
+  - first:
+      213: 1046434200225804963
+    second: PersonaggiTuto_117
+  - first:
+      213: 1339494656025110039
+    second: PersonaggiTuto_118
+  - first:
+      213: 5606463323398535605
+    second: PersonaggiTuto_119
+  - first:
+      213: -4759944716169884608
+    second: PersonaggiTuto_120
+  - first:
+      213: -586940785548087936
+    second: PersonaggiTuto_121
+  - first:
+      213: -6568611929785681177
+    second: PersonaggiTuto_122
+  - first:
+      213: -8019763517537915990
+    second: PersonaggiTuto_123
+  - first:
+      213: 7877095792312224617
+    second: PersonaggiTuto_124
+  - first:
+      213: 2924124572465040497
+    second: PersonaggiTuto_125
+  - first:
+      213: 8234220741703435593
+    second: PersonaggiTuto_126
+  - first:
+      213: 4458763894292098166
+    second: PersonaggiTuto_127
+  - first:
+      213: -3387325810768876554
+    second: PersonaggiTuto_128
+  - first:
+      213: 1275970830576704316
+    second: PersonaggiTuto_129
+  - first:
+      213: 2898396385019308497
+    second: PersonaggiTuto_130
+  - first:
+      213: 4358838430775088624
+    second: PersonaggiTuto_131
+  - first:
+      213: -1039859322697690799
+    second: PersonaggiTuto_132
+  - first:
+      213: 1852209275223306051
+    second: PersonaggiTuto_133
+  - first:
+      213: -1191444849798287689
+    second: PersonaggiTuto_134
+  - first:
+      213: 3212609220017800428
+    second: PersonaggiTuto_135
+  - first:
+      213: -7908742070750671702
+    second: PersonaggiTuto_136
+  - first:
+      213: -6522176248252895432
+    second: PersonaggiTuto_137
+  - first:
+      213: -5125890094724231961
+    second: PersonaggiTuto_138
+  - first:
+      213: 7296546511826224794
+    second: PersonaggiTuto_139
+  - first:
+      213: 3305606796674888280
+    second: PersonaggiTuto_140
+  - first:
+      213: 1002710786575032365
+    second: PersonaggiTuto_141
+  - first:
+      213: -3672286267238066353
+    second: PersonaggiTuto_142
+  - first:
+      213: 6294224059984115606
+    second: PersonaggiTuto_143
+  - first:
+      213: 7320975825129435409
+    second: PersonaggiTuto_144
+  - first:
+      213: -1051154472513082401
+    second: PersonaggiTuto_145
+  - first:
+      213: -1177133387996859409
+    second: PersonaggiTuto_146
+  - first:
+      213: -8078409110498445830
+    second: PersonaggiTuto_147
+  - first:
+      213: 3609645719933791527
+    second: PersonaggiTuto_148
+  - first:
+      213: -5825430036688556451
+    second: PersonaggiTuto_149
+  - first:
+      213: 7829864062296848756
+    second: PersonaggiTuto_150
+  - first:
+      213: 1067249589217342926
+    second: PersonaggiTuto_151
+  - first:
+      213: 7612384804929665255
+    second: PersonaggiTuto_152
+  - first:
+      213: 7045501715451809838
+    second: PersonaggiTuto_153
+  - first:
+      213: 8520802684793234935
+    second: PersonaggiTuto_154
+  - first:
+      213: -7792206869711713243
+    second: PersonaggiTuto_155
+  - first:
+      213: 1348602812280936156
+    second: PersonaggiTuto_156
+  - first:
+      213: -78054256858851036
+    second: PersonaggiTuto_157
+  - first:
+      213: 6478112432997559570
+    second: PersonaggiTuto_158
+  - first:
+      213: 2373510374356791196
+    second: PersonaggiTuto_159
+  - first:
+      213: 5172257994235338276
+    second: PersonaggiTuto_160
+  - first:
+      213: -246995112670043417
+    second: PersonaggiTuto_161
+  - first:
+      213: 6388192691061928703
+    second: PersonaggiTuto_162
+  - first:
+      213: 4181875052182782818
+    second: PersonaggiTuto_163
+  - first:
+      213: 2487856794405830007
+    second: PersonaggiTuto_164
+  - first:
+      213: -9126890339268668834
+    second: PersonaggiTuto_165
+  - first:
+      213: 5369579426192560893
+    second: PersonaggiTuto_166
+  - first:
+      213: 6023060755564932914
+    second: PersonaggiTuto_167
+  - first:
+      213: -705146670555011660
+    second: PersonaggiTuto_168
+  - first:
+      213: 6402775433144812835
+    second: PersonaggiTuto_169
+  - first:
+      213: 1721559234322285307
+    second: PersonaggiTuto_170
+  - first:
+      213: -2310557609633803755
+    second: PersonaggiTuto_171
+  - first:
+      213: 334754348278354543
+    second: PersonaggiTuto_172
+  - first:
+      213: -7385448045336922932
+    second: PersonaggiTuto_173
+  - first:
+      213: -5953715223679180614
+    second: PersonaggiTuto_174
+  - first:
+      213: 4781765537133926079
+    second: PersonaggiTuto_175
+  - first:
+      213: -6906411148891183277
+    second: PersonaggiTuto_176
+  - first:
+      213: 6416134047939818862
+    second: PersonaggiTuto_177
+  - first:
+      213: -3354977638759335455
+    second: PersonaggiTuto_178
+  - first:
+      213: 8702987309960785168
+    second: PersonaggiTuto_179
+  - first:
+      213: -363973559824094096
+    second: PersonaggiTuto_180
+  - first:
+      213: 5696435498711896116
+    second: PersonaggiTuto_181
+  - first:
+      213: 6061579534448924597
+    second: PersonaggiTuto_182
+  - first:
+      213: 5683180588311926913
+    second: PersonaggiTuto_183
+  - first:
+      213: 1480563542886411865
+    second: PersonaggiTuto_184
+  - first:
+      213: -7955718443398227468
+    second: PersonaggiTuto_185
+  - first:
+      213: 6788704772283967307
+    second: PersonaggiTuto_186
+  - first:
+      213: 3056483072221923386
+    second: PersonaggiTuto_187
+  - first:
+      213: -1284631653428317255
+    second: PersonaggiTuto_188
+  - first:
+      213: -2944412778491866763
+    second: PersonaggiTuto_189
+  - first:
+      213: -527429657760322632
+    second: PersonaggiTuto_190
+  - first:
+      213: -641491890547945269
+    second: PersonaggiTuto_191
+  - first:
+      213: 700248383890158963
+    second: PersonaggiTuto_192
+  - first:
+      213: 4796581342010669141
+    second: PersonaggiTuto_193
+  - first:
+      213: 7492905384972411020
+    second: PersonaggiTuto_194
+  - first:
+      213: -6335206178422802466
+    second: PersonaggiTuto_195
+  - first:
+      213: 2941046268730795604
+    second: PersonaggiTuto_196
+  - first:
+      213: 9122576766777714796
+    second: PersonaggiTuto_197
+  - first:
+      213: -2634228677096431284
+    second: PersonaggiTuto_198
+  - first:
+      213: -4592393766939454655
+    second: PersonaggiTuto_199
+  - first:
+      213: -7133825794391191040
+    second: PersonaggiTuto_200
+  - first:
+      213: 7088294263094329994
+    second: PersonaggiTuto_201
+  - first:
+      213: -8679483164312550930
+    second: PersonaggiTuto_202
+  - first:
+      213: -1528823311518297321
+    second: PersonaggiTuto_203
+  - first:
+      213: -8379239335113650171
+    second: PersonaggiTuto_204
+  - first:
+      213: 8432320391308914000
+    second: PersonaggiTuto_205
+  - first:
+      213: 272392775824269396
+    second: PersonaggiTuto_206
+  - first:
+      213: 1123646938252969560
+    second: PersonaggiTuto_207
+  - first:
+      213: -5781195064026690081
+    second: PersonaggiTuto_208
+  - first:
+      213: 4709670447714023221
+    second: PersonaggiTuto_209
+  - first:
+      213: 7447766237693164094
+    second: PersonaggiTuto_210
+  - first:
+      213: 1102088004169265070
+    second: PersonaggiTuto_211
+  - first:
+      213: -912745918998563371
+    second: PersonaggiTuto_212
+  - first:
+      213: 2001660699305872810
+    second: PersonaggiTuto_213
+  - first:
+      213: -7572654015913741380
+    second: PersonaggiTuto_214
+  - first:
+      213: -8245974370562012913
+    second: PersonaggiTuto_215
+  - first:
+      213: -6837306303657925714
+    second: PersonaggiTuto_216
+  - first:
+      213: 8813402506314917315
+    second: PersonaggiTuto_217
+  - first:
+      213: 1486240920353186111
+    second: PersonaggiTuto_218
+  - first:
+      213: 1346493658837055368
+    second: PersonaggiTuto_219
+  - first:
+      213: 843412238764508569
+    second: PersonaggiTuto_220
+  - first:
+      213: -7230121473681733151
+    second: PersonaggiTuto_221
+  - first:
+      213: 3478481415861645077
+    second: PersonaggiTuto_222
+  - first:
+      213: -113467934267095560
+    second: PersonaggiTuto_223
+  - first:
+      213: -2911830538124718469
+    second: PersonaggiTuto_224
+  - first:
+      213: -3418000261978553446
+    second: PersonaggiTuto_225
+  - first:
+      213: -64539533968009966
+    second: PersonaggiTuto_226
+  - first:
+      213: -955822801343468923
+    second: PersonaggiTuto_227
+  - first:
+      213: 8548154029480528059
+    second: PersonaggiTuto_228
+  - first:
+      213: 6472832096038422600
+    second: PersonaggiTuto_229
+  - first:
+      213: -731642817478997496
+    second: PersonaggiTuto_230
+  - first:
+      213: 7576834707293471384
+    second: PersonaggiTuto_231
+  - first:
+      213: -1325016243717089193
+    second: PersonaggiTuto_232
+  - first:
+      213: 2393989065598231282
+    second: PersonaggiTuto_233
+  - first:
+      213: -7698456144446346699
+    second: PersonaggiTuto_234
+  - first:
+      213: 8499335147258466616
+    second: PersonaggiTuto_235
+  - first:
+      213: 6030711466064719038
+    second: PersonaggiTuto_236
+  - first:
+      213: -715394434405357307
+    second: PersonaggiTuto_237
+  - first:
+      213: 5908637914535114601
+    second: PersonaggiTuto_238
+  - first:
+      213: 4802679953823175934
+    second: PersonaggiTuto_239
+  - first:
+      213: 7154755886061851536
+    second: PersonaggiTuto_240
+  - first:
+      213: -278518373799740953
+    second: PersonaggiTuto_241
+  - first:
+      213: -2822572371093206349
+    second: PersonaggiTuto_242
+  - first:
+      213: 4381905854976947893
+    second: PersonaggiTuto_243
+  - first:
+      213: -6582258350173677435
+    second: PersonaggiTuto_244
+  - first:
+      213: 6287838418591560500
+    second: PersonaggiTuto_245
+  - first:
+      213: 191577080802444103
+    second: PersonaggiTuto_246
+  - first:
+      213: 4306034941212172772
+    second: PersonaggiTuto_247
+  - first:
+      213: -7693501837303830700
+    second: PersonaggiTuto_248
+  - first:
+      213: 6012342722222192902
+    second: PersonaggiTuto_249
+  - first:
+      213: -2874461336835022436
+    second: PersonaggiTuto_250
+  - first:
+      213: 2305174766858155397
+    second: PersonaggiTuto_251
+  - first:
+      213: 7025597159051647959
+    second: PersonaggiTuto_252
+  - first:
+      213: -5994911436451284795
+    second: PersonaggiTuto_253
+  - first:
+      213: -4287757078044349036
+    second: PersonaggiTuto_254
+  - first:
+      213: 2898017396421307679
+    second: PersonaggiTuto_255
+  - first:
+      213: 8337751951007321544
+    second: PersonaggiTuto_256
+  - first:
+      213: -3416719576044938567
+    second: PersonaggiTuto_257
+  - first:
+      213: -7969767985878292798
+    second: PersonaggiTuto_258
+  - first:
+      213: 3856765434820566119
+    second: PersonaggiTuto_259
+  - first:
+      213: -8058905510249791722
+    second: PersonaggiTuto_260
+  - first:
+      213: 6519957377242410463
+    second: PersonaggiTuto_261
+  - first:
+      213: -2366491351233367987
+    second: PersonaggiTuto_262
+  - first:
+      213: 5308029320977835251
+    second: PersonaggiTuto_263
+  - first:
+      213: 2273460555175740784
+    second: PersonaggiTuto_264
+  - first:
+      213: 929392142521184338
+    second: PersonaggiTuto_265
+  - first:
+      213: 7210667352689898741
+    second: PersonaggiTuto_266
+  - first:
+      213: -7049737821175848051
+    second: PersonaggiTuto_267
+  - first:
+      213: -9090137619033708131
+    second: PersonaggiTuto_268
+  - first:
+      213: -365933245982130571
+    second: PersonaggiTuto_269
+  - first:
+      213: -3958388539988714341
+    second: PersonaggiTuto_270
+  - first:
+      213: -1029246081954077263
+    second: PersonaggiTuto_271
+  - first:
+      213: 4488434527859347300
+    second: PersonaggiTuto_272
+  - first:
+      213: -4520737882127972240
+    second: PersonaggiTuto_273
+  - first:
+      213: -606758842736691381
+    second: PersonaggiTuto_274
+  - first:
+      213: -1778859234765113149
+    second: PersonaggiTuto_275
+  - first:
+      213: -2534002863049573323
+    second: PersonaggiTuto_276
+  - first:
+      213: -252850617509816919
+    second: PersonaggiTuto_277
+  - first:
+      213: 3908066193558661879
+    second: PersonaggiTuto_278
+  - first:
+      213: 1723812673749254835
+    second: PersonaggiTuto_279
+  - first:
+      213: -9001527074135551575
+    second: PersonaggiTuto_280
+  - first:
+      213: 6810091562925128342
+    second: PersonaggiTuto_281
+  - first:
+      213: -6775232187901706825
+    second: PersonaggiTuto_282
+  - first:
+      213: -2216442625982574353
+    second: PersonaggiTuto_283
+  - first:
+      213: 3799147336244113841
+    second: PersonaggiTuto_284
+  - first:
+      213: 4868563862840123109
+    second: PersonaggiTuto_285
+  - first:
+      213: -8315341773793197222
+    second: PersonaggiTuto_286
+  - first:
+      213: -320329588395348224
+    second: PersonaggiTuto_287
+  - first:
+      213: 8865358772441735780
+    second: PersonaggiTuto_288
+  - first:
+      213: 250416752609185327
+    second: PersonaggiTuto_289
+  - first:
+      213: 9040275145712197388
+    second: PersonaggiTuto_290
+  - first:
+      213: -3861666270886774085
+    second: PersonaggiTuto_291
+  - first:
+      213: 3629054368107821072
+    second: PersonaggiTuto_292
+  - first:
+      213: 2520465935030489099
+    second: PersonaggiTuto_293
+  - first:
+      213: -5905600966891904592
+    second: PersonaggiTuto_294
+  - first:
+      213: -3061007736541242342
+    second: PersonaggiTuto_295
+  - first:
+      213: -4134715289800141493
+    second: PersonaggiTuto_296
+  - first:
+      213: 3248885725480882036
+    second: PersonaggiTuto_297
+  - first:
+      213: 3889883460004356929
+    second: PersonaggiTuto_298
+  - first:
+      213: -3774525726186917072
+    second: PersonaggiTuto_299
+  - first:
+      213: 1217396933162936857
+    second: PersonaggiTuto_300
+  - first:
+      213: 1754791034528617374
+    second: PersonaggiTuto_301
+  - first:
+      213: -1371481964510977678
+    second: PersonaggiTuto_302
+  - first:
+      213: -5066485467899235792
+    second: PersonaggiTuto_303
+  - first:
+      213: -2623661125398191463
+    second: PersonaggiTuto_304
+  - first:
+      213: -258060998909702714
+    second: PersonaggiTuto_305
+  - first:
+      213: 178423492762269727
+    second: PersonaggiTuto_306
+  - first:
+      213: 5673316946072005069
+    second: PersonaggiTuto_307
+  - first:
+      213: 7536367964002554333
+    second: PersonaggiTuto_308
+  - first:
+      213: -6401530333389943100
+    second: PersonaggiTuto_309
+  - first:
+      213: -122101709414463216
+    second: PersonaggiTuto_310
+  - first:
+      213: -6039022045518211693
+    second: PersonaggiTuto_311
+  - first:
+      213: 1802200946823606734
+    second: PersonaggiTuto_312
+  - first:
+      213: 7921201149621017611
+    second: PersonaggiTuto_313
+  - first:
+      213: 1876548595455033369
+    second: PersonaggiTuto_314
+  - first:
+      213: 6983636842098264303
+    second: PersonaggiTuto_315
+  - first:
+      213: -8009460580359860073
+    second: PersonaggiTuto_316
+  - first:
+      213: 7527017850946335519
+    second: PersonaggiTuto_317
+  - first:
+      213: 5231384700837363036
+    second: PersonaggiTuto_318
+  - first:
+      213: 3536322761292993872
+    second: PersonaggiTuto_319
+  - first:
+      213: 3584990675972184943
+    second: PersonaggiTuto_320
+  - first:
+      213: 3581960862248058902
+    second: PersonaggiTuto_321
+  - first:
+      213: 5227673717076164586
+    second: PersonaggiTuto_322
+  - first:
+      213: -299280701536054113
+    second: PersonaggiTuto_323
+  - first:
+      213: -316527758033345836
+    second: PersonaggiTuto_324
+  - first:
+      213: 8254075401442684421
+    second: PersonaggiTuto_325
+  - first:
+      213: -5845132578525328439
+    second: PersonaggiTuto_326
+  - first:
+      213: 9184648688469361736
+    second: PersonaggiTuto_327
+  - first:
+      213: 8835072309430875802
+    second: PersonaggiTuto_328
+  - first:
+      213: 6991002999692975265
+    second: PersonaggiTuto_329
+  - first:
+      213: -7599488806584542483
+    second: PersonaggiTuto_330
+  - first:
+      213: 7478155840126070473
+    second: PersonaggiTuto_331
+  - first:
+      213: 8429331369553692932
+    second: PersonaggiTuto_332
+  - first:
+      213: -2096966089076618940
+    second: PersonaggiTuto_333
+  - first:
+      213: -8482610204645260922
+    second: PersonaggiTuto_334
+  - first:
+      213: -1740856720211190549
+    second: PersonaggiTuto_335
+  - first:
+      213: -747212692340067744
+    second: PersonaggiTuto_336
+  - first:
+      213: -6056029337561286127
+    second: PersonaggiTuto_337
+  - first:
+      213: 6813685937092051273
+    second: PersonaggiTuto_338
+  - first:
+      213: 983217710278854079
+    second: PersonaggiTuto_339
+  - first:
+      213: -6110613890203578533
+    second: PersonaggiTuto_340
+  - first:
+      213: 4079000459897548623
+    second: PersonaggiTuto_341
+  - first:
+      213: -4462778886441603158
+    second: PersonaggiTuto_342
+  - first:
+      213: 2389705544303952150
+    second: PersonaggiTuto_343
+  - first:
+      213: 3532073596179515619
+    second: PersonaggiTuto_344
+  - first:
+      213: 7958025088047483014
+    second: PersonaggiTuto_345
+  - first:
+      213: -8082533197348950513
+    second: PersonaggiTuto_346
+  - first:
+      213: -1666703791950378287
+    second: PersonaggiTuto_347
+  - first:
+      213: -6944981517246362775
+    second: PersonaggiTuto_348
+  - first:
+      213: 1575243453848561453
+    second: PersonaggiTuto_349
+  - first:
+      213: -8349990110187285950
+    second: PersonaggiTuto_350
+  - first:
+      213: 7413535370718630387
+    second: PersonaggiTuto_351
+  - first:
+      213: 3334777558122607068
+    second: PersonaggiTuto_352
+  - first:
+      213: 4159610567182563415
+    second: PersonaggiTuto_353
+  - first:
+      213: -1894177035072990888
+    second: PersonaggiTuto_354
+  - first:
+      213: 3702076304996663472
+    second: PersonaggiTuto_355
+  - first:
+      213: 1946487812278737061
+    second: PersonaggiTuto_356
+  - first:
+      213: -3538486843310166595
+    second: PersonaggiTuto_357
+  - first:
+      213: 8270846785207439636
+    second: PersonaggiTuto_358
+  - first:
+      213: 3523894069873530636
+    second: PersonaggiTuto_359
+  - first:
+      213: 3400365493649840914
+    second: PersonaggiTuto_360
+  - first:
+      213: 4581200053002839554
+    second: PersonaggiTuto_361
+  - first:
+      213: -7216864945322575828
+    second: PersonaggiTuto_362
+  - first:
+      213: -78039921178914975
+    second: PersonaggiTuto_363
+  - first:
+      213: -1864386393383618436
+    second: PersonaggiTuto_364
+  - first:
+      213: -7425791536561964712
+    second: PersonaggiTuto_365
+  - first:
+      213: 6260950675904218839
+    second: PersonaggiTuto_366
+  - first:
+      213: -6004373467847531271
+    second: PersonaggiTuto_367
+  - first:
+      213: 8434276586067824361
+    second: PersonaggiTuto_368
+  - first:
+      213: 5995532579752901206
+    second: PersonaggiTuto_369
+  - first:
+      213: 5199329324846586572
+    second: PersonaggiTuto_370
+  - first:
+      213: -220686911351784873
+    second: PersonaggiTuto_371
+  - first:
+      213: 4235220320912943341
+    second: PersonaggiTuto_372
+  - first:
+      213: -679678553136858649
+    second: PersonaggiTuto_373
+  - first:
+      213: -5691189113832342862
+    second: PersonaggiTuto_374
+  - first:
+      213: 3588742919951231609
+    second: PersonaggiTuto_375
+  - first:
+      213: -6233334060918185530
+    second: PersonaggiTuto_376
+  - first:
+      213: -4017116982830772804
+    second: PersonaggiTuto_377
+  - first:
+      213: 4768350051748509469
+    second: PersonaggiTuto_378
+  - first:
+      213: -1080095334931641245
+    second: PersonaggiTuto_379
+  - first:
+      213: 7760226885391813264
+    second: PersonaggiTuto_380
+  - first:
+      213: 6262373378716141911
+    second: PersonaggiTuto_381
+  - first:
+      213: 6383125469237377282
+    second: PersonaggiTuto_382
+  - first:
+      213: -353278396604988254
+    second: PersonaggiTuto_383
+  - first:
+      213: 7004714678804399992
+    second: PersonaggiTuto_384
+  - first:
+      213: -1190128259256763735
+    second: PersonaggiTuto_385
+  - first:
+      213: 6348681011344346062
+    second: PersonaggiTuto_386
+  - first:
+      213: -3298826971047599429
+    second: PersonaggiTuto_387
+  - first:
+      213: -3684714254832875117
+    second: PersonaggiTuto_388
+  - first:
+      213: -3189466761960371583
+    second: PersonaggiTuto_389
+  - first:
+      213: 4798065824562877303
+    second: PersonaggiTuto_390
+  - first:
+      213: -8577859376253332914
+    second: PersonaggiTuto_391
+  - first:
+      213: -7336884178981841088
+    second: PersonaggiTuto_392
+  - first:
+      213: -580183810348789146
+    second: PersonaggiTuto_393
+  - first:
+      213: -6933199464701520511
+    second: PersonaggiTuto_394
+  - first:
+      213: -4973225855702469919
+    second: PersonaggiTuto_395
+  - first:
+      213: -6569557486414798768
+    second: PersonaggiTuto_396
+  - first:
+      213: -3465947356917229386
+    second: PersonaggiTuto_397
+  - first:
+      213: 6545316728405901919
+    second: PersonaggiTuto_398
+  - first:
+      213: -2068895175901301918
+    second: PersonaggiTuto_399
+  - first:
+      213: -5318068499907423941
+    second: PersonaggiTuto_400
+  - first:
+      213: 8372202743697765749
+    second: PersonaggiTuto_401
+  - first:
+      213: -6362453828823630059
+    second: PersonaggiTuto_402
+  - first:
+      213: 4292261969963024400
+    second: PersonaggiTuto_403
+  - first:
+      213: -2984805736344450839
+    second: PersonaggiTuto_404
+  - first:
+      213: 1874807716696251247
+    second: PersonaggiTuto_405
+  - first:
+      213: -3906880071280105239
+    second: PersonaggiTuto_406
+  - first:
+      213: -825682607425856592
+    second: PersonaggiTuto_407
+  - first:
+      213: -8964573092568318082
+    second: PersonaggiTuto_408
+  - first:
+      213: -9087718626822271896
+    second: PersonaggiTuto_409
+  - first:
+      213: -4858073664255904219
+    second: PersonaggiTuto_410
+  - first:
+      213: -6980584792034234632
+    second: PersonaggiTuto_411
+  - first:
+      213: -5621631107767861528
+    second: PersonaggiTuto_412
+  - first:
+      213: 8363851876250304216
+    second: PersonaggiTuto_413
+  - first:
+      213: 4504048153792272091
+    second: PersonaggiTuto_414
+  - first:
+      213: 5396349122647148896
+    second: PersonaggiTuto_415
+  - first:
+      213: 4090722004245574225
+    second: PersonaggiTuto_416
+  - first:
+      213: -6212135116718784830
+    second: PersonaggiTuto_417
+  - first:
+      213: 6716005479322188642
+    second: PersonaggiTuto_418
+  - first:
+      213: -532351411388952659
+    second: PersonaggiTuto_419
+  - first:
+      213: -2870248848835068514
+    second: PersonaggiTuto_420
+  - first:
+      213: -1625726577874628700
+    second: PersonaggiTuto_421
+  - first:
+      213: -5238279851896963741
+    second: PersonaggiTuto_422
+  - first:
+      213: 42708222932563869
+    second: PersonaggiTuto_423
+  - first:
+      213: -533442323735863365
+    second: PersonaggiTuto_424
+  - first:
+      213: -1944342643611357964
+    second: PersonaggiTuto_425
+  - first:
+      213: 791172336884267608
+    second: PersonaggiTuto_426
+  - first:
+      213: 4476173854868880922
+    second: PersonaggiTuto_427
+  - first:
+      213: 8064352059329740848
+    second: PersonaggiTuto_428
+  - first:
+      213: 4491065134081620393
+    second: PersonaggiTuto_429
+  - first:
+      213: -2944753963041441969
+    second: PersonaggiTuto_430
+  - first:
+      213: 2205880507514413815
+    second: PersonaggiTuto_431
+  - first:
+      213: -4328895048703480333
+    second: PersonaggiTuto_432
+  - first:
+      213: -4298044531510301167
+    second: PersonaggiTuto_433
+  - first:
+      213: 6174036829950975396
+    second: PersonaggiTuto_434
+  - first:
+      213: -8234571243891327626
+    second: PersonaggiTuto_435
+  - first:
+      213: 6821211619622533576
+    second: PersonaggiTuto_436
+  - first:
+      213: 6786011027886362857
+    second: PersonaggiTuto_437
+  - first:
+      213: 6449705757595656984
+    second: PersonaggiTuto_438
+  - first:
+      213: -3464956963762894824
+    second: PersonaggiTuto_439
+  - first:
+      213: -6714970450082695981
+    second: PersonaggiTuto_440
+  - first:
+      213: 8795900825325341970
+    second: PersonaggiTuto_441
+  - first:
+      213: 7475142857331612456
+    second: PersonaggiTuto_442
+  - first:
+      213: 1596398692701737519
+    second: PersonaggiTuto_443
+  - first:
+      213: -4691923832492838035
+    second: PersonaggiTuto_444
+  - first:
+      213: 6039356386170951411
+    second: PersonaggiTuto_445
+  - first:
+      213: 2679991928710729672
+    second: PersonaggiTuto_446
+  - first:
+      213: -2663245172091944720
+    second: PersonaggiTuto_447
+  - first:
+      213: 3458080948368613515
+    second: PersonaggiTuto_448
+  - first:
+      213: 5814791904166351685
+    second: PersonaggiTuto_449
+  - first:
+      213: -9065952061756700584
+    second: PersonaggiTuto_450
+  - first:
+      213: -2813919151505866126
+    second: PersonaggiTuto_451
+  - first:
+      213: 373112190808296757
+    second: PersonaggiTuto_452
+  - first:
+      213: -5764431795244627482
+    second: PersonaggiTuto_453
+  - first:
+      213: -2857025017989606135
+    second: PersonaggiTuto_454
+  - first:
+      213: 2654247521658236696
+    second: PersonaggiTuto_455
+  - first:
+      213: -8508506264401105579
+    second: PersonaggiTuto_456
+  - first:
+      213: -1368492673032795534
+    second: PersonaggiTuto_457
+  - first:
+      213: 1296487158003799588
+    second: PersonaggiTuto_458
+  - first:
+      213: -3125377991674058152
+    second: PersonaggiTuto_459
+  - first:
+      213: 4177649604280670470
+    second: PersonaggiTuto_460
+  - first:
+      213: 34136257778182375
+    second: PersonaggiTuto_461
+  - first:
+      213: -7286274839396983497
+    second: PersonaggiTuto_462
+  - first:
+      213: 7907130066772941340
+    second: PersonaggiTuto_463
+  - first:
+      213: 6321089960676218046
+    second: PersonaggiTuto_464
+  - first:
+      213: -8382737012588915811
+    second: PersonaggiTuto_465
+  - first:
+      213: -1011313787051876539
+    second: PersonaggiTuto_466
+  - first:
+      213: -3171179164377458256
+    second: PersonaggiTuto_467
+  - first:
+      213: 8371627931737703773
+    second: PersonaggiTuto_468
+  - first:
+      213: 772368645457160285
+    second: PersonaggiTuto_469
+  - first:
+      213: -5212524090430276046
+    second: PersonaggiTuto_470
+  - first:
+      213: 6425469585260186712
+    second: PersonaggiTuto_471
+  - first:
+      213: -1739755109309456666
+    second: PersonaggiTuto_472
+  - first:
+      213: -1743147807095566458
+    second: PersonaggiTuto_473
+  - first:
+      213: 398496278125636169
+    second: PersonaggiTuto_474
+  - first:
+      213: -7609136162320974552
+    second: PersonaggiTuto_475
+  - first:
+      213: -64499646173219504
+    second: PersonaggiTuto_476
+  - first:
+      213: -8161528945545171896
+    second: PersonaggiTuto_477
+  - first:
+      213: -7665561144905886549
+    second: PersonaggiTuto_478
+  - first:
+      213: -8760084397531616912
+    second: PersonaggiTuto_479
+  - first:
+      213: -6162848604402742400
+    second: PersonaggiTuto_480
+  - first:
+      213: -4672359185113290112
+    second: PersonaggiTuto_481
+  - first:
+      213: 6312012360443003808
+    second: PersonaggiTuto_482
+  - first:
+      213: -9146484570263942339
+    second: PersonaggiTuto_483
+  - first:
+      213: 9157334699807041528
+    second: PersonaggiTuto_484
+  - first:
+      213: 3562921491674328236
+    second: PersonaggiTuto_485
+  - first:
+      213: -1125009420907494431
+    second: PersonaggiTuto_486
+  - first:
+      213: 6424095558563839175
+    second: PersonaggiTuto_487
+  - first:
+      213: 2791204982981815961
+    second: PersonaggiTuto_488
+  - first:
+      213: -5548332447597828990
+    second: PersonaggiTuto_489
+  - first:
+      213: 8459507789353804036
+    second: PersonaggiTuto_490
+  - first:
+      213: -7501316099099307811
+    second: PersonaggiTuto_491
+  - first:
+      213: 8339561714289889690
+    second: PersonaggiTuto_492
+  - first:
+      213: -5856777817850839152
+    second: PersonaggiTuto_493
+  - first:
+      213: -2019800621713618984
+    second: PersonaggiTuto_494
+  - first:
+      213: 6571611645858696564
+    second: PersonaggiTuto_495
+  - first:
+      213: -6065585859403147882
+    second: PersonaggiTuto_496
+  - first:
+      213: -7785293957443254329
+    second: PersonaggiTuto_497
+  - first:
+      213: 1917710000283016674
+    second: PersonaggiTuto_498
+  - first:
+      213: 6002928198950903718
+    second: PersonaggiTuto_499
+  - first:
+      213: -295883363934004399
+    second: PersonaggiTuto_500
+  - first:
+      213: -6347778075996042360
+    second: PersonaggiTuto_501
+  - first:
+      213: 3695237612239255055
+    second: PersonaggiTuto_502
+  - first:
+      213: -4832377799688609757
+    second: PersonaggiTuto_503
+  - first:
+      213: 8322098611327483431
+    second: PersonaggiTuto_504
+  - first:
+      213: -2784772664313055499
+    second: PersonaggiTuto_505
+  - first:
+      213: 2220931812875109573
+    second: PersonaggiTuto_506
+  - first:
+      213: -2188917280964599334
+    second: PersonaggiTuto_507
+  - first:
+      213: 6147467013226128549
+    second: PersonaggiTuto_508
+  - first:
+      213: 8787374255574876341
+    second: PersonaggiTuto_509
+  - first:
+      213: -2657670111649838486
+    second: PersonaggiTuto_510
+  - first:
+      213: 4753263533669185096
+    second: PersonaggiTuto_511
+  - first:
+      213: 7575884357195880934
+    second: PersonaggiTuto_512
+  - first:
+      213: -8231569418036092130
+    second: PersonaggiTuto_513
+  - first:
+      213: -7079312433168998030
+    second: PersonaggiTuto_514
+  - first:
+      213: 1655596048015407338
+    second: PersonaggiTuto_515
+  - first:
+      213: -6092728949907356560
+    second: PersonaggiTuto_516
+  - first:
+      213: 4272569690893488181
+    second: PersonaggiTuto_517
+  - first:
+      213: -783609120355120089
+    second: PersonaggiTuto_518
+  - first:
+      213: -4632729506588545195
+    second: PersonaggiTuto_519
+  - first:
+      213: -1756839931962619076
+    second: PersonaggiTuto_520
+  - first:
+      213: 8673788763570311650
+    second: PersonaggiTuto_521
+  - first:
+      213: 4592650790743592173
+    second: PersonaggiTuto_522
+  - first:
+      213: 1356391351643368894
+    second: PersonaggiTuto_523
+  - first:
+      213: -2428618016580177918
+    second: PersonaggiTuto_524
+  - first:
+      213: -4549312421813139222
+    second: PersonaggiTuto_525
+  - first:
+      213: -1276216260793347226
+    second: PersonaggiTuto_526
+  - first:
+      213: -6146430603354000461
+    second: PersonaggiTuto_527
+  - first:
+      213: 808282848429045589
+    second: PersonaggiTuto_528
+  - first:
+      213: 5368129965497695405
+    second: PersonaggiTuto_529
+  - first:
+      213: 413337733176361508
+    second: PersonaggiTuto_530
+  - first:
+      213: 1022904879023051837
+    second: PersonaggiTuto_531
+  - first:
+      213: 2612790916120117400
+    second: PersonaggiTuto_532
+  - first:
+      213: -6165196595375957648
+    second: PersonaggiTuto_533
+  - first:
+      213: -8773200196803140789
+    second: PersonaggiTuto_534
+  - first:
+      213: 8503755080445439527
+    second: PersonaggiTuto_535
+  - first:
+      213: 1731628393212918099
+    second: PersonaggiTuto_536
+  - first:
+      213: 5509529355690750129
+    second: PersonaggiTuto_537
+  - first:
+      213: 7246455675610844863
+    second: PersonaggiTuto_538
+  - first:
+      213: -3028736860195412058
+    second: PersonaggiTuto_539
+  - first:
+      213: 4921871055660300933
+    second: PersonaggiTuto_540
+  - first:
+      213: -6901022301997927366
+    second: PersonaggiTuto_541
+  - first:
+      213: 4741550485905077788
+    second: PersonaggiTuto_542
+  - first:
+      213: 318658934466679009
+    second: PersonaggiTuto_543
+  - first:
+      213: 9061860729379668842
+    second: PersonaggiTuto_544
+  - first:
+      213: -7523152947596329006
+    second: PersonaggiTuto_545
+  - first:
+      213: -7028026433047766074
+    second: PersonaggiTuto_546
+  - first:
+      213: 2796722995830504921
+    second: PersonaggiTuto_547
+  - first:
+      213: -7634708924255174334
+    second: PersonaggiTuto_548
+  - first:
+      213: 7854204666482616679
+    second: PersonaggiTuto_549
+  - first:
+      213: 6294572711146176801
+    second: PersonaggiTuto_550
+  - first:
+      213: -5167911832631670418
+    second: PersonaggiTuto_551
+  - first:
+      213: 4970245255137539663
+    second: PersonaggiTuto_552
+  - first:
+      213: -1427234673824895657
+    second: PersonaggiTuto_553
+  - first:
+      213: 2255341349929769990
+    second: PersonaggiTuto_554
+  - first:
+      213: -5595326878575826603
+    second: PersonaggiTuto_555
+  - first:
+      213: 1044271595908897609
+    second: PersonaggiTuto_556
+  - first:
+      213: 8318601137431012973
+    second: PersonaggiTuto_557
+  - first:
+      213: -5193840268623043695
+    second: PersonaggiTuto_558
+  - first:
+      213: -4458128067851942222
+    second: PersonaggiTuto_559
+  - first:
+      213: 4013264277819799779
+    second: PersonaggiTuto_560
+  - first:
+      213: -4726240415446162093
+    second: PersonaggiTuto_561
+  - first:
+      213: 845969743531268495
+    second: PersonaggiTuto_562
+  - first:
+      213: 6424789656282989116
+    second: PersonaggiTuto_563
+  - first:
+      213: -4004828651497044514
+    second: PersonaggiTuto_564
+  - first:
+      213: 127035734749935357
+    second: PersonaggiTuto_565
+  - first:
+      213: -1082099842620283552
+    second: PersonaggiTuto_566
+  - first:
+      213: 2053610624358337673
+    second: PersonaggiTuto_567
+  - first:
+      213: -7888001771569137691
+    second: PersonaggiTuto_568
+  - first:
+      213: 5697633776170505648
+    second: PersonaggiTuto_569
+  - first:
+      213: 8765238249198796289
+    second: PersonaggiTuto_570
+  - first:
+      213: -7137751241508780536
+    second: PersonaggiTuto_571
+  - first:
+      213: 4310617414677165221
+    second: PersonaggiTuto_572
+  - first:
+      213: -8435752785748660850
+    second: PersonaggiTuto_573
+  - first:
+      213: -6481967116151934603
+    second: PersonaggiTuto_574
+  - first:
+      213: 8921014190929571794
+    second: PersonaggiTuto_575
+  - first:
+      213: 6390700504882009823
+    second: PersonaggiTuto_576
+  - first:
+      213: 2339622528413742704
+    second: PersonaggiTuto_577
+  - first:
+      213: 7183658777247949482
+    second: PersonaggiTuto_578
+  - first:
+      213: -1957247447571369853
+    second: PersonaggiTuto_579
+  - first:
+      213: -528864686405571349
+    second: PersonaggiTuto_580
+  - first:
+      213: -3703529803184469509
+    second: PersonaggiTuto_581
+  - first:
+      213: -3183946300905389367
+    second: PersonaggiTuto_582
+  - first:
+      213: -2762317243547802268
+    second: PersonaggiTuto_583
+  - first:
+      213: 3239078202308114602
+    second: PersonaggiTuto_584
+  - first:
+      213: -6911758936588294090
+    second: PersonaggiTuto_585
+  - first:
+      213: 9114046169593978478
+    second: PersonaggiTuto_586
+  - first:
+      213: 5123351879545868915
+    second: PersonaggiTuto_587
+  - first:
+      213: 6991566596998893431
+    second: PersonaggiTuto_588
+  - first:
+      213: 903561699985251626
+    second: PersonaggiTuto_589
+  - first:
+      213: -5490679145586985589
+    second: PersonaggiTuto_590
+  - first:
+      213: -2678788846775549190
+    second: PersonaggiTuto_591
+  - first:
+      213: 4998776032940079810
+    second: PersonaggiTuto_592
+  - first:
+      213: -417044674150774016
+    second: PersonaggiTuto_593
+  - first:
+      213: -6237546651718614316
+    second: PersonaggiTuto_594
+  - first:
+      213: 8136485015275636232
+    second: PersonaggiTuto_595
+  - first:
+      213: 3631508911882892433
+    second: PersonaggiTuto_596
+  - first:
+      213: -581155196515988946
+    second: PersonaggiTuto_597
+  - first:
+      213: 6184053033285166166
+    second: PersonaggiTuto_598
+  - first:
+      213: 8193897808318383567
+    second: PersonaggiTuto_599
+  - first:
+      213: 3418383276652421746
+    second: PersonaggiTuto_600
+  - first:
+      213: -7178027519440802755
+    second: PersonaggiTuto_601
+  - first:
+      213: -2467734723817679807
+    second: PersonaggiTuto_602
+  - first:
+      213: -9024024854243224581
+    second: PersonaggiTuto_603
+  - first:
+      213: 8219401521160280549
+    second: PersonaggiTuto_604
+  - first:
+      213: -6910484514739484248
+    second: PersonaggiTuto_605
+  - first:
+      213: -7425809186345500242
+    second: PersonaggiTuto_606
+  - first:
+      213: 3555180448486175340
+    second: PersonaggiTuto_607
+  - first:
+      213: -3646356212692120893
+    second: PersonaggiTuto_608
+  - first:
+      213: 2775698090632007955
+    second: PersonaggiTuto_609
+  - first:
+      213: 7212738377200277933
+    second: PersonaggiTuto_610
+  - first:
+      213: 8183456533570819782
+    second: PersonaggiTuto_611
+  - first:
+      213: 6138625675721567976
+    second: PersonaggiTuto_612
+  - first:
+      213: 8781032382707358454
+    second: PersonaggiTuto_613
+  - first:
+      213: 345042959289251497
+    second: PersonaggiTuto_614
+  - first:
+      213: -8902792270665725994
+    second: PersonaggiTuto_615
+  - first:
+      213: -2801481120077660958
+    second: PersonaggiTuto_616
+  - first:
+      213: -6809330024529931514
+    second: PersonaggiTuto_617
+  - first:
+      213: 6912886507091956498
+    second: PersonaggiTuto_618
+  - first:
+      213: -9053400742913752900
+    second: PersonaggiTuto_619
+  - first:
+      213: -4388610943097806200
+    second: PersonaggiTuto_620
+  - first:
+      213: -1937267517104693375
+    second: PersonaggiTuto_621
+  - first:
+      213: 8292888443035943925
+    second: PersonaggiTuto_622
+  - first:
+      213: -2193880805898063764
+    second: PersonaggiTuto_623
+  - first:
+      213: -2152428264419609174
+    second: PersonaggiTuto_624
+  - first:
+      213: 175694731138839242
+    second: PersonaggiTuto_625
+  - first:
+      213: 5496954041180195551
+    second: PersonaggiTuto_626
+  - first:
+      213: 360568812357831195
+    second: PersonaggiTuto_627
+  - first:
+      213: -2852852991727400768
+    second: PersonaggiTuto_628
+  - first:
+      213: -7088953383936597023
+    second: PersonaggiTuto_629
+  - first:
+      213: 1410190885815335893
+    second: PersonaggiTuto_630
+  - first:
+      213: -2354345463173841455
+    second: PersonaggiTuto_631
+  - first:
+      213: -2235010205598458975
+    second: PersonaggiTuto_632
+  - first:
+      213: -1657035397405484815
+    second: PersonaggiTuto_633
+  - first:
+      213: 6649831554264147093
+    second: PersonaggiTuto_634
+  - first:
+      213: 7182622634473009049
+    second: PersonaggiTuto_635
+  - first:
+      213: -9085451441492070905
+    second: PersonaggiTuto_636
+  - first:
+      213: 7849055964509714332
+    second: PersonaggiTuto_637
+  - first:
+      213: 8930312972709926845
+    second: PersonaggiTuto_638
+  - first:
+      213: 8468271438722174414
+    second: PersonaggiTuto_639
+  - first:
+      213: -7018363684578406509
+    second: PersonaggiTuto_640
+  - first:
+      213: -3656388660354269130
+    second: PersonaggiTuto_641
+  - first:
+      213: -7992817342687923655
+    second: PersonaggiTuto_642
+  - first:
+      213: 8186825977487106022
+    second: PersonaggiTuto_643
+  - first:
+      213: -7322299403504427970
+    second: PersonaggiTuto_644
+  - first:
+      213: -4470895790906993060
+    second: PersonaggiTuto_645
+  - first:
+      213: 4332711229230387549
+    second: PersonaggiTuto_646
+  - first:
+      213: 6963404343242873252
+    second: PersonaggiTuto_647
+  - first:
+      213: -3039030098775447972
+    second: PersonaggiTuto_648
+  - first:
+      213: -8895100876248031034
+    second: PersonaggiTuto_649
+  - first:
+      213: 2711695334072014758
+    second: PersonaggiTuto_650
+  - first:
+      213: -2583230354392488337
+    second: PersonaggiTuto_651
+  - first:
+      213: 5468088205464112551
+    second: PersonaggiTuto_652
+  - first:
+      213: -7892314163918506205
+    second: PersonaggiTuto_653
+  - first:
+      213: 8065408751039094919
+    second: PersonaggiTuto_654
+  - first:
+      213: 518908488508818782
+    second: PersonaggiTuto_655
+  - first:
+      213: 3393947164376915910
+    second: PersonaggiTuto_656
+  - first:
+      213: -5449245909490584943
+    second: PersonaggiTuto_657
+  - first:
+      213: 6947162762973568559
+    second: PersonaggiTuto_658
+  - first:
+      213: 8317544601373439974
+    second: PersonaggiTuto_659
+  - first:
+      213: -7210155255315964530
+    second: PersonaggiTuto_660
+  - first:
+      213: 7412533364756525332
+    second: PersonaggiTuto_661
+  - first:
+      213: -8303068704212264713
+    second: PersonaggiTuto_662
+  - first:
+      213: 8174190299506005806
+    second: PersonaggiTuto_663
+  - first:
+      213: 6660469268250705901
+    second: PersonaggiTuto_664
+  - first:
+      213: -4231297995796278816
+    second: PersonaggiTuto_665
+  - first:
+      213: 5994761368172328781
+    second: PersonaggiTuto_666
+  - first:
+      213: -2205224755077566083
+    second: PersonaggiTuto_667
+  - first:
+      213: 8784341324810369190
+    second: PersonaggiTuto_668
+  - first:
+      213: -6118502074092427141
+    second: PersonaggiTuto_669
+  - first:
+      213: -746812776588958211
+    second: PersonaggiTuto_670
+  - first:
+      213: 2988508010312749176
+    second: PersonaggiTuto_671
+  - first:
+      213: 4922483796539088946
+    second: PersonaggiTuto_672
+  - first:
+      213: -7752549950281288541
+    second: PersonaggiTuto_673
+  - first:
+      213: 7380171460462113326
+    second: PersonaggiTuto_674
+  - first:
+      213: -6561116422263307886
+    second: PersonaggiTuto_675
+  - first:
+      213: -1834188216911794011
+    second: PersonaggiTuto_676
+  - first:
+      213: -4932566501733208982
+    second: PersonaggiTuto_677
+  - first:
+      213: 2906749169204290675
+    second: PersonaggiTuto_678
+  - first:
+      213: -1908678745784718928
+    second: PersonaggiTuto_679
+  - first:
+      213: -2087179840317512038
+    second: PersonaggiTuto_680
+  - first:
+      213: -234704864377806439
+    second: PersonaggiTuto_681
+  - first:
+      213: -839950119368714792
+    second: PersonaggiTuto_682
+  - first:
+      213: -6252124386943587225
+    second: PersonaggiTuto_683
+  - first:
+      213: 4338823333268718301
+    second: PersonaggiTuto_684
+  - first:
+      213: -6557821760111049393
+    second: PersonaggiTuto_685
+  - first:
+      213: -8969378289096602319
+    second: PersonaggiTuto_686
+  - first:
+      213: -9154446393747884808
+    second: PersonaggiTuto_687
+  - first:
+      213: -3698013939280383762
+    second: PersonaggiTuto_688
+  - first:
+      213: -1162924115508566607
+    second: PersonaggiTuto_689
+  - first:
+      213: -1311678260245716952
+    second: PersonaggiTuto_690
+  - first:
+      213: -252409878918565167
+    second: PersonaggiTuto_691
+  - first:
+      213: -6919704197067272333
+    second: PersonaggiTuto_692
+  - first:
+      213: 3981657432994421981
+    second: PersonaggiTuto_693
+  - first:
+      213: 3171715052965333837
+    second: PersonaggiTuto_694
+  - first:
+      213: -8638697072848332099
+    second: PersonaggiTuto_695
+  - first:
+      213: -1535048741456490014
+    second: PersonaggiTuto_696
+  - first:
+      213: -3841412070117818203
+    second: PersonaggiTuto_697
+  - first:
+      213: 6333815582765432633
+    second: PersonaggiTuto_698
+  - first:
+      213: 6942896379078095303
+    second: PersonaggiTuto_699
+  - first:
+      213: -4740435412292274199
+    second: PersonaggiTuto_700
+  - first:
+      213: 7696123268247919302
+    second: PersonaggiTuto_701
+  - first:
+      213: -1618203857913835155
+    second: PersonaggiTuto_702
+  - first:
+      213: -598348216451426912
+    second: PersonaggiTuto_703
+  - first:
+      213: 2571833155317588996
+    second: PersonaggiTuto_704
+  - first:
+      213: -1319552563979024268
+    second: PersonaggiTuto_705
+  - first:
+      213: -1779165680527151060
+    second: PersonaggiTuto_706
+  - first:
+      213: -3739008395812672104
+    second: PersonaggiTuto_707
+  - first:
+      213: 6383422661835101517
+    second: PersonaggiTuto_708
+  - first:
+      213: -1333502375746362037
+    second: PersonaggiTuto_709
+  - first:
+      213: -573842123272187188
+    second: PersonaggiTuto_710
+  - first:
+      213: -6809191199921639884
+    second: PersonaggiTuto_711
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PersonaggiTuto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84bc15fddaf17c40800000000000000
+      internalID: 5508459650457842830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2617
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a954cfbaae726360800000000000000
+      internalID: 7161425629299366305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e132af16a281b850800000000000000
+      internalID: 6391032996222349799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef0cde78c7acbe0800000000000000
+      internalID: -1456214606249656679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a44bfd277491bbf0800000000000000
+      internalID: -310303659718392672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d860381f0f4720800000000000000
+      internalID: 2832499287205138928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c757d9b31fe7c67a0800000000000000
+      internalID: -6382586997338442372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8aa2ec248322c70800000000000000
+      internalID: 8944773669489125552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948516ae329b4af00800000000000000
+      internalID: 1127229370656708681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c77a4ba029e6b620800000000000000
+      internalID: 2789673345724610500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29588f2e5dc181380800000000000000
+      internalID: -9000412150338386542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af8e2981df3363e0800000000000000
+      internalID: -2061734035223310430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00ef9ee394518470800000000000000
+      internalID: 8395084174735695882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd072fe6bbc021960800000000000000
+      internalID: 7571127922723025117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38c7c762ceb00aa0800000000000000
+      internalID: -6196743345087723460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634c1d14252232130800000000000000
+      internalID: 3540711468730270774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c3921bc7410adf0800000000000000
+      internalID: -171114260059308955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c3b8705359ee650800000000000000
+      internalID: 6264108186711309433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ef7ccad8b9c52f0800000000000000
+      internalID: -982739585882128807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c672bb1b036a3d620800000000000000
+      internalID: 2797762521597683564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc8f88704986270800000000000000
+      internalID: 8244001877985381603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3882c29c443d97c0800000000000000
+      internalID: -4063033785333938118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30279d35ee9530670800000000000000
+      internalID: 8503739401549476355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab529013cb5cc90800000000000000
+      internalID: -7150101914587907552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9398878fd5d75640800000000000000
+      internalID: 5068755061657080733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ea47a5f16e325e0800000000000000
+      internalID: -1935450392503210423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef22dc5109dffc80800000000000000
+      internalID: -8286666189462949914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a86faedcf8c2640800000000000000
+      internalID: 5056574596203317839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbe5626aab346f0800000000000000
+      internalID: -701511894168585204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c1b3813b75eabf0800000000000000
+      internalID: -311214897524695939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691fb6af6ded79e80800000000000000
+      internalID: -8171817983934729834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0105fc575083720800000000000000
+      internalID: 2826014769722429664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b828be891e53f0800000000000000
+      internalID: -910261973916534345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205638d4a058e2a50800000000000000
+      internalID: 6498277591638828290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e42d4fa00358c90800000000000000
+      internalID: -7168270408275046884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500fc39802c82110800000000000000
+      internalID: 1236451439808544853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb8571e53aefdc90800000000000000
+      internalID: -7142732966849573893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d9e79942758170800000000000000
+      internalID: 8180069958595235900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd8d9f9de06c810800000000000000
+      internalID: 1785130631661411832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec127855b51c46900800000000000000
+      internalID: 676878442033521102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f89f21f4df179c0800000000000000
+      internalID: -3931082483655143628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e222de67081eb8c0800000000000000
+      internalID: -3981718600345836828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e9cb68f1e1f4940800000000000000
+      internalID: 5282474008682208907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_43
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f37cacacb292f7a0800000000000000
+      internalID: -6344847585963117576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaabaffee3b427a0800000000000000
+      internalID: -6402794931140973920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece46bda702cc7c0800000000000000
+      internalID: -4049826252873995031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80357137bd7f827f0800000000000000
+      internalID: -636986825372118264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc21db44860cae80800000000000000
+      internalID: -8166144859052102448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903eb51d1b3452740800000000000000
+      internalID: 5126578181831910153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5259f069c4a8530800000000000000
+      internalID: 3857980238186489269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581b9762d02ed7e50800000000000000
+      internalID: 6808846757762019717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca1ffc14afacbf80800000000000000
+      internalID: -8089397711268275515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959fb0a15e4b11b10800000000000000
+      internalID: 1950539009705638233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e85bfd2440433b0800000000000000
+      internalID: -5533793356863926627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ac464e747d5c000800000000000000
+      internalID: 55687274186459779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b731e7b363f81c560800000000000000
+      internalID: 7332299131425002363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6facc37e289a254f0800000000000000
+      internalID: -841423800674497802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b487eaa57a7b1a0800000000000000
+      internalID: -6793777504949089404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316245a58c3c5c8b0800000000000000
+      internalID: -5132480935042472429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279eb288383fe58c0800000000000000
+      internalID: -4008498872062318222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0c6a4f48eb852e0800000000000000
+      internalID: -2136748544937770770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e86c79c0b01610800000000000000
+      internalID: 1589965047883949535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3939d06c4b4b4480800000000000000
+      internalID: -8913948246035318468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810c63a28da37460800000000000000
+      internalID: 7238319802713637250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079ed29e1c0a2840800000000000000
+      internalID: 5199982045205272331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af50244f1cf207a0800000000000000
+      internalID: -6412285708205006939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f916838ca97f50800000000000000
+      internalID: 6879719586675685737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11898b7c616ba66b0800000000000000
+      internalID: -5302225402319038447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0e4620e564d1970800000000000000
+      internalID: 8727209022494925032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934d48ea2619ad600800000000000000
+      internalID: 493866962171253817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2290de0de799e6a80800000000000000
+      internalID: -8471665079087199966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca2bbb65138ef80800000000000000
+      internalID: -8077151683102987176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5859f8e74a556650800000000000000
+      internalID: 6225481324807411803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4175ad2f4a277ac30800000000000000
+      internalID: 4370588016160954132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90af80949d2ada390800000000000000
+      internalID: -7805403525046273527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b707df3feb5f8c960800000000000000
+      internalID: 7622612569810628731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_76
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a7708ecb0e7bd70800000000000000
+      internalID: 9058956277430319625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_77
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c2cedcc7ba19c50800000000000000
+      internalID: 6670301075631516784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a8708c63992e530800000000000000
+      internalID: 3882834289310010003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3d03b715ca9eba0800000000000000
+      internalID: -6059122357691165773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_80
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1330
+        width: 75
+        height: 52
+      alignment: 9
+      pivot: {x: 0.43277597, y: 0.50000507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c9067c9acc1f20800000000000000
+      internalID: 3394810992474571647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3907054b99b18c0800000000000000
+      internalID: -4027456442030058545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fefdd6d02575dc0800000000000000
+      internalID: -3650358755329052903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_83
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d113513a87b921800800000000000000
+      internalID: 581698244318671133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_84
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb91bcaa9840e9f0800000000000000
+      internalID: -441272934322824230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_85
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b498d5b2eb574960800000000000000
+      internalID: 7586133126600496312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_86
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384fbe803d0dd2250800000000000000
+      internalID: 5921618689868428419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04b286a10362de0800000000000000
+      internalID: -1358345347630677822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e82530a0e056740800000000000000
+      internalID: 5144533585508863545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b7e52cbf5ae21d0800000000000000
+      internalID: -3373576570137576648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d03a83540baa740800000000000000
+      internalID: 5164133734083136819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2154557763c6df60800000000000000
+      internalID: 8058843432343589163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_92
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0815e80a80c4ee0800000000000000
+      internalID: -1275635108777197354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_93
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc0cb7c7b4dbf5c0800000000000000
+      internalID: -4180513943288279877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97ecd49a0c30310800000000000000
+      internalID: 1370150545038145987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_95
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a363e217bfb1a80800000000000000
+      internalID: -8494919808579126744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd79d4a32671890800000000000000
+      internalID: -7487407852930736650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1037c6262283ba340800000000000000
+      internalID: 4876052741890011905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be72ef56f589ed80800000000000000
+      internalID: -8220892351571001678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8673dc8837651a920800000000000000
+      internalID: 2999773881021839208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c0f46d9b0575d40800000000000000
+      internalID: 5573011822988954762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362b3ab860700f30800000000000000
+      internalID: 4539752019492808245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a287e30ed4a3ae50800000000000000
+      internalID: 6819475534224261792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36dd94e956fec6a0800000000000000
+      internalID: -6426928752263047619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed8fd65be8dbd100800000000000000
+      internalID: 133939119223967201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daad6c311db379ee0800000000000000
+      internalID: -1254468202033390931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b55b96d57bf2220800000000000000
+      internalID: 2463389133028285186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab6097b505eb110800000000000000
+      internalID: 1278547698022529667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcda177805944c110800000000000000
+      internalID: 1280228804298649035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d6aee642c178a20800000000000000
+      internalID: 3064449014254169446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e756b78d2009dda0800000000000000
+      internalID: -5919700039651403808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba14f524eb4a413e0800000000000000
+      internalID: -2083859590501416533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e86f264e61196d00800000000000000
+      internalID: 966322760369268961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b9b4857dc092a00800000000000000
+      internalID: 732130533463268188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119e158b9173a450800000000000000
+      internalID: 6098843233157026066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dfff69d16915a50800000000000000
+      internalID: 6508147990358654313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6142cc33695721f70800000000000000
+      internalID: 9156510280372200470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_117
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a277416c5ea58e00800000000000000
+      internalID: 1046434200225804963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71629eeea47d69210800000000000000
+      internalID: 1339494656025110039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_119
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9fc6530b82ecd40800000000000000
+      internalID: 5606463323398535605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c423aff7741fdb0800000000000000
+      internalID: -4759944716169884608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08da73d1774cad7f0800000000000000
+      internalID: -586940785548087936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea3bb9704a97d4a0800000000000000
+      internalID: -6568611929785681177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabe382429314b090800000000000000
+      internalID: -8019763517537915990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b8e7273e0115d60800000000000000
+      internalID: 7877095792312224617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c05c45ec3949820800000000000000
+      internalID: 2924124572465040497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_126
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94503674324d54270800000000000000
+      internalID: 8234220741703435593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2e986326b0ed30800000000000000
+      internalID: 4458763894292098166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbeb963f1dcdf0d0800000000000000
+      internalID: -3387325810768876554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bd844c5b825b110800000000000000
+      internalID: 1275970830576704316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d92a53e72c293820800000000000000
+      internalID: 2898396385019308497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_131
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f59bab6574bd7c30800000000000000
+      internalID: 4358838430775088624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151d936947da191f0800000000000000
+      internalID: -1039859322697690799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f6e5bb58e54b910800000000000000
+      internalID: 1852209275223306051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beed4eb833277fe0800000000000000
+      internalID: -1191444849798287689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce44e41801b759c20800000000000000
+      internalID: 3212609220017800428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac08bc2df08e3290800000000000000
+      internalID: -7908742070750671702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f656812439c75a0800000000000000
+      internalID: -6522176248252895432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_138
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecc442fd1e2dd8b0800000000000000
+      internalID: -5125890094724231961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_139
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96848cc46a824560800000000000000
+      internalID: 7296546511826224794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_140
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527ce22edfdfdd20800000000000000
+      internalID: 3305606796674888280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_141
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e146d5285aed00800000000000000
+      internalID: 1002710786575032365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_142
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47dab7b81b690dc0800000000000000
+      internalID: -3672286267238066353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_143
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697f1103f63995750800000000000000
+      internalID: 6294224059984115606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_144
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ff0a89b4599560800000000000000
+      internalID: 7320975825129435409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_145
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb6bc5939c8961f0800000000000000
+      internalID: -1051154472513082401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f13b9b6bf9afe0800000000000000
+      internalID: -1177133387996859409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_147
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5f57a17b9b3ef80800000000000000
+      internalID: -8078409110498445830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72da9a558a9081230800000000000000
+      internalID: 3609645719933791527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_149
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea94ffe3ae72fa0800000000000000
+      internalID: -5825430036688556451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479fcc851e349ac60800000000000000
+      internalID: 7829864062296848756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_151
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec53bfbc8d1afce00800000000000000
+      internalID: 1067249589217342926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_152
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f96fd5af94a960800000000000000
+      internalID: 7612384804929665255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_153
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2019e54b76a6c160800000000000000
+      internalID: 7045501715451809838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_154
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ab4c85e8ff3670800000000000000
+      internalID: 8520802684793234935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_155
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c897a03258cd390800000000000000
+      internalID: -7792206869711713243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_156
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd61911dc1337b210800000000000000
+      internalID: 1348602812280936156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_157
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42998b22112baeef0800000000000000
+      internalID: -78054256858851036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_158
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d6cdf6fe0e6e950800000000000000
+      internalID: 6478112432997559570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fad3e2c1760f020800000000000000
+      internalID: 2373510374356791196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5211fd3d87c740800000000000000
+      internalID: 5172257994235338276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e26b00f04f729cf0800000000000000
+      internalID: -246995112670043417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_162
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff23e7b086b67a850800000000000000
+      internalID: 6388192691061928703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_163
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2634c641431090a30800000000000000
+      internalID: 4181875052182782818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_164
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df992c294a68220800000000000000
+      internalID: 2487856794405830007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_165
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5252ffb795c65180800000000000000
+      internalID: -9126890339268668834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_166
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df21473f904948a40800000000000000
+      internalID: 5369579426192560893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_167
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f2b0c78d5369350800000000000000
+      internalID: 6023060755564932914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_168
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5e403d6d0d636f0800000000000000
+      internalID: -705146670555011660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_169
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c135455a3bd850800000000000000
+      internalID: 6402775433144812835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_170
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2c29d900534e710800000000000000
+      internalID: 1721559234322285307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_171
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51293bc88104fefd0800000000000000
+      internalID: -2310557609633803755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6216206e4945a400800000000000000
+      internalID: 334754348278354543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_173
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f69ee12e918990800000000000000
+      internalID: -7385448045336922932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab064c65c87206da0800000000000000
+      internalID: -5953715223679180614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_175
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb69210db6e3c5240800000000000000
+      internalID: 4781765537133926079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_176
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3572b8dd6af7720a0800000000000000
+      internalID: -6906411148891183277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonaggiTuto_177
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65fdb62cefaa0950800000000000000
+      internalID: 6416134047939818862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

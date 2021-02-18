@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PavimentoRossoTutorial : MonoBehaviour
 {
+    public GameObject passaporta;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,7 @@ public class PavimentoRossoTutorial : MonoBehaviour
     {
         if(coll.tag == "pavimentoRossoTutorial")
         {
-            GameObject.FindGameObjectWithTag("PortaFine").GetComponent<Animator>().enabled = true;
+            passaporta.SetActive(true);
         }
     }
 
