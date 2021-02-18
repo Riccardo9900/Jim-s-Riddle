@@ -10974,7 +10974,7 @@ Transform:
   m_Children:
   - {fileID: 1255333972}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940621591
 GameObject:
@@ -17281,7 +17281,7 @@ Transform:
   m_Children:
   - {fileID: 685446269}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2102347451
 GameObject:
@@ -17437,6 +17437,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1511197381993613337, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1511197381993613339, guid: a3cf349089e3f4940b824dacc1e328c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17578,6 +17583,31 @@ PrefabInstance:
       propertyPath: passaPorta
       value: 
       objectReference: {fileID: 2102347451}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: spawnpoint1
+      value: 
+      objectReference: {fileID: 706636284}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: spawnpoint2
+      value: 
+      objectReference: {fileID: 1009518787}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: spawnpoint3
+      value: 
+      objectReference: {fileID: 207618607}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: spawnpoint4
+      value: 
+      objectReference: {fileID: 740567670}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: spawnpoint5
+      value: 
+      objectReference: {fileID: 1169898198}
     - target: {fileID: 7253707718331201162, guid: a3cf349089e3f4940b824dacc1e328c4,
         type: 3}
       propertyPath: m_Controller
