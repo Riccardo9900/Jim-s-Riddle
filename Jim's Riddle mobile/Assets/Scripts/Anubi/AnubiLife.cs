@@ -11,6 +11,12 @@ public class AnubiLife : MonoBehaviour
     public GameObject passaPorta;
     public GameObject canvasDialoghi;
 
+    public GameObject spawnpoint1;
+    public GameObject spawnpoint2;
+    public GameObject spawnpoint3;
+    public GameObject spawnpoint4;
+    public GameObject spawnpoint5;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +37,11 @@ public class AnubiLife : MonoBehaviour
     {
         if (healthBarScript.health <= 0.0f)
         {
+            Destroy(spawnpoint1);
+            Destroy(spawnpoint2);
+            Destroy(spawnpoint3);
+            Destroy(spawnpoint4);
+            Destroy(spawnpoint5);
             Destroy(gameObject);
             passaPorta.SetActive(true);
             canvasDialoghi.SetActive(true);
