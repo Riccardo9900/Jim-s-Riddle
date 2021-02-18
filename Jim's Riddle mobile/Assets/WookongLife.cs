@@ -9,11 +9,11 @@ public class WookongLife : MonoBehaviour
     private GameObject PassaggioLivello;
     private GameObject dialogueManager;
     private GameObject canvasDialoghi;
+    public GameObject healtBarWookong;
 
     // Start is called before the first frame update
     void Start()
     {
-        healthBarScript.enabled = false;
         dannoFreccia = 10;
     }
 
@@ -32,7 +32,8 @@ public class WookongLife : MonoBehaviour
         if (healthBarScript.health <= 0.0f)
         {
             Destroy(gameObject);
-            Debug.Log("Hai sconfitto Anubi e hai attivato il passaggio per il prossimo livello!!");
+            Destroy(healtBarWookong);
+            Debug.Log("Hai sconfitto Wookong e hai attivato il passaggio per il prossimo livello!!");
         }
     }
 }

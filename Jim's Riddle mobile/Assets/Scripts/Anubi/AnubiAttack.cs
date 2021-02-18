@@ -26,12 +26,12 @@ public class AnubiAttack : MonoBehaviour
 
     public void CreaNemico()
     {
+        
         if (healthBarPlayer.health > 0)
         {
             if (healtBarAnubi.health >= 90 && healtBarAnubi.health < 100)
             {
-                Instantiate(scheletroPrefab, spawnPoint1.transform);
-                Instantiate(scheletroPrefab, spawnPoint2.transform);
+                PrimiScheletri();
             }
             if (healtBarAnubi.health >= 80 && healtBarAnubi.health < 90)
             {
@@ -68,6 +68,12 @@ public class AnubiAttack : MonoBehaviour
             Destroy(healtBarAnubi);
         }
       
+    }
+
+    public void PrimiScheletri()
+    {
+        Instantiate(scheletroPrefab, spawnPoint1.transform);
+        Instantiate(scheletroPrefab, spawnPoint2.transform);
     }
 
 

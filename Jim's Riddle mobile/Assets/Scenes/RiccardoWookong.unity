@@ -6154,7 +6154,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d2b407ac65f144d45929f6784ad224de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6431373}
   m_FlipX: 0
@@ -7335,6 +7335,7 @@ GameObject:
   - component: {fileID: 1076282759}
   - component: {fileID: 1076282756}
   - component: {fileID: 1076282760}
+  - component: {fileID: 1076282761}
   m_Layer: 0
   m_Name: Wookong
   m_TagString: Wookong
@@ -7584,6 +7585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBarScript: {fileID: 109773287}
   dannoFreccia: 10
+  healtBarWookong: {fileID: 109773285}
 --- !u!114 &1076282760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7598,6 +7600,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KnockbackPower: 100
   KnockbackDuration: 1
+--- !u!114 &1076282761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076282753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac7253b693dab204e9fddb8262ab7f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healtBarWookong: {fileID: 109773285}
+  healtbarWookong: {fileID: 109773287}
 --- !u!1001 &1117635749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7885,7 +7901,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 286584692}
-  healtBarWookong: {fileID: 109773285}
 --- !u!82 &1117635764
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9157,6 +9172,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: healthBar
       objectReference: {fileID: 0}
+    - target: {fileID: 1564376996249210, guid: d16a19242f7da6d4794facdc63b9c915, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1618206487632800, guid: d16a19242f7da6d4794facdc63b9c915, type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -9208,12 +9227,12 @@ PrefabInstance:
     - target: {fileID: 224383897800939226, guid: d16a19242f7da6d4794facdc63b9c915,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224383897800939226, guid: d16a19242f7da6d4794facdc63b9c915,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224687051574267488, guid: d16a19242f7da6d4794facdc63b9c915,
         type: 3}

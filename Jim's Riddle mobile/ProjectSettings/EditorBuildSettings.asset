@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TESTMORTE.unity
     guid: 877d8ff15e61cc5458b0cad2fcbf4534
+  - enabled: 1
+    path: Assets/Scenes/FrancescoAnubi.unity
+    guid: 5d93cb9042f91cc44b64544bf4ac5f3f
+  - enabled: 1
+    path: Assets/Scenes/RiccardoAnubiLabirinto.unity
+    guid: 45f30de6758880247bda6fb2c61c7cad
   m_configObjects: {}
