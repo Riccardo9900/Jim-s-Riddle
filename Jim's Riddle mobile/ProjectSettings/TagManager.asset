@@ -30,6 +30,9 @@ TagManager:
   - MiniBoss
   - Wookong
   - changeSceneAnubi
+  - changeScene1
+  - changeSceneAnubi2
+  - changeSceneWukong
   layers:
   - Default
   - TransparentFX

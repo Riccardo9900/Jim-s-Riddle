@@ -9,6 +9,7 @@ public class ZeusLife : MonoBehaviour
 
     public GameObject dialogueManager;
     public GameObject canvasDialoghi;
+    public GameObject portaleFinale;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,7 @@ public class ZeusLife : MonoBehaviour
         {
             canvasDialoghi.SetActive(true);
             dialogueManager.SetActive(true);
+            portaleFinale.SetActive(true);
             Destroy(gameObject);
         }
     }

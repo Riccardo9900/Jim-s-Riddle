@@ -5,6 +5,7 @@ using UnityEngine;
 public class cambioCameraManage : MonoBehaviour
 {
     public GameObject mainCamera;
+    public GameObject passaggioLivello;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class cambioCameraManage : MonoBehaviour
     {
         if(coll.collider.tag == "portaInizio")
         {
+            passaggioLivello.SetActive(false);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             gameObject.GetComponent<PlayerMovement>().enabled = false;
             gameObject.GetComponent<Animator>().enabled = false;

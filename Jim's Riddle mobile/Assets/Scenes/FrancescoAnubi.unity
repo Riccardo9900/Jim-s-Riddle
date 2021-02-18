@@ -10501,6 +10501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 1770598542}
+  passaggioLivello: {fileID: 2102347451}
 --- !u!114 &905871505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17301,7 +17302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2102347452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17573,6 +17574,11 @@ PrefabInstance:
       propertyPath: canvasDialoghi
       value: 
       objectReference: {fileID: 996238859}
+    - target: {fileID: 1511197381993613351, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: passaPorta
+      value: 
+      objectReference: {fileID: 2102347451}
     - target: {fileID: 7253707718331201162, guid: a3cf349089e3f4940b824dacc1e328c4,
         type: 3}
       propertyPath: m_Controller

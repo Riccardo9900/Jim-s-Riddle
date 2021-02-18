@@ -10,6 +10,7 @@ public class WookongLife : MonoBehaviour
     private GameObject dialogueManager;
     private GameObject canvasDialoghi;
     public GameObject healtBarWookong;
+    public GameObject passaporta;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class WookongLife : MonoBehaviour
     {
         if (healthBarScript.health <= 0.0f)
         {
+            passaporta.SetActive(true);
             Destroy(gameObject);
             Destroy(healtBarWookong);
             Debug.Log("Hai sconfitto Wookong e hai attivato il passaggio per il prossimo livello!!");

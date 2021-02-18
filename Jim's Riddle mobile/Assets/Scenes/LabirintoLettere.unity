@@ -1613,6 +1613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 667074386}
+  passaggioLivello: {fileID: 277526744}
 --- !u!82 &267594384
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2064,7 +2065,7 @@ GameObject:
   - component: {fileID: 277526747}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: changeScene
+  m_TagString: changeScene1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16164,7 +16165,7 @@ PrefabInstance:
         type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 667074386}
     - target: {fileID: 5184774094914156535, guid: e7aea3cf27a62ed41b8ec4555440279b,
         type: 3}
       propertyPath: joystick

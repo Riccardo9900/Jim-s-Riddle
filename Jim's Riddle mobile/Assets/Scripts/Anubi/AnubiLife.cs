@@ -8,6 +8,7 @@ public class AnubiLife : MonoBehaviour
     public float dannoFreccia;
     public GameObject PassaggioLivello;
     public GameObject dialogueManager;
+    public GameObject passaPorta;
     public GameObject canvasDialoghi;
 
     // Start is called before the first frame update
@@ -31,6 +32,7 @@ public class AnubiLife : MonoBehaviour
         if (healthBarScript.health <= 0.0f)
         {
             Destroy(gameObject);
+            passaPorta.SetActive(true);
             canvasDialoghi.SetActive(true);
             dialogueManager.SetActive(true);
             PassaggioLivello.SetActive(true);
