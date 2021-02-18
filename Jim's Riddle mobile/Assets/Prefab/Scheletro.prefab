@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 2762286720500763740}
   - component: {fileID: 6762608039125970048}
   - component: {fileID: 8654236922517519449}
-  - component: {fileID: 5224512234101885213}
   - component: {fileID: 4435934383538428300}
   - component: {fileID: 7389157238993883087}
   - component: {fileID: -961556485751078257}
+  - component: {fileID: 7914526313054977557}
   m_Layer: 0
   m_Name: Scheletro
   m_TagString: Scheletro
@@ -30,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7863890251604077767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1533, y: 0, z: 0}
-  m_LocalScale: {x: 1.4934181, y: 1, z: 0}
+  m_LocalPosition: {x: -0.2007, y: 0.1058, z: 0}
+  m_LocalScale: {x: 1.8095633, y: 1.4599433, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 9160139412714686190, guid: e9729445c93dd874fbb267c214749a77,
+  m_Sprite: {fileID: -2203588104437660086, guid: 67dae17c24ad4b4459a478fe7dcc0189,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -104,7 +104,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.3, y: 0.46}
     newSize: {x: 1, y: 0.8888889}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -120,25 +120,6 @@ PolygonCollider2D:
       - {x: 0.33333334, y: -0.22222222}
       - {x: 0.5, y: -0.16666667}
       - {x: 0.5, y: 0.22222222}
---- !u!95 &5224512234101885213
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7863890251604077767}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 681e575cd9e06f7488b16d6ba40ee723, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &4435934383538428300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 2
+  anim: {fileID: 7914526313054977557}
 --- !u!114 &7389157238993883087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +168,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &7914526313054977557
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7863890251604077767}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f7e38bd89c1ed44789a4ac67c94929d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

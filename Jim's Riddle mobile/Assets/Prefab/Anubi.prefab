@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1511197381993613351}
   - component: {fileID: 1511197381993613348}
   - component: {fileID: 1511197381993613349}
+  - component: {fileID: 7253707718331201162}
   m_Layer: 0
   m_Name: Anubi
   m_TagString: Anubi
@@ -228,3 +229,22 @@ PolygonCollider2D:
       - {x: 0.20543565, y: 0.056121767}
       - {x: 0.21673797, y: 0.060265034}
       - {x: 0.21651872, y: 0.18168622}
+--- !u!95 &7253707718331201162
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511197381993613346}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8562ca94e01ee7b418b806b1246b5f31, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -12,6 +12,7 @@ public class WookongAttack : MonoBehaviour
     public float velocitaWookong;
     public float tempoDaInizio = 0f;
     public float tempoInseguimento = 0f;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class WookongAttack : MonoBehaviour
         healthBarScript.enabled = true;
         posizioneIniziale = new Vector3(wookong.transform.position.x, wookong.transform.position.y, 0.0f);
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        
     }
 
     public void TornaInPosizioneIniziale()
@@ -28,6 +30,7 @@ public class WookongAttack : MonoBehaviour
 
     public void Inseguimento()
     {
+        
         var dir = target.position - transform.position;
         transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * velocitaWookong);
     }
@@ -35,20 +38,22 @@ public class WookongAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(tempoDaInizio<=tempoInseguimento)
+        gameObject.GetComponent<AnimazioneAttaccoWukong>().enabled = true;
+        if (tempoDaInizio<=tempoInseguimento)
         {
-            //animazione inseguimento
+            
 
             Inseguimento();
             tempoDaInizio += Time.deltaTime;
         }
        else
         {
-            //animazione torna indietro
 
             TornaInPosizioneIniziale();
             if(transform.position == posizioneIniziale)
             {
+                
+                gameObject.GetComponent<AnimazioneAttaccoWukong>().enabled = false;
                 Invoke("TempoDaInizio", 1.5f);
             }
         }
@@ -58,6 +63,4 @@ public class WookongAttack : MonoBehaviour
     {
         tempoDaInizio = 0f;
     }
-            
-        
 }

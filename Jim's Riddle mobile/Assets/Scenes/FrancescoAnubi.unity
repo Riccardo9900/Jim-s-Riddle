@@ -9894,6 +9894,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1511197381554581561}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &708147228 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7253707718331201162, guid: a3cf349089e3f4940b824dacc1e328c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1511197381554581561}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &721287590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17512,6 +17518,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2762286720500763740, guid: 0c56f2414022ff24eabd1de54befdb1a,
         type: 3}
+    - target: {fileID: 1511197381993613348, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 708147228}
     - target: {fileID: 1511197381993613350, guid: a3cf349089e3f4940b824dacc1e328c4,
         type: 3}
       propertyPath: healthBarAnubi
@@ -17542,6 +17553,11 @@ PrefabInstance:
       propertyPath: canvasDialoghi
       value: 
       objectReference: {fileID: 996238859}
+    - target: {fileID: 7253707718331201162, guid: a3cf349089e3f4940b824dacc1e328c4,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8562ca94e01ee7b418b806b1246b5f31, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cf349089e3f4940b824dacc1e328c4, type: 3}
 --- !u!1001 &7931602099602843574

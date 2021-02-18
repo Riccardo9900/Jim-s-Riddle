@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1110135869511472326}
   - component: {fileID: 1110135869511472327}
   - component: {fileID: 1799162046767872164}
+  - component: {fileID: 1836664153684910023}
   m_Layer: 0
   m_Name: MiniBoss
   m_TagString: MiniBoss
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5184774094914156528, guid: e7aea3cf27a62ed41b8ec4555440279b, type: 3}
+  Anubi: {fileID: 1511197381993613346, guid: a3cf349089e3f4940b824dacc1e328c4, type: 3}
 --- !u!114 &1110135869511472327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 2
+  anim: {fileID: 1836664153684910023}
 --- !u!60 &1799162046767872164
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -150,3 +153,22 @@ PolygonCollider2D:
       - {x: 0.26871926, y: 0.12792756}
       - {x: 0.26892978, y: 0.32416165}
       - {x: 0.18612309, y: 0.44526187}
+--- !u!95 &1836664153684910023
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110135869511472324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6261baa405c253141b5fa0de58f3b557, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

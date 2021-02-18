@@ -8,11 +8,10 @@ public class ScheletroDestroy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "Player" || col.tag == "Arrow")
+        if (col.tag == "Player" || col.tag == "Arrow")
         {
             Destroy(gameObject);
         }
     }
-
 
 }

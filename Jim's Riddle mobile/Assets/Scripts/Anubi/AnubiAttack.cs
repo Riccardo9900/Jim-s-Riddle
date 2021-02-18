@@ -8,6 +8,7 @@ public class AnubiAttack : MonoBehaviour
     public GameObject scheletroPrefab, miniBossPrefab;
     public GameObject spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
     public HealthbarPlayer healthBarPlayer;
+    public Animator anim;
 
 
     // Start is called before the first frame update
@@ -31,16 +32,21 @@ public class AnubiAttack : MonoBehaviour
         {
             if (healtBarAnubi.health >= 90 && healtBarAnubi.health < 100)
             {
+                animazioneS();
                 PrimiScheletri();
+                
             }
             if (healtBarAnubi.health >= 80 && healtBarAnubi.health < 90)
             {
+                animazioneS();
                 Instantiate(scheletroPrefab, spawnPoint1.transform);
                 Instantiate(scheletroPrefab, spawnPoint2.transform);
+                animazioneM();
                 Instantiate(miniBossPrefab, spawnPoint5.transform);
             }
             if (healtBarAnubi.health >= 70 && healtBarAnubi.health < 80)
             {
+                animazioneS();
 
                 Instantiate(scheletroPrefab, spawnPoint3.transform);
 
@@ -51,7 +57,10 @@ public class AnubiAttack : MonoBehaviour
             }
             if (healtBarAnubi.health <= 60)
             {
+                animazioneM();
+                
                 Instantiate(miniBossPrefab, spawnPoint5.transform);
+                animazioneS();
                 Instantiate(scheletroPrefab, spawnPoint4.transform);
 
                 Instantiate(scheletroPrefab, spawnPoint3.transform);
@@ -76,5 +85,24 @@ public class AnubiAttack : MonoBehaviour
         Instantiate(scheletroPrefab, spawnPoint2.transform);
     }
 
+    public void animazioneS()
+    {
+        anim.SetBool("Skeleton", true);
+        Invoke("AnimazioneUnoS", 1.5f);
+    }
+    public void AnimazioneUnoS()
+    {
+        anim.SetBool("Skeleton", false);
+    }
+
+    public void animazioneM()
+    {
+        anim.SetBool("MiniBoss", true);
+        Invoke("AnimazioneUnoM", 3f);
+    }
+    public void AnimazioneUnoM()
+    {
+        anim.SetBool("MiniBoss", false);
+    }
 
 }

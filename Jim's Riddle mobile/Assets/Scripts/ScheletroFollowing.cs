@@ -6,6 +6,8 @@ public class ScheletroFollowing : MonoBehaviour
 {
     Transform target;
     public float enemySpeed;
+    public Animator anim;
+    private Vector3 dir;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +19,7 @@ public class ScheletroFollowing : MonoBehaviour
     void Following()
     {
         //uso var per avere lo stesso tipo di ciò che ho alla destra dell'uguale
-        var dir = target.position - transform.position;
+        dir = target.position - transform.position;
         //per fare in modo che il cubo ruoti in base alla posizione del personaggio
         //var angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
         //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -28,6 +30,8 @@ public class ScheletroFollowing : MonoBehaviour
     void Update()
     {
         Following();
+        anim.SetFloat("X", dir.x);
+        anim.SetFloat("Y", dir.y);
     }
 
 }

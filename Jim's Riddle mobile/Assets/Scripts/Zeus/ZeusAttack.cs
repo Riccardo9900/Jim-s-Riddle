@@ -11,6 +11,7 @@ public class ZeusAttack : MonoBehaviour
     public GameObject Fulmine;
     private GameObject player;
     private Vector3 nuovoVettore;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -27,18 +28,22 @@ public class ZeusAttack : MonoBehaviour
 
     public void sparaFulmine()
     {
+
         if (player.transform.position.y >= -5.5) {
             if (healthbarScript.health > 66)
             {
                 sparaFulmineSingolo();
+                
             }
             if (healthbarScript.health < 66 && healthbarScript.health > 33)
             {
                 sparaFulmineDoppio();
+                
             }
             if (healthbarScript.health <= 33)
             {
                 sparaFulmineTriplo();
+                
             }
         }
         else
@@ -48,14 +53,17 @@ public class ZeusAttack : MonoBehaviour
                 if (healthbarScript.health > 66)
                 {
                     sparaFulmineSingolo();
+                    
                 }
                 if (healthbarScript.health < 66 && healthbarScript.health > 33)
                 {
                     sparaFulmineDoppio();
+                    
                 }
                 if (healthbarScript.health <= 33)
                 {
                     sparaFulmineTriplo();
+                   
                 }
             }
         }
@@ -64,11 +72,14 @@ public class ZeusAttack : MonoBehaviour
 
     void sparaFulmineSingolo ()
     {
+        attaccoUno();
         Instantiate(Fulmine, PuntoDiSparo.position, Quaternion.Euler(player.GetComponent<FireArrow>().GetRotation(nuovoVettore)));
+        
     }
 
     void sparaFulmineDoppio ()
     {
+
         sparaFulmineSingolo();
         Invoke("sparaFulmineSingolo", 0.8f);
     }
@@ -77,6 +88,15 @@ public class ZeusAttack : MonoBehaviour
     {
         sparaFulmineSingolo();
         Invoke("sparaFulmineDoppio", 0.8f);
+    }
+    void attaccoUno()
+    {
+        anim.SetBool("AttaccoZ", true);
+        Invoke("AttaccoDue", 1f);
+    }
+    void AttaccoDue()
+    {
+        anim.SetBool("AttaccoZ", false);
     }
 }
    

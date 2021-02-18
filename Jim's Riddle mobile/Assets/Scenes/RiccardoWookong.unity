@@ -7336,8 +7336,10 @@ GameObject:
   - component: {fileID: 1076282756}
   - component: {fileID: 1076282760}
   - component: {fileID: 1076282761}
+  - component: {fileID: 1076282762}
+  - component: {fileID: 1076282763}
   m_Layer: 0
-  m_Name: Wookong
+  m_Name: Wukong
   m_TagString: Wookong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7360,7 +7362,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.9463722}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.77388537, y: 0.67834395}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7506,7 +7508,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -9095803727545094535, guid: 8344f447db8a9c7408625c0932ebfc63,
+  m_Sprite: {fileID: -4370796368672071192, guid: ac8535e60b56c63448efcd30883c2c4a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7557,6 +7559,7 @@ MonoBehaviour:
   velocitaWookong: 2
   tempoDaInizio: 0
   tempoInseguimento: 6
+  animator: {fileID: 1076282762}
 --- !u!4 &1076282758
 Transform:
   m_ObjectHideFlags: 0
@@ -7614,6 +7617,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healtBarWookong: {fileID: 109773285}
   healtbarWookong: {fileID: 109773287}
+--- !u!95 &1076282762
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076282753}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50b2545eeaf425e45b6e8ba2a95a192c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1076282763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076282753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd71ff407fd68e46b404af5aabb1318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1076282762}
 --- !u!1001 &1117635749
 PrefabInstance:
   m_ObjectHideFlags: 0
