@@ -54,6 +54,17 @@ public class PlayerLife : MonoBehaviour
         currentHealth = healthBarScript.health;
     }
 
+    void OnCollisionEnter2D (Collision2D coll)
+    {
+        if (coll.collider.tag == "Wookong")
+        {
+            audioDamage.Play();
+            GestioneBarra();
+            healthBarScript.health = healthBarScript.health - dannoWookong;
+        }
+        currentHealth = healthBarScript.health;
+    }
+
     public void GestioneBarra()
     {
         healtBarPlayer.SetActive(true);
