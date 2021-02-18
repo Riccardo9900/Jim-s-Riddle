@@ -6130,6 +6130,21 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 286584693}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5112223263291539565, guid: 9da616e5c68e8984fbf2fcc903990927,
         type: 3}
       propertyPath: m_IsActive
@@ -6256,7 +6271,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d2b407ac65f144d45929f6784ad224de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6431373}
   m_FlipX: 0
@@ -6805,7 +6820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 483, y: -382.02}
+  m_AnchoredPosition: {x: 483, y: -382.02002}
   m_SizeDelta: {x: -1426.554, y: -764.0397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &576265774
@@ -7004,6 +7019,26 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 286584693}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -782.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 269.89337
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 273.51746
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -346.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bf64cd243926c94f921497b017e1f13, type: 3}
 --- !u!1 &640091186 stripped
@@ -7064,7 +7099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -646, y: -148.37}
+  m_AnchoredPosition: {x: -646.00006, y: -148.37}
   m_SizeDelta: {x: -1369.948, y: -568.6594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685817146
@@ -7196,17 +7231,17 @@ Canvas:
   m_GameObject: {fileID: 740405801}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 286584693}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!1 &1035429835
 GameObject:
@@ -8242,7 +8277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 545.5, y: -80.791}
+  m_AnchoredPosition: {x: 545.5, y: -80.791016}
   m_SizeDelta: {x: -1366.9744, y: -703.8168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263403846
@@ -8643,6 +8678,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369885676570531681, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 286584693}
+    - target: {fileID: 6369885676570531681, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6369885676602760542, guid: 48249a19e189c8542a03e8e3fc9105f6,
         type: 3}
@@ -13586,7 +13631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 545.5, y: -80.791}
+  m_AnchoredPosition: {x: 545.5, y: -80.791016}
   m_SizeDelta: {x: -1366.9744, y: -703.8168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806207407
@@ -13791,6 +13836,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas JoystickSparo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -340.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 288.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 777.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 280.59692
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c, type: 3}

@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TutorialRiccardo.unity
-    guid: d31f311c9d61ca24e96605a396e60c7b
-  - enabled: 1
-    path: Assets/Scenes/TutorialLabirinto.unity
-    guid: ba7161214a3b5b4488df9b39b10def7c
-  - enabled: 1
-    path: Assets/Scenes/Riccardo.unity
-    guid: 1ff5b2319bd75d44598dd1ce7f7f0978
-  - enabled: 1
-    path: Assets/Scenes/LabirintoLettere.unity
-    guid: 66260ca7bdb5fe6478426e33822be581
-  - enabled: 1
     path: Assets/Scenes/FrancescoAnubi.unity
     guid: 5d93cb9042f91cc44b64544bf4ac5f3f
+  - enabled: 0
+    path: Assets/Scenes/TutorialRiccardo.unity
+    guid: d31f311c9d61ca24e96605a396e60c7b
+  - enabled: 0
+    path: Assets/Scenes/TutorialLabirinto.unity
+    guid: ba7161214a3b5b4488df9b39b10def7c
+  - enabled: 0
+    path: Assets/Scenes/Riccardo.unity
+    guid: 1ff5b2319bd75d44598dd1ce7f7f0978
+  - enabled: 0
+    path: Assets/Scenes/LabirintoLettere.unity
+    guid: 66260ca7bdb5fe6478426e33822be581
   - enabled: 1
     path: Assets/Scenes/RiccardoAnubiLabirinto.unity
     guid: 45f30de6758880247bda6fb2c61c7cad

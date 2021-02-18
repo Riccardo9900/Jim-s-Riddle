@@ -572,7 +572,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d2b407ac65f144d45929f6784ad224de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6431373}
   m_FlipX: 0
@@ -697,7 +697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 545.5, y: -80.791}
+  m_AnchoredPosition: {x: 545.5, y: -80.791016}
   m_SizeDelta: {x: -1366.9744, y: -703.8168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &388715922
@@ -10032,6 +10032,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: JoystickMovimento
       objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -776.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 283.90485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 279.72852
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133288018613972953, guid: 7bf64cd243926c94f921497b017e1f13,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -344.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bf64cd243926c94f921497b017e1f13, type: 3}
 --- !u!1 &740567670
@@ -10399,7 +10419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 545.5, y: -80.791}
+  m_AnchoredPosition: {x: 545.5, y: -80.791016}
   m_SizeDelta: {x: -1366.9744, y: -703.8168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &793474453
@@ -11199,8 +11219,8 @@ Canvas:
   m_GameObject: {fileID: 996238859}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1770598543}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -11209,7 +11229,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!1 &1009518787
 GameObject:
@@ -11565,6 +11585,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1770598543}
+    - target: {fileID: 5112223263213902813, guid: 9da616e5c68e8984fbf2fcc903990927,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5112223263291539565, guid: 9da616e5c68e8984fbf2fcc903990927,
         type: 3}
@@ -16383,7 +16418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -646, y: -148.37}
+  m_AnchoredPosition: {x: -646.00006, y: -148.37}
   m_SizeDelta: {x: -1369.948, y: -568.6594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262580442
@@ -16756,7 +16791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 483, y: -382.02}
+  m_AnchoredPosition: {x: 483, y: -382.02002}
   m_SizeDelta: {x: -1426.554, y: -764.0397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1596309529 stripped
@@ -17711,6 +17746,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: JoystickSparo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 780.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 273.8386
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 287.74377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931602100654581005, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -340.9
       objectReference: {fileID: 0}
     - target: {fileID: 7931602100763990720, guid: 01b7a8a1c76b58a4ebf1eb2b6a1d308c,
         type: 3}
