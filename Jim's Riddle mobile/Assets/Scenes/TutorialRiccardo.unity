@@ -779,7 +779,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1446459398380425890, guid: 5f126c3b39c3dcd419435b564c3e4c87,
+  m_Sprite: {fileID: 5213229242370633579, guid: c944ad1e5ecd6694fa0ca4a176e4b2db,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -799,8 +799,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472376990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: -8.66, z: 0}
-  m_LocalScale: {x: 14.5, y: 9.5, z: 0}
+  m_LocalPosition: {x: -0.004, y: -6.61, z: 0}
+  m_LocalScale: {x: 2.531086, y: 2.5527046, z: 0}
   m_Children:
   - {fileID: 967832748}
   - {fileID: 945075461}
@@ -5716,7 +5716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967832747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.05, z: 0}
+  m_LocalPosition: {x: -0.01, y: -0.57, z: 0}
   m_LocalScale: {x: 0.15, y: 0.01, z: 0}
   m_Children: []
   m_Father: {fileID: 472376993}
@@ -5760,7 +5760,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.20662501
+  m_Mass: 0.009691672
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -12821,6 +12821,7 @@ MonoBehaviour:
   dannoScheletro: 20
   dannoFulmine: 80
   dannoMiniBoss: 0
+  dannoWookong: 0
   tempoDaQuandoSeiPreso: 0
   currentHealth: 0
   sottofondoMusicale: {fileID: 2017882203}
