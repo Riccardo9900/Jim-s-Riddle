@@ -45,6 +45,6 @@ EditorBuildSettings:
     path: Assets/Scenes/RiccardoWookong.unity
     guid: aa4df076e22c36248a299bab1a004fa9
   - enabled: 1
-    path: Assets/Scenes/UscitaWukong.unity
-    guid: 4f91140ff6d54f8499e6097ce3cb4292
+    path: Assets/Scenes/ScenaFinale.unity
+    guid: 354c14cab4c480041b28806ad825c10b
   m_configObjects: {}

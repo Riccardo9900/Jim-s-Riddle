@@ -55,7 +55,7 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         }
         if (coll.tag == "changeSceneWukong")
         {
-            SceneManager.LoadScene("UscitaWukong");
+            SceneManager.LoadScene("ScenaFinale");
         }
 
     }

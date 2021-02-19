@@ -10,6 +10,7 @@ public class ZeusLife : MonoBehaviour
     public GameObject dialogueManager;
     public GameObject canvasDialoghi;
     public GameObject portaleFinale;
+    public GameObject healtBarZeus;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,7 @@ public class ZeusLife : MonoBehaviour
             dialogueManager.SetActive(true);
             portaleFinale.SetActive(true);
             Destroy(gameObject);
+            Destroy(healtBarZeus);
         }
     }
 }

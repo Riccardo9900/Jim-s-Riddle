@@ -6,6 +6,7 @@ public class AttivazioneDialoghi : MonoBehaviour
 {
     public GameObject canvasDialoghi;
     public GameObject DialogueManager;
+    public GameObject portale;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class AttivazioneDialoghi : MonoBehaviour
         {
             canvasDialoghi.SetActive(true);
             DialogueManager.SetActive(true);
+            portale.SetActive(true);
         }
     }
 

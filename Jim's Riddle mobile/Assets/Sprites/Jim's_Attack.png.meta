@@ -176,6 +176,180 @@ TextureImporter:
   - first:
       213: -5973000432277621662
     second: Jim's_Attack_57
+  - first:
+      213: -2132053483217537636
+    second: Jim's_Attack_0
+  - first:
+      213: 7745338421218347211
+    second: Jim's_Attack_1
+  - first:
+      213: -826158035748919181
+    second: Jim's_Attack_2
+  - first:
+      213: -5660259904230100063
+    second: Jim's_Attack_3
+  - first:
+      213: -3844415572519803929
+    second: Jim's_Attack_4
+  - first:
+      213: -7077781208825221522
+    second: Jim's_Attack_5
+  - first:
+      213: 5900999765004447444
+    second: Jim's_Attack_6
+  - first:
+      213: 4832510631360981706
+    second: Jim's_Attack_7
+  - first:
+      213: -8295538184001340512
+    second: Jim's_Attack_8
+  - first:
+      213: -1341697945015609885
+    second: Jim's_Attack_9
+  - first:
+      213: 4710573733895703832
+    second: Jim's_Attack_10
+  - first:
+      213: -7499563227906352137
+    second: Jim's_Attack_11
+  - first:
+      213: -6689472174299804259
+    second: Jim's_Attack_12
+  - first:
+      213: 2851152295820643047
+    second: Jim's_Attack_13
+  - first:
+      213: -6319259837800545010
+    second: Jim's_Attack_14
+  - first:
+      213: -7589653168970904249
+    second: Jim's_Attack_15
+  - first:
+      213: -6772310027325460154
+    second: Jim's_Attack_16
+  - first:
+      213: -622953009812710435
+    second: Jim's_Attack_17
+  - first:
+      213: -2050290503853760999
+    second: Jim's_Attack_18
+  - first:
+      213: 1773077617977586251
+    second: Jim's_Attack_19
+  - first:
+      213: 8197448639712927166
+    second: Jim's_Attack_20
+  - first:
+      213: 1054750974085455985
+    second: Jim's_Attack_21
+  - first:
+      213: 8605026876854528213
+    second: Jim's_Attack_22
+  - first:
+      213: 2947214406677507317
+    second: Jim's_Attack_23
+  - first:
+      213: -974188264953890686
+    second: Jim's_Attack_24
+  - first:
+      213: -8474964892144955797
+    second: Jim's_Attack_25
+  - first:
+      213: 6032276262841003280
+    second: Jim's_Attack_26
+  - first:
+      213: -4167596215450516773
+    second: Jim's_Attack_27
+  - first:
+      213: 1595135306459547018
+    second: Jim's_Attack_28
+  - first:
+      213: 3181136737569548366
+    second: Jim's_Attack_29
+  - first:
+      213: -1160164046598959594
+    second: Jim's_Attack_30
+  - first:
+      213: 8380986765803337718
+    second: Jim's_Attack_31
+  - first:
+      213: 1099382807081699907
+    second: Jim's_Attack_32
+  - first:
+      213: 7298046939788107213
+    second: Jim's_Attack_33
+  - first:
+      213: -8489344285571167839
+    second: Jim's_Attack_34
+  - first:
+      213: -3098701692779535281
+    second: Jim's_Attack_35
+  - first:
+      213: 1024908040517563163
+    second: Jim's_Attack_36
+  - first:
+      213: -7212299144238100445
+    second: Jim's_Attack_37
+  - first:
+      213: 1537785106237801323
+    second: Jim's_Attack_38
+  - first:
+      213: -6882455435816983729
+    second: Jim's_Attack_39
+  - first:
+      213: 3041061945887418370
+    second: Jim's_Attack_40
+  - first:
+      213: 988051305448603490
+    second: Jim's_Attack_41
+  - first:
+      213: -4836442389060211725
+    second: Jim's_Attack_42
+  - first:
+      213: 6909357066822944034
+    second: Jim's_Attack_43
+  - first:
+      213: -702026782545701682
+    second: Jim's_Attack_44
+  - first:
+      213: -8592704678261981292
+    second: Jim's_Attack_45
+  - first:
+      213: 2247667107197205813
+    second: Jim's_Attack_46
+  - first:
+      213: -1930825463842495332
+    second: Jim's_Attack_47
+  - first:
+      213: 2334582633790874171
+    second: Jim's_Attack_48
+  - first:
+      213: 1259485714086603869
+    second: Jim's_Attack_49
+  - first:
+      213: -3018095860555431359
+    second: Jim's_Attack_50
+  - first:
+      213: -2418942738688793656
+    second: Jim's_Attack_51
+  - first:
+      213: 1473514167927352868
+    second: Jim's_Attack_52
+  - first:
+      213: 1820247782269530823
+    second: Jim's_Attack_53
+  - first:
+      213: 4255071586250638217
+    second: Jim's_Attack_54
+  - first:
+      213: 4103995675775174772
+    second: Jim's_Attack_55
+  - first:
+      213: 1061294153734061099
+    second: Jim's_Attack_56
+  - first:
+      213: -3000923380928846085
+    second: Jim's_Attack_57
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -235,7 +409,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -247,7 +421,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -307,7 +481,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -336,10 +510,10 @@ TextureImporter:
       name: Jim's_Attack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 18
-        height: 18
+        x: 4
+        y: 127
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2faaae87f71d6cca0800000000000000
-      internalID: -5996875508377539854
+      spriteID: c953fa237ac6962e0800000000000000
+      internalID: -2132053483217537636
       vertices: []
       indices: 
       edges: []
@@ -357,10 +531,10 @@ TextureImporter:
       name: Jim's_Attack_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 126
-        width: 18
-        height: 18
+        x: 21
+        y: 127
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b86046739f5f34b0800000000000000
-      internalID: -5458539136400987975
+      spriteID: bc887ede148fc7b60800000000000000
+      internalID: 7745338421218347211
       vertices: []
       indices: 
       edges: []
@@ -378,10 +552,10 @@ TextureImporter:
       name: Jim's_Attack_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 126
-        width: 18
-        height: 18
+        x: 40
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb10d15e9347992d0800000000000000
-      internalID: -3271455862302113345
+      spriteID: 378e9d6c4a5e884f0800000000000000
+      internalID: -826158035748919181
       vertices: []
       indices: 
       edges: []
@@ -399,10 +573,10 @@ TextureImporter:
       name: Jim's_Attack_3
       rect:
         serializedVersion: 2
-        x: 54
-        y: 126
-        width: 18
-        height: 18
+        x: 58
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6bc9c024e1d0c600800000000000000
-      internalID: 486619537488857963
+      spriteID: 1a37aff3b97b271b0800000000000000
+      internalID: -5660259904230100063
       vertices: []
       indices: 
       edges: []
@@ -420,10 +594,10 @@ TextureImporter:
       name: Jim's_Attack_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 126
-        width: 18
-        height: 18
+        x: 76
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cdd94d5051eab0e0800000000000000
-      internalID: -2253240928266756671
+      spriteID: 7e32af6c764e5aac0800000000000000
+      internalID: -3844415572519803929
       vertices: []
       indices: 
       edges: []
@@ -441,10 +615,10 @@ TextureImporter:
       name: Jim's_Attack_5
       rect:
         serializedVersion: 2
-        x: 90
-        y: 126
-        width: 18
-        height: 18
+        x: 94
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0492be05e731ec30800000000000000
-      internalID: 4386848968969196554
+      spriteID: e6ea9028d7ba6cd90800000000000000
+      internalID: -7077781208825221522
       vertices: []
       indices: 
       edges: []
@@ -462,10 +636,10 @@ TextureImporter:
       name: Jim's_Attack_6
       rect:
         serializedVersion: 2
-        x: 108
-        y: 126
-        width: 18
-        height: 18
+        x: 112
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa628a6d2b8e08010800000000000000
-      internalID: 1189206156428977839
+      spriteID: 4dee0cc750094e150800000000000000
+      internalID: 5900999765004447444
       vertices: []
       indices: 
       edges: []
@@ -483,10 +657,10 @@ TextureImporter:
       name: Jim's_Attack_7
       rect:
         serializedVersion: 2
-        x: 126
-        y: 126
-        width: 18
-        height: 18
+        x: 130
+        y: 127
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9f14d1610f94270800000000000000
-      internalID: 8235377371394472432
+      spriteID: acae193c0d6801340800000000000000
+      internalID: 4832510631360981706
       vertices: []
       indices: 
       edges: []
@@ -504,10 +678,10 @@ TextureImporter:
       name: Jim's_Attack_8
       rect:
         serializedVersion: 2
-        x: 144
-        y: 126
-        width: 18
-        height: 18
+        x: 147
+        y: 127
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70a3b27593b448a70800000000000000
-      internalID: 8828263879200684551
+      spriteID: 0ab39e929f350ec80800000000000000
+      internalID: -8295538184001340512
       vertices: []
       indices: 
       edges: []
@@ -525,10 +699,10 @@ TextureImporter:
       name: Jim's_Attack_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
-        width: 18
-        height: 18
+        x: 3
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf2885087b781de40800000000000000
-      internalID: 5679469827292955388
+      spriteID: 3e5197fd3d4516de0800000000000000
+      internalID: -1341697945015609885
       vertices: []
       indices: 
       edges: []
@@ -546,10 +720,10 @@ TextureImporter:
       name: Jim's_Attack_10
       rect:
         serializedVersion: 2
-        x: 18
-        y: 108
-        width: 18
-        height: 18
+        x: 20
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02c0f8f190f8fc9e0800000000000000
-      internalID: -1598902073346290656
+      spriteID: 81d83217ad15f5140800000000000000
+      internalID: 4710573733895703832
       vertices: []
       indices: 
       edges: []
@@ -567,10 +741,10 @@ TextureImporter:
       name: Jim's_Attack_11
       rect:
         serializedVersion: 2
-        x: 36
-        y: 108
-        width: 18
-        height: 18
+        x: 38
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,8 +752,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb1a8f40631a374f0800000000000000
-      internalID: -832144252749700673
+      spriteID: 7fb5f068af23ce790800000000000000
+      internalID: -7499563227906352137
       vertices: []
       indices: 
       edges: []
@@ -588,10 +762,10 @@ TextureImporter:
       name: Jim's_Attack_12
       rect:
         serializedVersion: 2
-        x: 54
-        y: 108
-        width: 18
-        height: 18
+        x: 57
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,8 +773,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f1fe07de7a0f0660800000000000000
-      internalID: 7354108256409547249
+      spriteID: d9d0004ff783a23a0800000000000000
+      internalID: -6689472174299804259
       vertices: []
       indices: 
       edges: []
@@ -609,10 +783,10 @@ TextureImporter:
       name: Jim's_Attack_13
       rect:
         serializedVersion: 2
-        x: 72
-        y: 108
-        width: 18
-        height: 18
+        x: 76
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 858d8a1c1f85d0d30800000000000000
-      internalID: 4399270206370273368
+      spriteID: 7eacde038e3519720800000000000000
+      internalID: 2851152295820643047
       vertices: []
       indices: 
       edges: []
@@ -630,10 +804,10 @@ TextureImporter:
       name: Jim's_Attack_14
       rect:
         serializedVersion: 2
-        x: 90
-        y: 108
-        width: 18
-        height: 18
+        x: 94
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,8 +815,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00e3efa9b523886e0800000000000000
-      internalID: -1835161479129711104
+      spriteID: e05818c88aa7d48a0800000000000000
+      internalID: -6319259837800545010
       vertices: []
       indices: 
       edges: []
@@ -651,10 +825,10 @@ TextureImporter:
       name: Jim's_Attack_15
       rect:
         serializedVersion: 2
-        x: 108
-        y: 108
-        width: 18
-        height: 18
+        x: 111
+        y: 109
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,8 +836,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4f03e3385783ae00800000000000000
-      internalID: 1054835550632218442
+      spriteID: 74d421f87a22ca690800000000000000
+      internalID: -7589653168970904249
       vertices: []
       indices: 
       edges: []
@@ -672,10 +846,10 @@ TextureImporter:
       name: Jim's_Attack_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 90
-        width: 18
-        height: 18
+        x: 4
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,8 +857,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d0890d6a1fe73f0800000000000000
-      internalID: -901017176661029531
+      spriteID: 641337059ebe302a0800000000000000
+      internalID: -6772310027325460154
       vertices: []
       indices: 
       edges: []
@@ -693,10 +867,10 @@ TextureImporter:
       name: Jim's_Attack_17
       rect:
         serializedVersion: 2
-        x: 18
-        y: 90
-        width: 18
-        height: 18
+        x: 23
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 229b1e0402070e2d0800000000000000
-      internalID: -3251475647131698910
+      spriteID: ddb5a52c983da57f0800000000000000
+      internalID: -622953009812710435
       vertices: []
       indices: 
       edges: []
@@ -714,10 +888,10 @@ TextureImporter:
       name: Jim's_Attack_18
       rect:
         serializedVersion: 2
-        x: 36
-        y: 90
-        width: 18
-        height: 18
+        x: 41
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,8 +899,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7625c27d7ec918f90800000000000000
-      internalID: -6953103830121950617
+      spriteID: 91e907f46a7eb83e0800000000000000
+      internalID: -2050290503853760999
       vertices: []
       indices: 
       edges: []
@@ -735,10 +909,10 @@ TextureImporter:
       name: Jim's_Attack_19
       rect:
         serializedVersion: 2
-        x: 54
-        y: 90
-        width: 18
-        height: 18
+        x: 58
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,8 +920,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08f37660ec7d46530800000000000000
-      internalID: 3847437261551910784
+      spriteID: b42ffba03bc3b9810800000000000000
+      internalID: 1773077617977586251
       vertices: []
       indices: 
       edges: []
@@ -756,10 +930,10 @@ TextureImporter:
       name: Jim's_Attack_20
       rect:
         serializedVersion: 2
-        x: 72
-        y: 90
-        width: 18
-        height: 18
+        x: 75
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,8 +941,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b45ef56a9055f740800000000000000
-      internalID: 5185139170053346484
+      spriteID: ebd199a1b1033c170800000000000000
+      internalID: 8197448639712927166
       vertices: []
       indices: 
       edges: []
@@ -777,10 +951,10 @@ TextureImporter:
       name: Jim's_Attack_21
       rect:
         serializedVersion: 2
-        x: 90
-        y: 90
-        width: 18
-        height: 18
+        x: 93
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8cd35ed1768f11c0800000000000000
-      internalID: -4530754876491965297
+      spriteID: 1706cd03c6a33ae00800000000000000
+      internalID: 1054750974085455985
       vertices: []
       indices: 
       edges: []
@@ -798,10 +972,10 @@ TextureImporter:
       name: Jim's_Attack_22
       rect:
         serializedVersion: 2
-        x: 108
-        y: 90
-        width: 18
-        height: 18
+        x: 112
+        y: 91
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,8 +983,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f9c20cba0ee3250800000000000000
-      internalID: 5926421187934330719
+      spriteID: 5d86a956a523b6770800000000000000
+      internalID: 8605026876854528213
       vertices: []
       indices: 
       edges: []
@@ -819,10 +993,10 @@ TextureImporter:
       name: Jim's_Attack_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 18
-        height: 18
+        x: 4
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,8 +1004,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd70af67e39bb080800000000000000
-      internalID: -9170573593990365707
+      spriteID: 5fc2dea43eb96e820800000000000000
+      internalID: 2947214406677507317
       vertices: []
       indices: 
       edges: []
@@ -840,10 +1014,10 @@ TextureImporter:
       name: Jim's_Attack_24
       rect:
         serializedVersion: 2
-        x: 18
-        y: 72
-        width: 18
-        height: 18
+        x: 21
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,8 +1025,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 507ebc0307270ba40800000000000000
-      internalID: 5381927380888315653
+      spriteID: 288b11b3fecfa72f0800000000000000
+      internalID: -974188264953890686
       vertices: []
       indices: 
       edges: []
@@ -861,10 +1035,10 @@ TextureImporter:
       name: Jim's_Attack_25
       rect:
         serializedVersion: 2
-        x: 36
-        y: 72
-        width: 18
-        height: 18
+        x: 39
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,8 +1046,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4326fa9ce74a6220800000000000000
-      internalID: 2479873626358555471
+      spriteID: b6e0bc73550e26a80800000000000000
+      internalID: -8474964892144955797
       vertices: []
       indices: 
       edges: []
@@ -882,10 +1056,10 @@ TextureImporter:
       name: Jim's_Attack_26
       rect:
         serializedVersion: 2
-        x: 54
-        y: 72
-        width: 18
-        height: 18
+        x: 58
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,8 +1067,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e8b2a5eb7bc35c0800000000000000
-      internalID: -4234307521450635645
+      spriteID: 01da8a9fc43f6b350800000000000000
+      internalID: 6032276262841003280
       vertices: []
       indices: 
       edges: []
@@ -903,10 +1077,10 @@ TextureImporter:
       name: Jim's_Attack_27
       rect:
         serializedVersion: 2
-        x: 72
-        y: 72
-        width: 18
-        height: 18
+        x: 77
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -914,8 +1088,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d80a729b1bfffe0800000000000000
-      internalID: -1153007570791658197
+      spriteID: bd24fcaa259b926c0800000000000000
+      internalID: -4167596215450516773
       vertices: []
       indices: 
       edges: []
@@ -924,10 +1098,10 @@ TextureImporter:
       name: Jim's_Attack_28
       rect:
         serializedVersion: 2
-        x: 90
-        y: 72
-        width: 18
-        height: 18
+        x: 95
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -935,8 +1109,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aef31d114b4573e0800000000000000
-      internalID: -2056654911791956314
+      spriteID: a85843e1c1f032610800000000000000
+      internalID: 1595135306459547018
       vertices: []
       indices: 
       edges: []
@@ -945,10 +1119,10 @@ TextureImporter:
       name: Jim's_Attack_29
       rect:
         serializedVersion: 2
-        x: 108
-        y: 72
-        width: 18
-        height: 18
+        x: 112
+        y: 73
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,8 +1130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f2ed8e4000f3d5a0800000000000000
-      internalID: -6497585953256905999
+      spriteID: e4827c8220ba52c20800000000000000
+      internalID: 3181136737569548366
       vertices: []
       indices: 
       edges: []
@@ -966,10 +1140,10 @@ TextureImporter:
       name: Jim's_Attack_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
-        width: 18
-        height: 18
+        x: 4
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,8 +1151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1176463b1a1964a10800000000000000
-      internalID: 1893360817041336081
+      spriteID: 61e0a4942f446efe0800000000000000
+      internalID: -1160164046598959594
       vertices: []
       indices: 
       edges: []
@@ -987,10 +1161,10 @@ TextureImporter:
       name: Jim's_Attack_31
       rect:
         serializedVersion: 2
-        x: 18
-        y: 54
-        width: 18
-        height: 18
+        x: 23
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,8 +1172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec118cf55f4b1f40800000000000000
-      internalID: 5700236984094629098
+      spriteID: 6f735f22f0f3f4470800000000000000
+      internalID: 8380986765803337718
       vertices: []
       indices: 
       edges: []
@@ -1008,10 +1182,10 @@ TextureImporter:
       name: Jim's_Attack_32
       rect:
         serializedVersion: 2
-        x: 36
-        y: 54
-        width: 18
-        height: 18
+        x: 41
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1019,8 +1193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba7c4c4d1f144dd0800000000000000
-      internalID: -2502841282216559948
+      spriteID: 34ac64896dac14f00800000000000000
+      internalID: 1099382807081699907
       vertices: []
       indices: 
       edges: []
@@ -1029,10 +1203,10 @@ TextureImporter:
       name: Jim's_Attack_33
       rect:
         serializedVersion: 2
-        x: 54
-        y: 54
-        width: 18
-        height: 18
+        x: 58
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,8 +1214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a69839cf6fc48680800000000000000
-      internalID: -8753643696677153118
+      spriteID: dcd5238660fd74560800000000000000
+      internalID: 7298046939788107213
       vertices: []
       indices: 
       edges: []
@@ -1050,10 +1224,10 @@ TextureImporter:
       name: Jim's_Attack_34
       rect:
         serializedVersion: 2
-        x: 72
-        y: 54
-        width: 18
-        height: 18
+        x: 75
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1061,8 +1235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7404e922f49cff80800000000000000
-      internalID: -8071412664348965761
+      spriteID: 1a9c98ac95acf2a80800000000000000
+      internalID: -8489344285571167839
       vertices: []
       indices: 
       edges: []
@@ -1071,10 +1245,10 @@ TextureImporter:
       name: Jim's_Attack_35
       rect:
         serializedVersion: 2
-        x: 90
-        y: 54
-        width: 18
-        height: 18
+        x: 93
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1082,8 +1256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 112b502d6694b9090800000000000000
-      internalID: -8026741204898696687
+      spriteID: f4469f06a333ff4d0800000000000000
+      internalID: -3098701692779535281
       vertices: []
       indices: 
       edges: []
@@ -1092,10 +1266,10 @@ TextureImporter:
       name: Jim's_Attack_36
       rect:
         serializedVersion: 2
-        x: 108
-        y: 54
-        width: 18
-        height: 18
+        x: 112
+        y: 55
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1103,8 +1277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c25bd3c2df37dc290800000000000000
-      internalID: -7868505442740226772
+      spriteID: b13bd72ce64393e00800000000000000
+      internalID: 1024908040517563163
       vertices: []
       indices: 
       edges: []
@@ -1113,10 +1287,10 @@ TextureImporter:
       name: Jim's_Attack_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
-        width: 18
-        height: 18
+        x: 4
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1124,8 +1298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e6ae0d06d2c0510800000000000000
-      internalID: 1516637068362149450
+      spriteID: 32095d50424c8eb90800000000000000
+      internalID: -7212299144238100445
       vertices: []
       indices: 
       edges: []
@@ -1134,10 +1308,10 @@ TextureImporter:
       name: Jim's_Attack_38
       rect:
         serializedVersion: 2
-        x: 18
-        y: 36
-        width: 18
-        height: 18
+        x: 21
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,8 +1319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 321c7f1d7fbd387e0800000000000000
-      internalID: -1764324771573022429
+      spriteID: b63c036186f475510800000000000000
+      internalID: 1537785106237801323
       vertices: []
       indices: 
       edges: []
@@ -1155,10 +1329,10 @@ TextureImporter:
       name: Jim's_Attack_39
       rect:
         serializedVersion: 2
-        x: 36
-        y: 36
-        width: 18
-        height: 18
+        x: 39
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1166,8 +1340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8fb9bf95b5dd5180800000000000000
-      internalID: -9124902293937209460
+      spriteID: f432ca5fe3b9c70a0800000000000000
+      internalID: -6882455435816983729
       vertices: []
       indices: 
       edges: []
@@ -1176,10 +1350,10 @@ TextureImporter:
       name: Jim's_Attack_40
       rect:
         serializedVersion: 2
-        x: 54
-        y: 36
-        width: 18
-        height: 18
+        x: 58
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1187,8 +1361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f3e2f96be5987810800000000000000
-      internalID: 1763324092442928121
+      spriteID: 208e3904ab5043a20800000000000000
+      internalID: 3041061945887418370
       vertices: []
       indices: 
       edges: []
@@ -1197,10 +1371,10 @@ TextureImporter:
       name: Jim's_Attack_41
       rect:
         serializedVersion: 2
-        x: 72
-        y: 36
-        width: 18
-        height: 18
+        x: 77
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1208,8 +1382,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bd3531034ab5e520800000000000000
-      internalID: 2730793546015915447
+      spriteID: 26fff196d6346bd00800000000000000
+      internalID: 988051305448603490
       vertices: []
       indices: 
       edges: []
@@ -1218,10 +1392,10 @@ TextureImporter:
       name: Jim's_Attack_42
       rect:
         serializedVersion: 2
-        x: 90
-        y: 36
-        width: 18
-        height: 18
+        x: 96
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,8 +1403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570929e5070b31850800000000000000
-      internalID: 6346610296564650101
+      spriteID: 3fbac6f854181ecb0800000000000000
+      internalID: -4836442389060211725
       vertices: []
       indices: 
       edges: []
@@ -1239,10 +1413,10 @@ TextureImporter:
       name: Jim's_Attack_43
       rect:
         serializedVersion: 2
-        x: 108
-        y: 36
-        width: 18
-        height: 18
+        x: 112
+        y: 37
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,8 +1424,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d041aae0b2d8020800000000000000
-      internalID: 2345578322912873836
+      spriteID: 225015a15a7f2ef50800000000000000
+      internalID: 6909357066822944034
       vertices: []
       indices: 
       edges: []
@@ -1260,10 +1434,10 @@ TextureImporter:
       name: Jim's_Attack_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 18
-        width: 18
-        height: 18
+        x: 4
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1271,8 +1445,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2150e9283acb1710800000000000000
-      internalID: 1665146829813076267
+      spriteID: ec49d8b5c56e146f0800000000000000
+      internalID: -702026782545701682
       vertices: []
       indices: 
       edges: []
@@ -1281,10 +1455,10 @@ TextureImporter:
       name: Jim's_Attack_45
       rect:
         serializedVersion: 2
-        x: 18
-        y: 18
-        width: 18
-        height: 18
+        x: 23
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1292,8 +1466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033b35b97a976e1b0800000000000000
-      internalID: -5627676923580402896
+      spriteID: 49f7b580f9490c880800000000000000
+      internalID: -8592704678261981292
       vertices: []
       indices: 
       edges: []
@@ -1302,10 +1476,10 @@ TextureImporter:
       name: Jim's_Attack_46
       rect:
         serializedVersion: 2
-        x: 36
-        y: 18
-        width: 18
-        height: 18
+        x: 41
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1313,8 +1487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99430c0f802adb80800000000000000
-      internalID: -8369341158760691302
+      spriteID: 53db1d94351513f10800000000000000
+      internalID: 2247667107197205813
       vertices: []
       indices: 
       edges: []
@@ -1323,10 +1497,10 @@ TextureImporter:
       name: Jim's_Attack_47
       rect:
         serializedVersion: 2
-        x: 54
-        y: 18
-        width: 18
-        height: 18
+        x: 58
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1334,8 +1508,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0d08265620322a0800000000000000
-      internalID: -6763559580912791318
+      spriteID: c94a36878745435e0800000000000000
+      internalID: -1930825463842495332
       vertices: []
       indices: 
       edges: []
@@ -1344,10 +1518,10 @@ TextureImporter:
       name: Jim's_Attack_48
       rect:
         serializedVersion: 2
-        x: 72
-        y: 18
-        width: 18
-        height: 18
+        x: 75
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1355,8 +1529,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab33e18809b75c9c0800000000000000
-      internalID: -3907581240984849478
+      spriteID: b32a6e9498a166020800000000000000
+      internalID: 2334582633790874171
       vertices: []
       indices: 
       edges: []
@@ -1365,10 +1539,10 @@ TextureImporter:
       name: Jim's_Attack_49
       rect:
         serializedVersion: 2
-        x: 90
-        y: 18
-        width: 18
-        height: 18
+        x: 93
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1376,8 +1550,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8423cafdb26a30980800000000000000
-      internalID: -8573826558216883640
+      spriteID: d5cafcb75979a7110800000000000000
+      internalID: 1259485714086603869
       vertices: []
       indices: 
       edges: []
@@ -1386,10 +1560,10 @@ TextureImporter:
       name: Jim's_Attack_50
       rect:
         serializedVersion: 2
-        x: 108
-        y: 18
-        width: 18
-        height: 18
+        x: 112
+        y: 19
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1397,8 +1571,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f855b7eede0c302e0800000000000000
-      internalID: -2160671268066863729
+      spriteID: 142448d2ec19d16d0800000000000000
+      internalID: -3018095860555431359
       vertices: []
       indices: 
       edges: []
@@ -1407,10 +1581,10 @@ TextureImporter:
       name: Jim's_Attack_51
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 18
-        height: 18
+        x: 3
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1418,8 +1592,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebee7e0371ed683c0800000000000000
-      internalID: -4357551398248255810
+      spriteID: 8c3a17035603e6ed0800000000000000
+      internalID: -2418942738688793656
       vertices: []
       indices: 
       edges: []
@@ -1428,10 +1602,10 @@ TextureImporter:
       name: Jim's_Attack_52
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 18
-        height: 18
+        x: 21
+        y: 1
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1439,8 +1613,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d0ee8bbee21d8100800000000000000
-      internalID: 111766382312349907
+      spriteID: 42ea0d62459f27410800000000000000
+      internalID: 1473514167927352868
       vertices: []
       indices: 
       edges: []
@@ -1449,10 +1623,10 @@ TextureImporter:
       name: Jim's_Attack_53
       rect:
         serializedVersion: 2
-        x: 36
-        y: 0
-        width: 18
-        height: 18
+        x: 39
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1460,8 +1634,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0555951da9f1c50800000000000000
-      internalID: 6638194599705006330
+      spriteID: 7c23e51c6b1d24910800000000000000
+      internalID: 1820247782269530823
       vertices: []
       indices: 
       edges: []
@@ -1470,10 +1644,10 @@ TextureImporter:
       name: Jim's_Attack_54
       rect:
         serializedVersion: 2
-        x: 54
-        y: 0
-        width: 18
-        height: 18
+        x: 57
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1481,8 +1655,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c062cd0210fd4df90800000000000000
-      internalID: -6929668730677090804
+      spriteID: 983c358301d0d0b30800000000000000
+      internalID: 4255071586250638217
       vertices: []
       indices: 
       edges: []
@@ -1491,10 +1665,10 @@ TextureImporter:
       name: Jim's_Attack_55
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 18
-        height: 18
+        x: 75
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1502,8 +1676,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7854165ae5cc98c0800000000000000
-      internalID: -3991097559499908995
+      spriteID: 478815eb25254f830800000000000000
+      internalID: 4103995675775174772
       vertices: []
       indices: 
       edges: []
@@ -1512,10 +1686,10 @@ TextureImporter:
       name: Jim's_Attack_56
       rect:
         serializedVersion: 2
-        x: 90
-        y: 0
-        width: 18
-        height: 18
+        x: 93
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1523,8 +1697,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3736ff00feeba8f50800000000000000
-      internalID: 6884524914112422771
+      spriteID: b2c748be8697abe00800000000000000
+      internalID: 1061294153734061099
       vertices: []
       indices: 
       edges: []
@@ -1533,10 +1707,10 @@ TextureImporter:
       name: Jim's_Attack_57
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
-        width: 18
-        height: 18
+        x: 111
+        y: 1
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1544,8 +1718,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26476dec0c3ab1da0800000000000000
-      internalID: -5973000432277621662
+      spriteID: bf66299a5149a56d0800000000000000
+      internalID: -3000923380928846085
       vertices: []
       indices: 
       edges: []

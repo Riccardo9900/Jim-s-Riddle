@@ -10,6 +10,7 @@ public class AnubiLife : MonoBehaviour
     public GameObject dialogueManager;
     public GameObject passaPorta;
     public GameObject canvasDialoghi;
+    public GameObject healtBarAnubi;
 
     public GameObject spawnpoint1;
     public GameObject spawnpoint2;
@@ -43,6 +44,7 @@ public class AnubiLife : MonoBehaviour
             Destroy(spawnpoint4);
             Destroy(spawnpoint5);
             Destroy(gameObject);
+            Destroy(healtBarAnubi);
             passaPorta.SetActive(true);
             canvasDialoghi.SetActive(true);
             dialogueManager.SetActive(true);
