@@ -35,6 +35,10 @@ TagManager:
   - changeSceneWukong
   - changeSceneTutorial
   - changeSceneTutorial2
+  - MappaTutorial
+  - MappaZeus
+  - MappaAnubi
+  - MappaWukong
   layers:
   - Default
   - TransparentFX

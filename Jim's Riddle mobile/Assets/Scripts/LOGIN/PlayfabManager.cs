@@ -57,7 +57,7 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLoginSuccess (LoginResult result )
     {
-        SceneManager.LoadScene("LivelloZeus");
+        SceneManager.LoadScene("Mappa");
         GetCharacters();
     }
 

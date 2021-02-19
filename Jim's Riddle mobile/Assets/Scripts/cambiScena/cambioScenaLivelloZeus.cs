@@ -13,11 +13,19 @@ public class cambioScenaLivelloZeus : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D coll)
     {
-        if(coll.tag == "changeSceneTutorial")
+        if (coll.tag == "MappaTutorial")
+        {
+            SceneManager.LoadScene("TutorialRiccardo");
+        }
+        if (coll.tag == "changeSceneTutorial")
         {
             SceneManager.LoadScene("TutorialLabirinto");
         }
         if (coll.tag == "changeSceneTutorial2")
+        {
+            SceneManager.LoadScene("UscitaTutorial");
+        }
+        if (coll.tag == "MappaZeus")
         {
             SceneManager.LoadScene("Riccardo");
         }
@@ -27,6 +35,10 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         }
         if (coll.tag == "changeScene1")
         {
+            SceneManager.LoadScene("UscitaZeus");
+        }
+        if (coll.tag == "MappaAnubi")
+        {
             SceneManager.LoadScene("FrancescoAnubi");
         }
         if (coll.tag == "changeSceneAnubi")
@@ -35,8 +47,17 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         }
         if (coll.tag == "changeSceneAnubi2")
         {
-            SceneManager.LoadScene("RiccardoWookong");
+            SceneManager.LoadScene("uscitaAnubi");
         }
+        if (coll.tag == "MappaWukong")
+        {
+            SceneManager.LoadScene("RiccardoWukong");
+        }
+        if (coll.tag == "changeSceneWukong")
+        {
+            SceneManager.LoadScene("UscitaWukong");
+        }
+
     }
 
     // Update is called once per frame

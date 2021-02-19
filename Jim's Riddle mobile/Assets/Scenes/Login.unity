@@ -749,7 +749,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5377358, g: 0.53012633, b: 0.53012633, a: 0}
+  m_BackGroundColor: {r: 0.5294118, g: 0.70980394, b: 0.5702797, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1229,7 +1229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1664246825
 RectTransform:
   m_ObjectHideFlags: 0

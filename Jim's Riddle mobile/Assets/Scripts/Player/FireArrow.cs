@@ -9,7 +9,6 @@ public class FireArrow : MonoBehaviour
     public Joystick joystickSparo;
     public GameObject mira; //la mira dello sparo
     public Vector3 vettoreDirezione;
-    public bool arrowFireZoom = true; //servirà in ArrowFireMotion
     public GameObject arrowPrefab;
     public float speed;
     public GameObject player;
@@ -34,18 +33,17 @@ public class FireArrow : MonoBehaviour
             //creo il prefab della freccia
             ArrowPrefabCreation();
             //attivo l'animazione dello zoom dello sparo della freccia
-            arrowFireZoom = true;
+           
         }
         else
         {
             //incremento il tempo 
             tempoInizioFreccia += Time.deltaTime;
             //disattivo l'animazione dello zoom dello sparo della freccia
-            arrowFireZoom = false;
+           
         }
 
         JoystickSparoAttivo();
-        ArrowFireMotion();
         MiraEDirezione();
     }
 
@@ -121,26 +119,7 @@ public class FireArrow : MonoBehaviour
     }
 
     /*Come sparare la freccia e cosa succede quando viene cliccato il pulsante Space o MouseDx*/
-    public void ArrowFireMotion()
-    {
-        if (arrowFireZoom)
-        {
-            if (JoystickSparoAttivo() || Input.GetMouseButton(1))
-            {
-
-                //se la size è maggiore di 6 allora diminuiscila di 0.02 ogni frame
-                if (mainCamera.GetComponent<Camera>().orthographicSize > 6f)
-                {
-                    mainCamera.GetComponent<Camera>().orthographicSize -= 0.12f;
-                }
-            }
-            //sennò se ancora di dimensione minore di 7.09 ingrandiscila ogni frame di 0.3
-            else
-                        if (mainCamera.GetComponent<Camera>().orthographicSize < 7.09f)
-                mainCamera.GetComponent<Camera>().orthographicSize += 0.3f;
-        }
-        return;
-    }
+   
 
 
 }

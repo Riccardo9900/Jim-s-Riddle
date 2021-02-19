@@ -6,24 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FrancescoAnubi.unity
-    guid: 5d93cb9042f91cc44b64544bf4ac5f3f
-  - enabled: 0
+    path: Assets/Scenes/Login.unity
+    guid: cc8abf9577c7a64439d82a288cb22692
+  - enabled: 1
+    path: Assets/Scenes/Mappa.unity
+    guid: 87a38f2d8b0649841a3e641488471b66
+  - enabled: 1
     path: Assets/Scenes/TutorialRiccardo.unity
     guid: d31f311c9d61ca24e96605a396e60c7b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TutorialLabirinto.unity
     guid: ba7161214a3b5b4488df9b39b10def7c
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/UscitaTutorial.unity
+    guid: 064a43b51ca3f3d4e80a83e81a936b6f
+  - enabled: 1
     path: Assets/Scenes/Riccardo.unity
     guid: 1ff5b2319bd75d44598dd1ce7f7f0978
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LabirintoLettere.unity
     guid: 66260ca7bdb5fe6478426e33822be581
+  - enabled: 1
+    path: Assets/Scenes/UscitaZeus.unity
+    guid: f912484743ee2e34196f0d2b665a2680
+  - enabled: 1
+    path: Assets/Scenes/FrancescoAnubi.unity
+    guid: 5d93cb9042f91cc44b64544bf4ac5f3f
   - enabled: 1
     path: Assets/Scenes/RiccardoAnubiLabirinto.unity
     guid: 45f30de6758880247bda6fb2c61c7cad
   - enabled: 1
+    path: Assets/Scenes/uscitaAnubi.unity
+    guid: 03d751a839a4ff74da0db6a324eb2841
+  - enabled: 1
     path: Assets/Scenes/RiccardoWookong.unity
     guid: aa4df076e22c36248a299bab1a004fa9
+  - enabled: 1
+    path: Assets/Scenes/UscitaWukong.unity
+    guid: 4f91140ff6d54f8499e6097ce3cb4292
   m_configObjects: {}
