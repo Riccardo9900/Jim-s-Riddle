@@ -57,7 +57,7 @@ public class PlayfabManager : MonoBehaviour
 
     void OnLoginSuccess (LoginResult result )
     {
-        SceneManager.LoadScene("Mappa");
+        SceneManager.LoadScene("MenuPrincipale");
         GetCharacters();
     }
 
