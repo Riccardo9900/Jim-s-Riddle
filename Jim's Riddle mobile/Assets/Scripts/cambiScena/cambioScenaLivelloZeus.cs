@@ -51,7 +51,7 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         }
         if (coll.tag == "MappaWukong")
         {
-            SceneManager.LoadScene("RiccardoWukong");
+            SceneManager.LoadScene("RiccardoWookong");
         }
         if (coll.tag == "changeSceneWukong")
         {
