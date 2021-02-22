@@ -7502,6 +7502,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50130d580e215304da392531be58e5a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &380738952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380738948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973e6fea85a0184d9f5c5001c8b6052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &380738953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5184774094914156533, guid: e7aea3cf27a62ed41b8ec4555440279b,
@@ -8184,6 +8196,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 341
       objectReference: {fileID: 0}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 380738952}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CaricaMappaIniziale
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48249a19e189c8542a03e8e3fc9105f6, type: 3}
 --- !u!1 &567124444 stripped
@@ -8350,7 +8377,7 @@ MonoBehaviour:
   - Effettivamente questa volta il luccichio ci ha portato sulla giusta strada.
   - Proseguiamo la nostra avventura!
   - 
-  velocitascorrimento: 0.05
+  velocitascorrimento: 0.03
   tastoContinua: {fileID: 1716643534}
   canvasDialoghi: {fileID: 75228840}
 --- !u!4 &626290319

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -293,11 +293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2017882205}
     - target: {fileID: 8338582663730548239, guid: 9da616e5c68e8984fbf2fcc903990927,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CaricaMappaIniziale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da616e5c68e8984fbf2fcc903990927, type: 3}
@@ -11933,7 +11933,7 @@ MonoBehaviour:
   - Rosso di sera, bel tempo si spera.
   - Perfetto, ora che hai l'indizio, procedi verso la stanza del labirinto.
   - 
-  velocitascorrimento: 0.04
+  velocitascorrimento: 0.03
   CanvasHealthBarBoss: {fileID: 677049961}
   canvasPausa: {fileID: 1506432132}
   canvasDialoghi: {fileID: 2022714387}
@@ -16580,6 +16580,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 328.93
       objectReference: {fileID: 0}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2017882205}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CaricaMappaIniziale
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48249a19e189c8542a03e8e3fc9105f6, type: 3}
 --- !u!1 &1975734131 stripped
@@ -16884,6 +16894,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2017882205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017882195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973e6fea85a0184d9f5c5001c8b6052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2017882208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5184774094914156533, guid: e7aea3cf27a62ed41b8ec4555440279b,

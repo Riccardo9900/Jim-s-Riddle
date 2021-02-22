@@ -6227,11 +6227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1117635757}
     - target: {fileID: 8338582663730548239, guid: 9da616e5c68e8984fbf2fcc903990927,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CaricaMappaIniziale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da616e5c68e8984fbf2fcc903990927, type: 3}
@@ -7912,6 +7912,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 286584692}
   passaggioLivello: {fileID: 84657373}
+--- !u!114 &1117635757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117635753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973e6fea85a0184d9f5c5001c8b6052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &1117635764
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9029,6 +9041,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 333.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1117635757}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CaricaMappaIniziale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48249a19e189c8542a03e8e3fc9105f6, type: 3}
@@ -14142,7 +14164,7 @@ MonoBehaviour:
   - Pensavi davvero fosse cosi facile??
   - "Ti affronter\xF2 senza piet\xE0!"
   - 
-  velocitascorrimento: 0.05
+  velocitascorrimento: 0.03
   tastoContinua: {fileID: 414373370}
   mainCamera: {fileID: 286584692}
   canvasDialoghi: {fileID: 740405801}

@@ -1236,6 +1236,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 319.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 905871503}
+    - target: {fileID: 6568979502554725120, guid: 48249a19e189c8542a03e8e3fc9105f6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CaricaMappaIniziale
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48249a19e189c8542a03e8e3fc9105f6, type: 3}
 --- !u!1 &419572016 stripped
@@ -10672,6 +10682,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93ea973751aca04e8788be60094edbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &905871503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905871499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6973e6fea85a0184d9f5c5001c8b6052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &905871504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11598,7 +11620,7 @@ MonoBehaviour:
   - Hai sconfitto me e i miei seguaci !
   - "Per superare la prossima stanza ricorda: non \xE8 tutto oro ci\xF2 che luccica!"
   - 
-  velocitascorrimento: 0.05
+  velocitascorrimento: 0.03
   tastoContinua: {fileID: 1495368709}
   canvasDialoghi: {fileID: 996238859}
 --- !u!4 &1097736859
@@ -11819,11 +11841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 905871503}
     - target: {fileID: 8338582663730548239, guid: 9da616e5c68e8984fbf2fcc903990927,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: CaricaMappaIniziale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da616e5c68e8984fbf2fcc903990927, type: 3}
