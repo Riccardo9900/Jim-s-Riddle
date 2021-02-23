@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UscitaWukong.unity
     guid: 4f91140ff6d54f8499e6097ce3cb4292
+  - enabled: 1
+    path: Assets/Scenes/MenuSegreto.unity
+    guid: e1fc0579917cfc640af4d4d26b16d192
   - enabled: 0
     path: Assets/Scenes/ScenaFinale.unity
     guid: 354c14cab4c480041b28806ad825c10b

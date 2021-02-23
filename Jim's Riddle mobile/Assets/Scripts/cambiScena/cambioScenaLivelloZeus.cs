@@ -57,6 +57,10 @@ public class cambioScenaLivelloZeus : MonoBehaviour
         {
             SceneManager.LoadScene("UscitaWukong");
         }
+        if(coll.tag == "MenuSegreto")
+        {
+            SceneManager.LoadScene("MenuSegreto");
+        }
 
     }
 

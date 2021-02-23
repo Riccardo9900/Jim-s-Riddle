@@ -39,6 +39,7 @@ TagManager:
   - MappaZeus
   - MappaAnubi
   - MappaWukong
+  - MenuSegreto
   layers:
   - Default
   - TransparentFX
