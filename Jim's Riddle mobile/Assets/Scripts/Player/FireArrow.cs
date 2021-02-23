@@ -51,7 +51,7 @@ public class FireArrow : MonoBehaviour
     /* Metodo che ritorna true se il joystickSparo è attivo, false altrimenti */
     public bool JoystickSparoAttivo()
     {
-        if(joystickSparo.Horizontal != 0 && joystickSparo.Vertical != 0)
+        if(joystickSparo.Horizontal != 0 || joystickSparo.Vertical != 0)
         {
             mira.SetActive(true);
             return true;
